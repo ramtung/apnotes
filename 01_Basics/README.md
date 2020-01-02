@@ -1,2 +1,19 @@
+بخش ۱ - مفاهیم ابتدایی
+======================
+			هدف این بخش ارائه‌ی مثال‌های ساده‌ای از برنامه‌های سی‌پلاس‌پلاس است که در آن امکانات پایه ورودی و خروجی در این زبان معرفی می‌شوند. علاوه بر این مثال‌ها، می‌توانید از دو متن آموزشی سایت cplusplus.com در مورد <a href="http://www.cplusplus.com/doc/tutorial/program_structure/">ساختار برنامه در سی‌پلاس‌پلاس</a> و <a href="http://www.cplusplus.com/doc/tutorial/basic_io/">ورودی/خروجی پایه</a> استفاده کنید.
 
-<script src="https://gist.github.com/ramtung/8fa0362475cbcc5a4883.js"></script>
+سلام دنیا
+---------
+
+یک برنامه‌ی بسیار ساده در زبان سی‌پلاس‌پلاس که صرفاً یک رشته را در خروجی می‌نویسد.
+
+```
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	cout << "Hello World\n";
+	return 0;
+}
+```
