@@ -16,11 +16,11 @@ void print_peg(vector<int> peg)
 void print_pegs()
 {
     cout << "A: ";
-    print_peg(a);
+    print_peg(peg_a);
     cout << "B: ";
-    print_peg(b);
+    print_peg(peg_b);
     cout << "C: ";
-    print_peg(c);
+    print_peg(peg_c);
     cout << endl;
 }
 
@@ -50,8 +50,8 @@ int main()
     cin >> num_of_discs;
 
     for (int i = num_of_discs; i >= 1; i--)
-        a.push_back(i);
+        peg_a.push_back(i);
 
     print_pegs();
-    hanoi(a, b, c, num_of_discs);
+    hanoi(peg_a, peg_b, peg_c, num_of_discs);
 }

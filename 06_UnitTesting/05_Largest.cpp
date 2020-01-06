@@ -8,7 +8,6 @@ using namespace std;
 class EmptyArrayEx {};
 
 int largest(int array[], int count) {
-	cout << sizeof(array) << endl;
 	if (count == 0)
 		throw EmptyArrayEx();
 	int largest_yet = array[0];

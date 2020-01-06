@@ -27,8 +27,8 @@ int main()
 {
     const int key = 19;
 
-    cout << "Enter a sorted list of integers. I will look for 19 in the list! ";
-    vector<int> list;
+    cout << "Enter a sorted list of numbers. I will look for 19 in the list! ";
+    vector<double> list;
     int x;
     while (cin >> x)
         list.push_back(x);

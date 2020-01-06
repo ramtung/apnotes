@@ -38,21 +38,19 @@ int main() {
     Complex a(1, 2);
     Complex b(4, -2);
 
-    const Complex zero(0,0);
-    zero.inc(a);    // compile error
-
-	a.inc(zero);
-	
-	
-    zero.print();   // OK!
-
-    a.print();          // 1+2i
-    b.print();          // 4-2i
+    a.print();     // 1+2i
+    b.print();     // 4-2i
 
     Complex c = a.add(b);
-    c.print();          // 5
-	Complex d = zero.add(a);
+    c.print();     // 5
     
-    b.inc(c);           // 9-2i
+    b.inc(c);      // 9-2i
     b.print();
+
+    const Complex zero(0,0);    
+    zero.print();
+    a.inc(zero);                // OK, since inc's argument is const
+    Complex d = zero.add(a);    // OK, since add is marked as a const method
+    // compile error, inc is not marked as a const method
+    // zero.inc(a);    
 }

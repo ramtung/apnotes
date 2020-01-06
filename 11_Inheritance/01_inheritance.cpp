@@ -22,21 +22,11 @@ private:
 	string student_id;
 };
 
-
-
-
-
-
-
 Student::Student(string n, string c, string sid)
 	: Person(n, c) 
 {
 	student_id = sid;
 }
-
-
-
-
 
 class Employee : public Person {
 public:
@@ -62,9 +52,3 @@ int main()
 	Employee e("ghamar", "1234567890", "1234", 5000000);
    	cout << e.calc_salary(263) << endl;	
 }
-
-
-
-
-
-

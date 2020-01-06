@@ -25,10 +25,10 @@ Complex operator+(const double r, const Complex& c)
 	return Complex(c.re() + r, c.im());
 }
 
-Complex operator+(const Complex& c, const double r)
-{
-	return Complex(c.re() + r, c.im());
-}
+// Complex operator+(const Complex& c, const double r)
+// {
+// 	return Complex(c.re() + r, c.im());
+// }
 
 Complex Complex::operator+(double r) const
 {

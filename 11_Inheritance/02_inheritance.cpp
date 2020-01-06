@@ -60,11 +60,3 @@ int main()
 	cout << f.calc_salary(263) << endl;
 	
 }
-
-
-
-
-
-
-
-
