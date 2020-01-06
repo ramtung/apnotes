@@ -1,0 +1,119 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="../lib/highlight/styles/default.css">
+    <link rel="stylesheet" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../App.css">
+	<script src="../lib/highlight/highlight.pack.js"></script>
+	<script src="../lib/jquery-3.3.1.min.js"></script>
+	<script src="../lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>	
+	<script>
+		$( document ).ready(function() {
+		    $('[data-toggle="popover"]').popover();
+		});
+	</script>
+</head>
+
+<body>
+	<div class="container" dir="rtl">
+        <nav class="navbar navbar-fixed-top navbar-default">
+          <button type="button" clasس="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <div class="container-fluid collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+              <li><a href="#">بخش بعد</a></li>
+              <li><a href="#">فهرست</a></li>
+              <li><a href="#">بخش قبل</a></li>
+            </ul>
+            <a href="http://ut.ac.ir" class="navbar-brand navbar-right"><img src="../logo.png" class="utlogo" alt="UT Logo"/></a>
+            <span class="navbar-text h3 navbar-right">برنامه‌سازی پیشرفته - مثال‌های درس</span>
+          </div>
+        </nav>
+        <div class="section container">
+          <h1>بخش ۱ - مفاهیم ابتدایی</h1>
+          <p>هدف این بخش ارائه‌ی مثال‌های ساده‌ای از برنامه‌های سی‌پلاس‌پلاس است که در آن امکانات پایه ورودی و خروجی در این زبان معرفی می‌شوند. علاوه بر این مثال‌ها، می‌توانید از دو متن آموزشی سایت cplusplus.com در مورد <a href="http://www.cplusplus.com/doc/tutorial/program_structure/">ساختار برنامه در سی‌پلاس‌پلاس</a> و <a href="http://www.cplusplus.com/doc/tutorial/basic_io/">ورودی/خروجی پایه</a> استفاده کنید.</p>
+          <hr>
+          <div class="article container">
+            <div class="container">
+              <h2>سلام دنیا</h2>
+              <p>یک برنامه‌ی بسیار ساده در زبان سی‌پلاس‌پلاس که صرفاً یک رشته را در خروجی می‌نویسد.</p>
+            </div>
+            <div class="container col-sm-10" style="direction: ltr">
+            <p>
+            	<button type="button" class="btn btn-default">
+        			  <span class="glyphicon glyphicon-download-alt btn-xs" aria-hidden="true"></span>1_HelloWorld.cpp
+        			</button>
+            </p>
+            <pre><code>
+#include &lt;iostream&gt;
+using namespace std;
+
+int main()
+{
+	cout << "Hello World\n";
+	return 0;
+}
+</code></pre>
+            </div>
+        </div>
+
+<div>
+<h3>پرسشهای مروری</h3>
+<ol>
+	<li>اگر خط دوم (using) را ذکر نکنیم چه اتفاقی رخ میدهد؟</li>
+	<li>چرا در پایان برنامه عدد صفر را برگرداندیم؟</li>
+</ol>
+</div>
+
+
+        <hr>
+        <div class="article container">
+          <div class="container">
+            <h3>تایپ رشته - خواندن از ورودی</h3>
+            <p>این مثال استفاده اولیه از تایپ رشته و نحوه‌ی خواندن از ورودی را نشان می‌دهد.</p>
+          </div>
+          <div class="container col-sm-10" style="direction: ltr">
+          <p>
+          	<button type="button" class="btn btn-default">
+			  <span class="glyphicon glyphicon-download-alt btn-xs" aria-hidden="true"></span>2_HelloName.cpp
+			</button></p>
+            <pre><code>#include &lt;iostream&gt;
+<a class="annotated" href="#" data-container="body" data-trigger="focus" data-toggle="popover" data-html="true" data-content="برای استفاده از رشته‌ها">#include &lt;string&gt;</a>
+using namespace std;
+
+int main()
+{
+	string name;
+	cout << "Please enter your name: ";
+	cin >> name;
+	cout << "Hello " << name << '\n';
+	return 0;
+}</code></pre>
+            </div>
+
+        </div> <!-- section -->
+        <hr>
+        <div class="section container sa">
+          <h2>تمرین‌های کوتاه</h2>
+          <ol>
+            <li>برنامه‌ای بنویسید که با نمایش پیغام مناسبی، یک عدد را که واحد آن اینچ فرض می‌شود از ورودی دریافت کند و آن را به سانتی‌متر تبدیل کرده در خروجی بنویسد.</li>
+            <li>برنامه‌ای بنویسید که تعدادی کلمه را از ورودی بخواند و آن‌ها را در قالب یک لیست که با کاما جدا شده‌اند چاپ کند. به عنوان مثال اگر کلمات ورودی به ترتیب Aang و Kyoshi و Roku باشند خروجی چاپ شده باید دقیقاً به صورت <samp>[Aang, Kyoshi, Roku]</samp> باشد. توجه داشته باشید که تعداد کلمه‌ها مشخص نیست و تا انتهای ورودی بخوانید.</li>
+          </ol>
+
+        </div> <!-- Short assignments section -->
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>
+

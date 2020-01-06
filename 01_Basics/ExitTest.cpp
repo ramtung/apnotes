@@ -7,7 +7,7 @@ int main()
 	cout << "Please enter your name:";
 	cin >> name;
 	if (name == "Ramtin") {
-		cout << "You're a very very bad person!\n";
+		cout << "NAAAAH! Ramtin?!\n";
 		return 1;
 	}
 	cout << "Hello " << name << "\n";
