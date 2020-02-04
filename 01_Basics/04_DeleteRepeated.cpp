@@ -11,5 +11,4 @@ int main()
 			cout << "repeated word: " << current << '\n';
 		previous = current;
 	}
-	cerr << "An error occured" << endl;
 }
