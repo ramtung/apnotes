@@ -1,5 +1,4 @@
-// Changed the type of 'list' to reference
-// Added default value for 'i'
+// Using C++11 style initialization
 
 #include <iostream>
 #include <vector>
@@ -15,11 +14,11 @@ int sum_list(vector<int>& list, int i = 0)
 
 int main()
 {
-    vector<int> a;
-    // This will cause stack overflow if the parameter is passed by value
-	for (int i = 0; i < 100000; i++) {
-		a.push_back(i);
-	}
-
+    vector<int> a = {1, 4, 2, 3, 6};
     cout << "sum = " << sum_list(a) << endl;
 }
+
+
+
+
+

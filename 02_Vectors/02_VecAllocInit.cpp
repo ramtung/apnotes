@@ -26,7 +26,7 @@ int main()
 	
 	vector<double> vd(1000, 1.2);
 
-	vector<vector<int> > twod(5);
+	vector<vector<int>> twod(5);
 	twod[0].push_back(12);
 	twod[0].push_back(45);
 	twod[1].push_back(3);
@@ -44,6 +44,7 @@ int main()
 	vector<int> list = {1, 6, 3};
 
 	// Since C++11
-	for (int i : list)
+	for (int i : list) {
 		cout << i << ' ';
+	}
 }

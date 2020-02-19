@@ -1,10 +1,11 @@
+// Find all solutions to the 8 Queens problem
+
 #include <iostream>
 #include <cmath>
 using namespace std;
 
-const int SIZE = 8;
-
-int queen_col_in_row[SIZE]; // 0 2 3 ...
+int SIZE = 8;
+int queen_col_in_row[100];
 
 bool threat(int r1, int c1, int r2, int c2) {
     return (r1 == r2 || c1 == c2 || abs(r1 - r2) == abs(c1 - c2));
@@ -26,28 +27,30 @@ void print_board() {
     cin.get();
 }
 
-bool solve(int row) {
-    // uncomment the following two lines for debugging:
-    cout << row << endl;
-    print_board();
-
-    if (row == SIZE)
-        return true;
+void solve(int row) {
+    if (row == SIZE) {
+		print_board();
+		return;
+	}
         
     for (int col = 0; col < SIZE; col++) {
         if (safe_to_put_at(row, col)) {
             queen_col_in_row[row] = col;
-            if (solve(row + 1))
-                return true;
+			solve(row + 1);
             queen_col_in_row[row] = -1;
         }
     }
-    return false;
 }
 
 int main() {
     for (int row = 0; row < SIZE; row++)
         queen_col_in_row[row] = -1;
-    if (solve(0))
-        print_board();
+	int count = 0;
+	solve(0);
+	cout << count << endl;
 }
+
+
+
+
+
