@@ -40,9 +40,9 @@ private:
 	int base_salary;
 };
 
-class Prefessor : public Employee {
+class Professor : public Employee {
 public:
-	Prefessor(string n, string c, string ec, int bs, int ut)
+	Professor(string n, string c, string ec, int bs, int ut)
 		: Employee(n, c, ec, bs), units_taught(ut) {}
 
 	int calc_salary(int hours_worked) {
@@ -55,7 +55,7 @@ private:
 
 int main()
 {
-	Prefessor f("ghodrat", "333333", "1235", 800000, 13);
+	Professor f("ghodrat", "333333", "1235", 800000, 13);
 	cout << f.get_name() << endl;
 	cout << f.calc_salary(263) << endl;
 	
