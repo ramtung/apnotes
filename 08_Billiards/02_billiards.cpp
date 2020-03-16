@@ -4,15 +4,15 @@ using namespace std;
 
 class Table {
 public:
-    Table(int w, int h);
-    bool contains_point(int x, int y);
-    void reflect(int& x, int& y, int& vx, int& vy);
+    Table(double w, double h);
+    bool contains_point(double x, double y);
+    void reflect(double& x, double& y, double& vx, double& vy);
 private:
-    int width;
-    int height;
+    double width;
+    double height;
 };
 
-Table::Table(int w, int h) 
+Table::Table(double w, double h) 
 {
     if (w <= 0 || h <= 0)
         abort();
@@ -20,11 +20,11 @@ Table::Table(int w, int h)
     height = h;
 }
 
-bool Table::contains_point(int x, int y) {
+bool Table::contains_point(double x, double y) {
     return x >= 0 && x < width && y >= 0 && y < height;
 }
 
-void Table::reflect(int& x, int& y, int& vx, int& vy) {
+void Table::reflect(double& x, double& y, double& vx, double& vy) {
     if (x < 0) {
         x = -x;
         vx = -vx;
@@ -45,21 +45,21 @@ void Table::reflect(int& x, int& y, int& vx, int& vy) {
 
 class Ball {
 public:
-    Ball(int _x, int _y, int _vx, int _vy, Table* t);
-    void move(int dt);
-    int get_x() { return x; }
-    int get_y() { return y; }
-    int get_vx() { return vx; }
-    int get_vy() { return vy; }
+    Ball(double _x, double _y, double _vx, double _vy, Table* t);
+    void move(double dt);
+    double get_x() { return x; }
+    double get_y() { return y; }
+    double get_vx() { return vx; }
+    double get_vy() { return vy; }
 private:
-    int x;
-    int y;
-    int vx;
-    int vy;
+    double x;
+    double y;
+    double vx;
+    double vy;
     Table* table;
 };
 
-Ball::Ball(int _x, int _y, int _vx, int _vy, Table* t)
+Ball::Ball(double _x, double _y, double _vx, double _vy, Table* t)
 {
     table = t;
     if (!table->contains_point(_x, _y))
@@ -70,7 +70,7 @@ Ball::Ball(int _x, int _y, int _vx, int _vy, Table* t)
     vy = _vy;
 }
 
-void Ball::move(int dt)
+void Ball::move(double dt)
 {
     x += vx * dt;
     y += vy * dt;

@@ -6,33 +6,33 @@ class Ball;
 
 class Table {
 public:
-    Table(int w, int h);
-    bool contains_point(int x, int y);
+    Table(double w, double h);
+    bool contains_point(double x, double y);
     void reflect(Ball* b);
 private:
-    int width;
-    int height;
+    double width;
+    double height;
 };
 
 class Ball {
 public:
-    Ball(int _x, int _y, int _vx, int _vy, Table* t);
-    void move(int dt);
-    int get_x() { return x; }
-    int get_y() { return y; }
-    int get_vx() { return vx; }
-    int get_vy() { return vy; }
-    void set_location(int _x, int _y);
-    void set_speed(int _vx, int _vy);
+    Ball(double _x, double _y, double _vx, double _vy, Table* t);
+    void move(double dt);
+    double get_x() { return x; }
+    double get_y() { return y; }
+    double get_vx() { return vx; }
+    double get_vy() { return vy; }
+    void set_location(double _x, double _y);
+    void set_speed(double _vx, double _vy);
 private:
-    int x;
-    int y;
-    int vx;
-    int vy;
+    double x;
+    double y;
+    double vx;
+    double vy;
     Table* table;
 };
 
-Table::Table(int w, int h) 
+Table::Table(double w, double h) 
 {
     if (w <= 0 || h <= 0)
         abort();
@@ -40,15 +40,15 @@ Table::Table(int w, int h)
     height = h;
 }
 
-bool Table::contains_point(int x, int y) {
+bool Table::contains_point(double x, double y) {
     return x >= 0 && x < width && y >= 0 && y < height;
 }
 
 void Table::reflect(Ball* b) {
-    int x = b->get_x();
-    int y = b->get_y();
-    int vx = b->get_vx();
-    int vy = b->get_vy();
+    double x = b->get_x();
+    double y = b->get_y();
+    double vx = b->get_vx();
+    double vy = b->get_vy();
     
     while (!contains_point(x, y)) {
         if (x < 0) {
@@ -73,26 +73,26 @@ void Table::reflect(Ball* b) {
 }
 
 
-Ball::Ball(int _x, int _y, int _vx, int _vy, Table* t)
+Ball::Ball(double _x, double _y, double _vx, double _vy, Table* t)
 {
     table = t;
     set_location(_x, _y);
     set_speed(_vx, _vy);
 }
 
-void Ball::set_location(int _x, int _y) {
+void Ball::set_location(double _x, double _y) {
     if (!table->contains_point(_x, _y))
         abort();
     x = _x;
     y = _y;
 }
 
-void Ball::set_speed(int _vx, int _vy) {
+void Ball::set_speed(double _vx, double _vy) {
     vx = _vx;
     vy = _vy;
 }
 
-void Ball::move(int dt)
+void Ball::move(double dt)
 {
     x += vx * dt;
     y += vy * dt;
@@ -100,6 +100,8 @@ void Ball::move(int dt)
     if (!table->contains_point(x, y))
         table->reflect(this);
 }
+
+// b.move(1);
 
 int main()
 {
