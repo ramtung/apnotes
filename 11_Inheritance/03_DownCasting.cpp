@@ -3,36 +3,34 @@
 #include <iostream>
 using namespace std;
 
-class Gerd {
+class Round {
 public:
-	virtual void what_are_you() { cout << "Gerd\n"; }	
+    virtual void what_are_you() { cout << "Gerd\n"; }
 };
 
-class Gerdoo : public Gerd {
+class Walnut : public Round {
 public:
-	virtual void what_are_you() { cout << "Gerdoo\n"; }	
-	void beshkan() {}
+    virtual void what_are_you() { cout << "Gerdoo\n"; }
+    void crack() {}
 };
 
 int main()
 {
-	Gerd g;
-	Gerdoo w;
-	
-	Gerd* p;
-	Gerdoo* q;
-	
-	p = &w;		// up-casting
 
-	// unsafe down-casting:
-	q = (Gerdoo*)p;
-	
-	// safe down-casting:
-	q = dynamic_cast<Gerdoo*>(p);
-	if (q == NULL) {
-		cout << "the object is not compatible with Gerdoo\n";
-	} else {
-		// do some Gerdoo thing
-		q->beshkan();
-	}	
+    Round r;
+    Walnut w;
+    Round* rp;
+    Walnut* wp;
+
+    rp = &w;		// up-casting
+
+    // unsafe down-casting:
+    wp = (Walnut*)rp;
+
+    // safe down-casting:
+    wp = dynamic_cast<Walnut*>(rp);
+    if (wp == NULL)
+        cerr << "Sorry, not a Gerdoo!";
+    else
+        wp->crack(); // do some Gerdoo thing
 }	
