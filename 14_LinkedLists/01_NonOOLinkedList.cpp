@@ -4,7 +4,7 @@ using namespace std;
 class Node {
 public:
     Node(int d, Node *n = NULL, Node *p = NULL)
-        : data(d), next(n), prev(p) {}
+            : data(d), next(n), prev(p) {}
 
     int data;
     Node *next;
@@ -20,7 +20,7 @@ void rec_print_list(Node *list) {
     if (list == NULL)
         return;
     cout << list->data << ' ';
-    rec_print_list(list->next); 
+    rec_print_list(list->next);
 }
 
 void push_front(Node*& list, int x) {
@@ -38,21 +38,11 @@ void push_back(Node *&list, int x) {
         Node *p = list;
         while (p->next != NULL)
             p = p->next;
-    
+
         new_node->prev = p;
         p->next = new_node;
     } else
         list = new_node;
-}
-
-void push_back_rec(Node *&list, int x) {
-	if (list->next == NULL) {
-		list->next = new Node(x);
-		list->next->prev = list;
-	}
-	else {
-		push_back_rec(list->next, x);
-	}
 }
 
 void delete_list(Node *&list) {
@@ -75,18 +65,18 @@ void rec_delete_list(Node *&list) {
 
 int main() {
     Node *l = NULL;
-    
-    push_back(l, 86);
-    push_front(l, 43);
-    push_front(l, 12);
-    
+
+    push_front(l, 86);
+    push_back(l, 43);
+    push_back(l, 12);
+
     print_list(l);
     cout << endl;
 
     push_back(l, 444);
 
     print_list(l);
-    cout << endl;   
+    cout << endl;
 
     cout << l << endl;
 
@@ -94,5 +84,5 @@ int main() {
 
     cout << l << endl;
     print_list(l);
-    cout << endl;       
+    cout << endl;
 }

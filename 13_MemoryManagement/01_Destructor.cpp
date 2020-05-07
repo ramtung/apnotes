@@ -8,7 +8,7 @@ class invalid_operation_ex {};
 class stack {
 public:
     stack(int size = DEFAULT_SIZE);
-    ~stack();
+    ~stack();   // destructor
     void push(int x);
     void pop();
     int top() const;

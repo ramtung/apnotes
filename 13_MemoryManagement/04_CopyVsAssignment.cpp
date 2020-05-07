@@ -77,11 +77,12 @@ int main() {
     u.push(5);
     u.push(12);
 
-	// initialization
-    stack v = u;	// stack v(u);
+    // initialization:
+    stack v = u;    // copy constructor called 
+    stack v(u);
 
     stack w;
-   	// assignment
+    // assignment
  	w = u;
 
     // Explain the result of execution of this code
