@@ -43,11 +43,6 @@ int main() {
     q.enqueue(20);
     cout << q.dequeue() << endl;
 
-	int n;
-	cin >> n;
-	// compile error: the size template argument must be known at compile time
-    // queue<int, n> y;
-
     queue<string, 8> p;
     p.enqueue("salaam");
     p.enqueue("chetori?");

@@ -87,6 +87,13 @@ void print_stack(stack s) {
     cout << endl;
 }
 
+class C {
+public:
+    // ...
+private:
+    stack s;
+};
+
 class A {
 public:
 	A() {

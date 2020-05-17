@@ -37,7 +37,4 @@ int main() {
 
     auto it3 = find_if(begin(v), end(v), gt(20));
     cout << *it3 << endl;
-
-    auto it4 = find_if(begin(v), end(v), [](int a) {return a > 40;} );
-    cout << *it4 << endl;
 }

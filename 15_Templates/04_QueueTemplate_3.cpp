@@ -5,7 +5,8 @@ using namespace std;
 
 class queue_operation_exception {};
 
-template<typename T, int S> class queue {
+template<typename T, int S> 
+class queue {
 public:
     queue() { count = 0; }
     void enqueue(T x);
@@ -41,8 +42,6 @@ int main() {
     q.enqueue(10);
     q.enqueue(20);
     cout << q.dequeue() << endl;
-
-	queue<int, 11> x;
 
 	int n;
 	cin >> n;

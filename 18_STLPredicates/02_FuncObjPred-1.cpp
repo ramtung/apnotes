@@ -32,7 +32,3 @@ int main() {
     vector<int>::iterator it = find_if(v.begin(), v.end(), OddSelector());
     cout << *it << endl;
 }
-
-
-
-

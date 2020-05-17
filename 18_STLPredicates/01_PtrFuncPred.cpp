@@ -3,10 +3,9 @@
 #include <algorithm>
 using namespace std;
 
-
 /*
-template<class It, class Pred>
-It find_if(It first, It last, Pred pred) {
+template<class It, class T>
+It find_if(It first, It last, bool (*pred)(T)) {
     while (first!=last && !pred(*first)) 
         ++first;
     return first; 
@@ -26,7 +25,3 @@ int main() {
     vector<int>::iterator it = find_if(v.begin(), v.end(), odd);
     cout << *it << endl;
 }
-
-
-
-

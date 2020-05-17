@@ -27,11 +27,12 @@ int main() {
         cout << "Not found" << endl;
 
     list<string> words;
-    words.push_back("Money");
-    words.push_back("For");
-    words.push_back("Nothing");
+    words.push_back("Looking");
+    words.push_back("for");
+    words.push_back("the");
+    words.push_back("Summer");
 
-    list<string>::iterator q = find(words.begin(), words.end(), "Chicks");
+    list<string>::iterator q = find(words.begin(), words.end(), "the");
     if (q != words.end())
         cout << "Found " << *q << endl;
     else

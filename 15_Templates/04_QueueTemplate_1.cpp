@@ -7,7 +7,8 @@ class queue_operation_exception {};
 
 const int SIZE = 10;
 
-template<typename T> class queue {
+template<typename T>
+class queue {
 public:
     queue() { count = 0; }
     void enqueue(T x);
