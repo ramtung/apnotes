@@ -1,0 +1,10 @@
+request		1001	Farsi	Kabab
+request		1002	Farsi	Kabab
+request		1003	Alaa	Maahi
+request		1002	Farsi	Jooj
+catorder	Farsi
+catorder	Alaa
+delivery	Farsi	10000
+bedehi
+delivery	Alaa	10000
+bedehi
