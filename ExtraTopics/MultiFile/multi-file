@@ -1,0 +1,48 @@
+compilation process
+	preprocessing 
+		demo with <iostream> (g++ -E hello.cpp)
+		demo with a simple header file (g++ -E alaki.cpp)
+		no compilation happens (demo with hello.cpp with compile error)
+	compiling
+		explain object file (g++ -c hello.cpp)
+		explain how "text" files differ from "binary" files
+	linking
+		why do we need linker?
+		demo with (g++ hello.o)
+		linking errors (not finding the implementation)
+	
+multi-file benefits
+	easier to find program elements
+	improves reusability
+	improves build time
+
+writing a utility library (non-OO)
+	declaration vs definition (single.cpp)
+	writing in a single file (single.cpp)
+	moving to header/cpp
+		what to put in a cpp file
+		which header files to include in each file?
+		note about using namespace std in header files
+
+defining variables (error code)
+	declaring with extern
+	initialization in definition
+	demo using conv_error
+		
+writing OO in multiple files
+	OO declarations
+	
+preventing multiple compilations
+	ifndef...
+	
+make files
+	the need for make files (faster builds)
+	make file name
+	targets, dependencies, rules
+	dependencies to header files
+		indirect dependencies
+	missing an object file (not calling its functions)
+	
+	using variables
+	output directories
+

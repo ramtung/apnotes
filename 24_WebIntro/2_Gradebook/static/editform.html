@@ -1,0 +1,20 @@
+<%@ page import="java.util.*, ir.ramtung.gradebook.domain.*" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page isELIgnored="false" %>
+
+<html>
+    <head><title>Gradebook</title></head>
+    <body>
+	<p>
+		Grades for <c:out value="${student.name}"/>
+	</p>
+	<form action="csave" method=GET>
+		<input type="hidden" name="id" value="${student.id}"/>
+		Homework: <input type="text" name="hw" value="${student.homework}"/><br/>
+		Mid-Term: <input type="text" name="mid" value="${student.mid}"/><br/>
+		Final: <input type="text" name="fin" value="${student.fin}"/><br/>
+		<input type="submit" value="Save"/>
+	</form>
+
+    </body>
+</html>

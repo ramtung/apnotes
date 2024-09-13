@@ -1,0 +1,5 @@
+* The running time
+	the order of the algorithm
+	the coefficients
+	
+* Does it really matter?

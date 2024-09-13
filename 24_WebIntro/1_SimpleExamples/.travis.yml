@@ -1,0 +1,29 @@
+before_install: 
+  - "eval \"${MATRIX_EVAL}\""
+language: cpp
+matrix: 
+  include: 
+    - 
+      env: 
+        - "MATRIX_EVAL=\"TESTENV=lint && STYLE=LLVM\""
+      os: osx
+      script: 
+        - "find . -name *.h -exec bash -c 'cmp <(clang-format --style=LLVM $0) $0' {} \\;"
+        - "find . -name *.hpp -exec bash -c 'cmp <(clang-format --style=LLVM $0) $0' {} \\;"
+        - "find . -name *.c -exec bash -c 'cmp <(clang-format --style=LLVM $0) $0' {} \\;"
+        - "find . -name *.cpp -exec bash -c 'cmp <(clang-format --style=LLVM $0) $0' {} \\;"
+    - 
+      before_install: 
+        - "sudo apt-get update"
+        - "sudo apt-get install -y g++ make"
+      env: 
+        - "MATRIX_EVAL=\"TESTENV=build && CC=gcc && CXX=g++\""
+      os: linux
+      script: 
+        - make
+    - 
+      env: 
+        - "MATRIX_EVAL=\"TESTENV=build && CC=gcc && CXX=g++\""
+      os: osx
+      script: 
+        - make

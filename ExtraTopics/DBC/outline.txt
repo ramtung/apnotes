@@ -1,0 +1,20 @@
+Should Date check the validity of setDate's arguments?
+What should be the proper action in case of invalid arguments?
+What about Stack's pop?
+Preconditions
+Postconditions
+Design by Contract
+DbC vs defensive programming
+What to do with preconditions? document and assert
+	Language support for pre/post-conditions
+Eiffel example STACK2, Clojure, ...
+Preconditions vs user input validation
+Fail Fast (Crash Early)
+	sqrt in C++, NaN
+Invariants
+	class invariants
+	assertions during computations
+Documenting preconditions without referring to the implementation
+	example: Queue
+Algebraic specification
+	example: Stack (and Queue if there's time)

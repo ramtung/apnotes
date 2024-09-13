@@ -1,0 +1,43 @@
+<%@ page import="java.util.*, ir.ramtung.gradebook.domain.*" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page isELIgnored="false" %>
+
+<html>
+    <head><title>Gradebook</title></head>
+    <body>
+            <c:if test="${not empty msg}">
+                <h1><c:out value="${msg}"/></h1>
+            </c:if>
+            <table border=1>
+                <tr>
+                    <th>Name</th>
+                    <th>Homework</th>
+                    <th>Mid-Term</th>
+                    <th>Final</th>
+                    <th>&nbsp;</th>
+                </tr>
+                <c:forEach var="stud" items="${students}">
+                    <tr>
+                        <td><c:out value="${stud.name}"/></td>
+                        <td><c:out value="${stud.homework}"/></td>
+                        <td><c:out value="${stud.mid}"/></td>
+                        <td><c:out value="${stud.fin}"/></td>
+                        <td>
+                            <c:url var="delUrl" value="cdel">
+                                <c:param name="id" value="${stud.id}"/>
+                            </c:url>    
+                            <a href="${delUrl}">Delete</a>
+                            <c:url var="editUrl" value="cedit">
+                                <c:param name="id" value="${stud.id}"/>
+                            </c:url>    
+                            <a href="${editUrl}">Edit</a>
+                        </td>
+                    </tr>
+                </c:forEach>
+            </table>
+		<p>
+			Percent Passed: <c:out value="${percentPassed}"/>
+		</p>
+
+    </body>
+</html>

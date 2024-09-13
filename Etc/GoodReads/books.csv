@@ -1,0 +1,408 @@
+id,title,author_id,genre
+0,When We Collided,692,Young Adult
+1,Forging Zero,1501,Science Fiction
+2,The Trick Is to Keep Breathing,179,Fiction
+3,How to Win Friends and Influence People,1190,Nonfiction
+4,Night,1688,Nonfiction
+5,The Secret Wisdom of the Earth,778,Fiction
+6,Defective,810,Fiction
+7,Dracula,157,Classics
+8,Starlet's Web,334,Young Adult
+9,The Hate U Give,1019,Young Adult
+10,The Pillow Book,717,Cultural
+11,When Breath Becomes Air,576,Nonfiction
+12,Olive Kitteridge,413,Fiction
+13,Allegiant,1041,Young Adult
+14,Descendant of the Crane,554,Fantasy
+15,Into the Wilderness,1652,Historical
+16,Strengths Finder 2.0,979,Business
+17,Transcendence,1038,Romance
+18,When Earthlings Weep,843,Science Fiction
+19,The Darkest Kiss,1456,Romance
+20,Alfred Hitchcock's Ghostly Gallery,303,Horror
+21,Sybil: The Classic True Story of a Woman Possessed by Sixteen Personalities,1320,Nonfiction
+22,The Children of Men,1707,Fiction
+23,You're Welcome Universe,437,Young Adult
+24,Water for Elephants,664,Fiction
+25,Falling Under,1601,Young Adult
+26,Kings Rising,1204,Fantasy
+27,Someday This Pain Will Be Useful to You,787,Young Adult
+28,Charged,809,Romance
+29,She's the One,719,Romance
+30,The Tibetan Book of Living and Dying,361,Philosophy
+31,Megan Meade's Guide to the McGowan Boys,1006,Young Adult
+32,Blackout,1122,Horror
+33,The Never List,805,Thriller
+34,The Maid of Fairbourne Hall,1827,Historical
+35,No Strings Attached,1716,Romance
+36,Working for the Devil,1629,Fantasy
+37,Teaching My Mother How to Give Birth,1108,Poetry
+38,The Golden Compass,1415,Fantasy
+39,Tell Me Three Things,1608,Young Adult
+40,The Master and Margarita,495,Fiction
+41,If You Find Me,279,Young Adult
+42,Tigers and Devils,1532,Romance
+43,Soulless,1632,Romance
+44,The V Girl,1014,Romance
+45,Dewey: The Small-Town Library Cat Who Touched the World,481,Nonfiction
+46,Wicked as They Come,1032,Science Fiction
+47,Easy,751,Romance
+48,Italian Affair,1171,Romance
+49,Are You There God? It's Me Margaret,1326,Young Adult
+50,Genghis Khan and the Making of the Modern World,1103,History
+51,The Legend of Deathwalker,1361,Fantasy
+52,Bound for Keeps,1330,Romance
+53,Unhinged,1713,Fantasy
+54,The 19th Wife,1049,Historical
+55,Twelve Sharp,1604,Mystery
+56,Man's Search for Meaning,1325,Nonfiction
+57,Sleeping Stone,957,Romance
+58,A Dog's Purpose,734,Fiction
+59,Impossible,631,Young Adult
+60,Annie on My Mind,424,Lgbt
+61,The Bronze Horseman,1052,Historical
+62,Collected Fictions,1144,Fiction
+63,When We Wake,1199,Young Adult
+64,Flawless,1679,Young Adult
+65,The 5th Wave,1493,Young Adult
+66,Saving CeeCee Honeycutt,1159,Fiction
+67,Secret Daughter,166,Fiction
+68,Wreck This Journal,1449,Nonfiction
+69,Pickett's Charge,1727,Military History
+70,Priest,983,Romance
+71,Shelter,1169,Mystery
+72,Fight Club,1259,Fiction
+73,River of Darkness,392,Mystery
+74,Fated,104,Romance
+75,On the Island,1480,Romance
+76,Night Watch,1035,Fantasy
+77,The Iron Wyrm Affair,1629,Science Fiction
+78,Seven Sons,989,Dark
+79,Into the Darkest Corner,682,Thriller
+80,We Were the Mulvaneys,1233,Fiction
+81,The Stepford Wives,1568,Horror
+82,Genghis Khan and the Making of the Modern World,1103,History
+83,Innocents,1167,New Adult
+84,Someday This Pain Will Be Useful to You,787,Young Adult
+85,Fallen Crest Home,578,Romance
+86,A Tree Grows in Brooklyn,1622,Classics
+87,Yes Means Yes!: Visions of Female Sexual Power and A World Without Rape,224,Feminism
+88,Tempest,465,Young Adult
+89,Season of Migration to the North,81,Fiction
+90,Rosemary's Baby,1568,Horror
+91,Farsighted,906,Fantasy
+92,Rock Crystal,61,Fiction
+93,Personal Demons,688,Young Adult
+94,Meridian,369,Young Adult
+95,Shine Not Burn,1492,Romance
+96,Fear and Loathing in Las Vegas,687,Fiction
+97,The Thorn Birds,1584,Fiction
+98,Winnie-the-Pooh,925,Classics
+99,Hush Hush,964,Young Adult
+100,Last First Kiss,1305,Romance
+101,Dark Companion,1086,Mystery
+102,Roses Have Thorns: A Novel of Elizabeth I,482,Historical
+103,Accents of Horror: Four flavors of death,1693,Horror
+104,To Hell and Back,1374,History
+105,The Polish Officer,446,Historical
+106,A Confederacy of Dunces,511,Fiction
+107,Finger Lickin' Fifteen,1604,Mystery
+108,Other,1290,Young Adult
+109,Swamplandia!,788,Fiction
+110,The Shape of Mercy,763,Historical
+111,Above World,872,Fantasy
+112,The Persistence of Vision,1218,Science Fiction
+113,Ghost in the Shell,708,Sequential Art
+114,Crewel,531,Young Adult
+115,The High King,819,Fantasy
+116,Goon,974,Horror
+117,Shattered Glass,1148,Romance
+118,The Complete Poems of Anna Akhmatova,1323,Poetry
+119,Digging Deep: Unearthing Your Creative Roots Through Gardening,346,Gardening
+120,Number 13,451,Fantasy
+121,Escaping Reality,561,Romance
+122,Boy Toy,1372,Young Adult
+123,Lead,1645,Romance
+124,Eating People is Wrong,1127,Fiction
+125,Winterspell,728,Fantasy
+126,Diva,951,Historical
+127,Legend,978,Young Adult
+128,Grundish and Askew,1135,Fiction
+129,Being Sawyer Knight,431,Romance
+130,Song to Wake to,1620,Fantasy
+131,Last of the Summer Tomatoes,474,Romance
+132,The Unlikely Pilgrimage of Harold Fry,953,Fiction
+133,The Strange and Beautiful Sorrows of Ava Lavender,1442,Young Adult
+134,Silver Phoenix,1597,Fantasy
+135,Fried Green Tomatoes at the Whistle Stop Cafe,1763,Fiction
+136,Washington's Crossing,170,History
+137,Touching Smoke,1771,Fantasy
+138,The Heart Is a Lonely Hunter,448,Fiction
+139,Marksman,647,Historical
+140,Naomi and Ely's No Kiss List,199,Young Adult
+141,Cassandra at the Wedding,325,Fiction
+142,Halflings,615,Paranormal
+143,Pride & Popularity,1248,Young Adult
+144,Lies My Teacher Told Me: Everything Your American History Textbook Got Wrong,1602,History
+145,The Zookeeper's Wife,1461,Nonfiction
+146,Forever Fae,113,Fantasy
+147,Games People Play,290,Psychology
+148,Enchanted Inc.,1578,Fantasy
+149,The Boy Who Sneaks in My Bedroom Window,610,Romance
+150,The Year of the Great Seventh,292,Young Adult
+151,Mist of Midnight,482,Historical
+152,And Then He Kissed Her,317,Romance
+153,Release Me,1783,Romance
+154,Empty Heart: False Love,577,Sequential Art
+155,Olive Kitteridge,413,Fiction
+156,The Rake to Rescue Her,710,Romance
+157,Collected Fictions,1144,Fiction
+158,Vienna Waltz,1728,Historical
+159,The Goldfinch,1441,Fiction
+160,The Lies of Locke Lamora,1753,Fantasy
+161,Deeper,341,New Adult
+162,Damaged: Natalie's Story,1119,Young Adult
+163,Comfort Object,780,Erotica
+164,The Lovely Bones,1651,Fiction
+165,Shadow Scale,520,Fantasy
+166,You Can Heal Your Life,612,Self Help
+167,Shaedes of Gray,1514,Fantasy
+168,The Book Thief,1667,Historical
+169,A Leader's Gift: How to Earn the Right to Be Followed,1618,Business
+170,Eat Pray Love,752,Nonfiction
+171,Wicked: The Life and Times of the Wicked Witch of the West,1138,Fantasy
+172,The Last Kingdom,1538,Historical
+173,Dangerous Attraction Romantic Suspense Boxed Set,1527,Romance
+174,Five Days at Memorial: Life and Death in a Storm-Ravaged Hospital,1646,Nonfiction
+175,Now I Can Die in Peace: How ESPN's Sports Guy Found Salvation with a Little Help from Nomar Pedro Shawshank and the 2004,63,Sports and Games
+176,Keturah and Lord Death,972,Fantasy
+177,Disasterology 101,1153,Romance
+178,How Late it Was How Late,82,Fiction
+179,Ghostgirl,1637,Fantasy
+180,The V Girl,1014,Romance
+181,Tiger's Voyage,193,Fantasy
+182,Arcadia Awakens,1156,Fantasy
+183,North and South,942,Classics
+184,Never Deal with a Dragon,1281,Fantasy
+185,Broken World,837,Horror
+186,PODs,838,Science Fiction
+187,Endure,1627,Young Adult
+188,The High King,819,Fantasy
+189,The Stepford Wives,1568,Horror
+190,How to Win Friends and Influence People,1190,Nonfiction
+191,Achieve Anything in Just One Year: Be Inspired Daily to Live Your Dreams and Accomplish Your Goals,1836,Self Help
+192,The Sumerton Women,749,Historical
+193,Eternity Road,97,Science Fiction
+194,Relics of Camelot,1201,Fantasy
+195,The Dark Light of Day,1632,Dark
+196,Above World,872,Fantasy
+197,Zia,332,Historical
+198,The Algebraist,174,Science Fiction
+199,Valour and Vanity,1146,Fantasy
+200,Marco's Redemption,792,Romance
+201,Shadow Hills,439,Young Adult
+202,Charlotte's Web,1723,Classics
+203,Here be Dragons,1423,Historical
+204,Mockingjay,754,Young Adult
+205,The Yacoubian Building,1450,Fiction
+206,A Year to Remember,159,Romance
+207,ReneCade,1141,Romance
+208,Brigitta of the White Forest,686,Fantasy
+209,Until Tuesday: A Wounded Warrior and the Golden Retriever Who Saved Him,1416,Nonfiction
+210,The Corsair's Captive,655,Science Fiction
+211,The Fall of Five,1256,Young Adult
+212,Chasing Amanda,1111,Mystery
+213,Witches,1541,Young Adult
+214,On the Beach,385,Fiction
+215,Wake Unto Me,288,Young Adult
+216,The King's Blood,777,Fantasy
+217,Space Viking,1324,Science Fiction
+218,The One,414,Young Adult
+219,Strands of Bronze and Gold,1650,Young Adult
+220,Haunted Moon,348,Fantasy
+221,Prodigy,978,Young Adult
+222,Everything Is Illuminated,677,Fiction
+223,Demon Kissed,1808,Young Adult
+224,Under a Painted Sky,668,Historical
+225,Bet Me,1807,Romance
+226,Asura: Tale Of The Vanquished,1552,Fantasy
+227,A Hymn Before Battle,248,Science Fiction
+228,Killing Matt Cooper,1212,Dark
+229,Tales of a Fourth Grade Nothing,1326,Childrens
+230,Fables Vol. 1: Legends in Exile,323,Sequential Art
+231,Forbidden Attraction,765,Romance
+232,Crocodile on the Sandbank,52,Mystery
+233,Beauty's Release,973,Adult Fiction
+234,The Great Gilly Hopkins,607,Fiction
+235,India Black and the Gentleman Thief,483,Mystery
+236,Slow Burn,357,Romance
+237,North and South,942,Classics
+238,Lamb: The Gospel According to Biff Christ's Childhood Pal,1579,Humor
+239,Stories of Your Life and Others,1184,Science Fiction
+240,Number 13,451,Fantasy
+241,Kuttiedathi and Other Stories,557,Short Stories
+242,The Whole Stupid Way We Are,1640,Young Adult
+243,Maisie Dobbs,452,Mystery
+244,The DUFF: Designated Ugly Fat Friend,948,Young Adult
+245,Getting Lost with Boys,1321,Young Adult
+246,To Kill a Mockingbird,1123,Classics
+247,Kitty Rocks the House,426,Fantasy
+248,Hero,1296,Young Adult
+249,All the King's Men,1551,Fiction
+250,It's the Stars Will Be Our Lamps,761,Cultural
+251,Steve Jobs,1741,Biography
+252,Pucked Off,1247,Sports and Games
+253,You Belong to Me,556,Romance
+254,Caps for Sale: A Tale of a Peddler Some Monkeys and Their Monkey Business,1603,Childrens
+255,Then Came You,587,Romance
+256,Unhinged,1713,Fantasy
+257,The Rainbow Fish,1743,Childrens
+258,Tiger's Voyage,193,Fantasy
+259,The Erotic Dark,1738,Erotica
+260,The Dry,103,Mystery
+261,Wicked Burn,1699,Adult Fiction
+262,Kamisama Kiss Vol. 1,559,Sequential Art
+263,Timepiece,1655,Young Adult
+264,Once Ghosted Twice Shy,1093,Romance
+265,Ghost Road Blues,1403,Horror
+266,Madhur Jaffrey's World Vegetarian: More Than 650 Meatless Recipes from Around the World,685,Food and Drink
+267,Damage,1216,Romance
+268,Angels Flight,1681,Mystery
+269,Seeds of Hate,562,Young Adult
+270,Siddhartha,1500,Classics
+271,Werewolf Nights,53,Romance
+272,The Madness of Lord Ian Mackenzie,934,Romance
+273,Empress of the World,1351,Young Adult
+274,Otherwise Alone,1038,Romance
+275,Beauty from Pain,1562,Romance
+276,The Mad Wolf's Daughter,1520,Historical
+277,Smilla's Sense of Snow,1682,Fiction
+278,The Worst Hard Time: The Untold Story of Those Who Survived the Great American Dust Bowl,551,History
+279,Raphael,674,Paranormal
+280,The Midnight Rose,1754,Historical
+281,Some Are Sicker Than Others,176,Fiction
+282,The Day Before,1318,Young Adult
+283,Sacajawea,572,Historical
+284,The Heart Is a Lonely Hunter,448,Fiction
+285,Earth Abides,1727,Science Fiction
+286,Three Daves,1852,Romance
+287,Curses Boiled Again!,1535,Mystery
+288,Wander Dust,428,Fantasy
+289,Antigone,1083,Plays
+290,Pleasures of a Notorious Gentleman,753,Romance
+291,Of Poseidon,1812,Fantasy
+292,In a Dry Season,666,Mystery
+293,It's Kind of a Funny Story,321,Young Adult
+294,The Eighty-Dollar Champion: Snowman the Horse That Inspired a Nation,1631,Nonfiction
+295,Winnie The Pooh : The Complete Collection of Stories & Poems,925,Classics
+296,The Metamorphosis,128,Classics
+297,Dirty Rich Obsession,561,Romance
+298,Flat-Out Love,375,Romance
+299,Switch! The Lost Kingdoms of Karibu,1063,Fantasy
+300,The Gray Wolf Throne,238,Fantasy
+301,21 Shades of Night: A Collection of Best Selling Paranormal Romance and Urban Fantasy,418,Anthologies
+302,The Bird Day Battalion (Dom and Kate #1),1710,Romance
+303,The Good Luck Charm,1247,Romance
+304,Damaged,1808,Romance
+305,Johnny Be Good,1695,Womens Fiction
+306,The Madness Underneath,406,Young Adult
+307,Special A Vol. 1,890,Sequential Art
+308,A Memory of Violets: A Novel of London's Flower Sellers,1360,Historical
+309,The Unlikely Pilgrimage of Harold Fry,953,Fiction
+310,Nobody But Us,497,Young Adult
+311,Underestimated,36,Dark
+312,The Absolutely Amazing Adventures of Agent Auggie Spinoza,1594,Science Fiction
+313,Cross My Heart,115,Young Adult
+314,An Inconvenient Truth: The Planetary Emergency of Global Warming and What We Can Do About It,592,Nonfiction
+315,The Secret History,1441,Fiction
+316,Miss Delacourt Has Her Day,1560,Historical
+317,The Measure of a Lady,994,Christian Fiction
+318,Blowing on Dandelions,706,Christian Fiction
+319,Smashed Squashed Splattered Chewed Chunked and Spewed,1135,Fiction
+320,The True Story of Hansel and Gretel,1583,Historical
+321,Feed,1122,Horror
+322,Filthy Gods,51,Romance
+323,Joshua,1787,Fiction
+324,The Carnelian Legacy,1375,Fantasy
+325,Ilustrado,1417,Fiction
+326,Beautiful Ruins,459,Fiction
+327,The Neverending Story,1435,Fantasy
+328,The Life She Was Given,1797,Historical
+329,Alias Vol. 1,137,Sequential Art
+330,The Owl Keeper,1793,Fantasy
+331,Golden Trail,671,Romance
+332,The Deerslayer,436,Classics
+333,The Star-Touched Queen,1673,Fantasy
+334,Honey Queen,1077,Young Adult
+335,Painless,1427,Romance
+336,Hidden Doors Secret Rooms,1485,Mystery
+337,Dominion of the Eth,1286,Romance
+338,Jurassic Park,1152,Science Fiction
+339,The Dark Light,769,Fantasy
+340,Requiem for a Dream,1150,Fiction
+341,Until We Find Home,1344,Historical
+342,Something from the Nightside,1739,Fantasy
+343,Knife Sworn,530,Fantasy
+344,I Don't Want To Be Crazy,741,Poetry
+345,Mermaid Melody: Pichi Pichi Pitch Vol. 1,26,Sequential Art
+346,Genome: the Autobiography of a Species in 23 Chapters,1440,Science
+347,I Thee Wed,118,Romance
+348,Zigzag,811,Young Adult
+349,People of the Fire,1536,Fiction
+350,The Vanderbeekers of 141st Street,1526,Childrens
+351,Middlemarch,342,Classics
+352,The Eyre Affair,1701,Fantasy
+353,Kare Kano: His and Her Circumstances Vol. 1,291,Sequential Art
+354,Awaken Me,1838,Fantasy
+355,Slow Burn,357,Romance
+356,The Shock Doctrine: The Rise of Disaster Capitalism,1849,Nonfiction
+357,Dragon Rider,877,Fantasy
+358,The Boy Who Sneaks in My Bedroom Window,610,Romance
+359,A Curse Dark as Gold,1080,Fantasy
+360,Steve Jobs,1741,Biography
+361,The Meaning of Night,1242,Historical
+362,A Season To Remember,283,Holiday
+363,All the Light We Cannot See,746,Historical
+364,With Malice Toward None: A Biography of Abraham Lincoln,1269,Biography
+365,Their Eyes Were Watching God,1303,Classics
+366,Dragon Ball Vol. 1: The Monkey King,1060,Sequential Art
+367,Homeland,1274,Fantasy
+368,An Acute Attraction,626,Romance
+369,The Golden Compass,1415,Fantasy
+370,Eternal Eden,1590,Fantasy
+371,All The Wrong Reasons,900,Romance
+372,Terra Feliz: Vanity,720,Fiction
+373,A Shadow in Summer,777,Fantasy
+374,Cowboys Down,1751,Romance
+375,West of Here,932,Fiction
+376,Season of Migration to the North,81,Fiction
+377,West of Eden,1115,Science Fiction
+378,The Tycoon's Revenge,4,Romance
+379,Ravage Me,1018,Romance
+380,Starlet's Web,334,Young Adult
+381,Peter the Great: His Life and World,1175,History
+382,When Breath Becomes Air,576,Nonfiction
+383,Yes Means Yes!: Visions of Female Sexual Power and A World Without Rape,224,Feminism
+384,The Snake Pit,134,Fiction
+385,Conquest,221,Romance
+386,Christy,1811,Fiction
+387,The Perfect Blindside,140,Young Adult
+388,If I Have a Wicked Stepmother Where's My Prince?,1747,Young Adult
+389,Wordless,669,Fantasy
+390,Neuromancer,202,Science Fiction
+391,Tragic,395,Romance
+392,From the Mixed-Up Files of Mrs. Basil E. Frankweiler,868,Fiction
+393,Everbound,33,Young Adult
+394,Radio Shangri-La: What I Learned in the Happiest Kingdom on Earth,701,Travel
+395,Dirty Ross,808,Romance
+396,Tao Te Ching,1533,Philosophy
+397,The Snowman,1593,Childrens
+398,The Emperor's Edge,218,Fantasy
+399,The Scarlet Pimpernel,410,Classics
+400,Dragon Bound,1160,Fantasy
+401,The Age of Innocence,1767,Classics
+402,Fairy Tale,333,Young Adult
+403,Magic Triumphs,1371,Fantasy
+404,Monster Hunter Legion,947,Fantasy
+405,Ellen Foster,1619,Fiction
+406,The Mating,1310,Fantasy

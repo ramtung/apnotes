@@ -1,0 +1,1854 @@
+id,name,gender,member_since,year_of_birth,place_of_birth,genres
+0,Jewel E. Ann,female,September 1 2013,1970,Sierra Leone,Romance
+1,Maureen Mayer,female,January 26 2017,1967,Japan,Romance
+2,Jon Stewart,male,October 22 2010,1971,Cyprus,Nonfiction$Humor
+3,Tymber Dalton,female,July 9 2007,1994,Thailand,Romance
+4,Melody Anne,male,February 16 2018,1994,Egypt,Contemporary
+5,Nic Sheff,male,July 22 2013,1955,Djibouti,Memoir$Fiction
+6,Noah Elkrief,male,February 11 2010,1997,Comoros,Self Help$Spirituality
+7,Katie McGarry,female,March 23 2012,1992,Iceland,Young Adult
+8,David Grossman,male,November 26 2013,1967,Burkina,Nonfiction$Children S Books$Fiction
+9,M.H. Boroson,male,February 22 2014,1972,Burma,Fantasy
+10,Alan Bradley,male,February 19 2019,1963,Peru,Thriller$Biographies Memoirs
+11,Candice Millard,female,June 10 2013,1967,Argentina,Biographies Memoirs
+12,Oren Harman,male,May 24 2010,1986,East Timor,Science Fiction
+13,Janeal Falor,female,August 14 2011,1959,Swaziland,Young Adult
+14,Dian Fossey,male,June 7 2008,1972,Solomon,Outdoors Nature$Nonfiction
+15,T.J. Klune,male,January 2 2016,1987,Liechtenstein,Gay Lesbian
+16,Claire LaZebnik,female,June 9 2008,1965,Croatia,Fiction$Young Adult
+17,Kakuzō Okakura,male,November 22 2010,1979,Tanzania,Nonfiction$History
+18,W.B. Belcher,male,August 16 2016,1997,Guatemala,Science Fiction
+19,MeiLin Miranda,female,August 13 2007,1967,Chad,Fantasy
+20,Tim Federle,male,May 27 2014,1999,Lithuania,Humor
+21,Lauren Baratz-Logsted,female,September 24 2016,1980,Vatican,Fiction
+22,Alison Weir,female,November 3 2014,1950,Tonga,History
+23,Carla Laureano,female,September 15 2007,1973,Korea,Contemporary
+24,Melissa Landers,male,October 14 2012,1951,Croatia,Young Adult$Science Fiction
+25,A. Meredith Walters,female,August 5 2018,1959,Central African Republic,Romance
+26,Pink Hanamori,male,March 24 2009,1982,Uganda,Manga$Romance
+27,John C. Maxwell,male,November 23 2016,1989,St Kitts,Business
+28,Angel  Martinez,female,September 24 2012,1973,Nepal,Science Fiction
+29,Shubham Choudhary,male,January 11 2018,1969,Myanmar,Chick Lit
+30,Mike Dooley,male,April 6 2011,1993,Croatia,Health Mind Body
+31,Fay Weldon,female,April 3 2016,1967,Barbados,Fiction
+32,D.T. Dyllin,female,September 2 2015,1976,Slovakia,Romance
+33,Brodi Ashton,male,May 24 2011,1985,Mauritania,Young Adult
+34,John Gardner,male,February 11 2010,1970,Central African Republic,Fiction
+35,Bruce Holsinger,male,August 9 2011,1992,Bangladesh,Science Fiction
+36,Jettie Woodruff,male,November 18 2017,1998,Cameroon,Romance
+37,JoAnna Carl,female,December 21 2007,1986,Croatia,Thriller
+38,Scott Hildreth,male,February 18 2014,1960,Burma,Romance
+39,C. JoyBell C.,female,April 26 2015,1960,Maldives,Fiction
+40,Jo Walton,female,December 24 2009,1977,Cameroon,Science Fiction
+41,T.H. Snyder,male,April 10 2008,1972,Bahamas,Romance
+42,Lily Hoshino,female,September 23 2010,1977,Syria,Manga
+43,R.L. Stine,male,March 23 2018,1982,Liechtenstein,Horror
+44,Emilio Salgari,male,April 1 2014,1953,Chad,Science Fiction$Classics
+45,Hannah Harrington,male,November 6 2010,1951,Zambia,Young Adult
+46,Maureen Doyle McQuerry,male,June 22 2018,1969,Guatemala,Fiction
+47,Stephen Blackmoore,male,February 25 2015,1954,South Sudan,Thriller
+48,Stephen R. Donaldson,male,March 3 2010,1993,Kuwait,Science Fiction$Thriller
+49,Desmond Morris,male,February 8 2013,1973,Senegal,Nonfiction$Science Fiction
+50,Lyra Parish,female,January 28 2009,1972,Turkmenistan,Romance
+51,R. Scarlett,female,June 3 2008,1961,Mali,Romance
+52,Elizabeth Peters,female,October 8 2013,1951,South Sudan,Thriller$Humor
+53,Mari Hamill,female,June 10 2007,1999,Kyrgyzstan,Fantasy
+54,Annalise Grey,male,November 22 2015,1968,Mozambique,Poetry
+55,Tom Rob Smith,male,April 11 2014,1969,Israel,Fiction$Mystery
+56,Rainy Kaye,female,April 26 2017,1969,Latvia,Paranormal
+57,Tom Franklin,male,February 3 2010,1982,Papua,Fiction
+58,Kate Summerscale,female,November 18 2007,1981,Kosovo,Biographies Memoirs$Nonfiction
+59,Carolyn Ives Gilman,female,September 3 2009,1981,Yemen,Science Fiction
+60,William  Gibson,male,December 16 2016,1975,Malawi,Theater
+61,Adalbert Stifter,male,September 23 2011,1956,Colombia,Science Fiction$Poetry
+62,Glynis Cooney,female,October 5 2012,1961,Chad,Historical$Young Adult
+63,Bill Simmons,male,March 28 2009,1987,Grenada,Sports and Games$Entertainment
+64,Kameron Hurley,female,April 20 2019,1965,Japan,Science Fiction
+65,Sharan Newman,female,January 12 2010,1982,Italy,Thriller
+66,Rebecca Solnit,female,September 23 2008,1973,Ethiopia,Fiction$Memoir
+67,Nilam Suri,male,November 16 2010,1959,Vanuatu,Science Fiction
+68,B.B. Easton,female,September 8 2018,1972,Tunisia,Romance$Memoir
+69,Elena Aitken,female,April 23 2015,1971,Togo,Romance
+70,Mia Ikumi,male,August 15 2019,1983,Yemen,Manga$Romance
+71,Arthur Rimbaud,male,July 7 2011,1982,Israel,Poetry
+72,Marcus Buckingham,male,December 8 2007,1954,Honduras,Business
+73,Brock Clarke,male,December 22 2010,1950,Croatia,Fiction$Short Stories
+74,Ann-Marie MacDonald,female,October 18 2016,1973,Malawi,Science Fiction$Plays
+75,Alan McDermott,male,August 6 2008,1976,Lebanon,Thriller$Fiction
+76,Andy Riley,male,December 24 2007,1982,St Lucia,Comics Graphic Novels
+77,Tonya Burrows,female,October 3 2009,1992,Oman,Romance
+78,Adam Santo,male,April 17 2015,1955,Lithuania,Fiction
+79,Johann David Wyss,male,October 7 2007,1960,Scottish,Children S
+80,Curtis Sittenfeld,female,January 19 2019,1959,Mongolia,Fiction
+81,Tayeb Salih,male,October 12 2014,1969,San Marino,Fiction$Short Stories$Politics
+82,James Kelman,male,March 24 2011,1990,Azerbaijan,Fiction$Short Stories$Politics
+83,Ta-Nehisi Coates,male,August 5 2010,1950,Benin,Nonfiction
+84,Tera Lynn Childs,female,November 12 2008,1955,Cambodia,Young Adult
+85,Christopher  Morley,male,September 6 2018,1956,Madagascar,Fiction$Nonfiction
+86,Cora Harrison,female,May 21 2010,1975,Seychelles,Thriller$Children S Books
+87,Sarah Ockler,female,December 18 2017,1965,Mali,Young Adult
+88,O. Henry,male,June 25 2017,1978,Lithuania,Short Stories$Humor$Thriller
+89,Ayaan Hirsi Ali,female,July 16 2011,1954,Samoa,Biographies Memoirs
+90,Kelley York,female,May 10 2012,1983,Ghana,Young Adult
+91,Malcolm Lowry,male,September 7 2019,1970,Swaziland,Fiction$Poetry
+92,Nikki Loftin,female,May 23 2015,1993,Germany,Fiction
+93,Riley Mackenzie,male,January 4 2019,1978,America,Romance
+94,Chuck Black,male,January 6 2016,1991,America,Science Fiction$Allegory
+95,Suzy Becker,female,October 16 2012,1954,Netherlands,Children S
+96,Ann Charles,male,May 28 2010,1980,Israel,Mystery
+97,Jack McDevitt,male,December 2 2015,1998,East Timor,Science Fiction
+98,Fae Sutherland,female,January 13 2012,1967,Pakistan,Gay Lesbian
+99,Madeleine L'Engle,female,May 9 2016,1957,Moldova,Fiction$Science Fiction
+100,Evan Dorkin,male,December 24 2017,1971,Somalia,Comics Graphic Novels
+101,N.K. Jemisin,male,July 4 2017,1968,Nepal,Science Fiction
+102,Elisabeth Staab,female,September 23 2017,1978,Samoa,Romance
+103,Jane Harper,male,November 21 2010,1988,South Sudan,Mystery
+104,S.H. Kolee,male,May 1 2011,1974,India,Romance
+105,Kelli McCracken,female,February 8 2011,1977,St Kitts,Romance
+106,Anne Stuart,female,July 5 2016,1990,United States,Romance$Thriller
+107,Julie Garwood,female,June 28 2009,1955,Kenya,Romance
+108,Penny Hancock,female,November 24 2016,1978,Saudi Arabia,Science Fiction
+109,Tom   Savage,male,April 20 2009,1972,Samoa,Mystery$Suspense
+110,Robert Kurson,male,August 1 2011,1998,Trinidad,Fiction
+111,Helen Hooven Santmyer,female,January 28 2016,1953,Herzegovina,Historical$Fiction
+112,Jody Hedlund,female,January 18 2019,1987,Senegal,Historical
+113,L.P. Dover,female,September 17 2016,1996,Luxembourg,Romance
+114,John Gwynne,male,December 5 2016,1979,Samoa,Science Fiction
+115,Katie Klein,female,February 19 2017,1952,Mongolia,Young Adult$Fiction
+116,J. Sterling,male,March 7 2019,1955,Poland,New Adult
+117,Diarmaid MacCulloch,male,April 5 2014,1996,Togo,History$Religion
+118,Celeste Bradley,female,August 15 2007,1993,China,Romance
+119,Sam Lipsyte,male,November 2 2016,1960,Belgium,Fiction$Humor
+120,Gustave Flaubert,male,November 14 2014,1958,Zambia,Science Fiction
+121,Henri Barbusse,male,August 12 2012,1956,Comoros,Fiction
+122,Olive Ann Burns,female,May 26 2019,1972,Holland,Fiction
+123,K.E.  Lane,female,April 11 2008,1979,Tanzania,Romance
+124,Charlotte Stein,female,September 15 2011,1985,Singapore,Romance$Science Fiction
+125,Luanne Rice,female,January 3 2013,1975,Andorra,Science Fiction
+126,Sydney Taylor,female,January 17 2019,1974,British,Children S Books
+127,Tracie Peterson,female,February 17 2013,1955,Central African Republic,Historical$Religion Spirituality
+128,Franz Kafka,male,June 17 2011,1990,Belgium,Science Fiction$Philosophy$Short Stories
+129,Tahereh Mafi,female,July 24 2014,1959,Congo,Science Fiction
+130,Carole Wilkinson,female,November 21 2012,1985,Armenia,Fantasy
+131,Felix Abt,male,April 23 2019,1983,Vietnam,Fiction
+132,Gail Carson Levine,female,December 3 2011,1964,Qatar,Children S Books$Science Fiction
+133,Diamante Lavendar,male,December 22 2008,1962,Italy,Science Fiction
+134,Mary Jane Ward,male,January 19 2013,1981,Syria,Science Fiction
+135,Sofia Samatar,female,April 2 2019,1998,Switzerland,Fiction$Fantasy
+136,Julia Serano,male,August 24 2013,1965,Brunei,Women Gender Studies$Gay And Lesbian
+137,Brian Michael Bendis,male,June 5 2012,1956,South Sudan,Comics Graphic Novels
+138,Erma Bombeck,female,July 11 2017,1982,Kosovo,Nonfiction
+139,Rochelle Maya Callen,male,October 6 2009,1956,Bhutan,Young Adult
+140,Leslea Wahl,female,September 27 2019,1973,Panama,Young Adult
+141,Gayle Forman,female,August 9 2013,1976,Chad,Young Adult
+142,Edward W. Said,male,October 7 2012,1960,Turkey,Fiction
+143,K. Bromberg,male,January 22 2014,1982,Slovakia,Romance
+144,Phillipa Ashley,male,July 13 2013,1981,Pakistan,Science Fiction
+145,Sally O'Reilly,female,March 20 2009,1997,Hungary,Science Fiction
+146,Brother Andrew,male,February 1 2012,1989,South Africa,Religion Spirituality$Christian Fiction
+147,Eileen Dreyer,female,June 5 2018,1969,Marshall,Thriller
+148,Stieg Larsson,male,May 26 2014,1960,Liechtenstein,Fiction$Thriller
+149,Lois Lowry,male,August 13 2014,1951,Sudan,Children S Books$Fiction
+150,Anita Loos,female,June 7 2015,1964,Andorra,Fiction$Biographies Memoirs
+151,Michelle Magorian,female,April 4 2011,1999,Marshall,Children S Books
+152,Jill Eileen Smith,female,August 12 2018,1960,Philippines,Fiction
+153,John Crowley,male,December 25 2011,1979,Dominica,Science Fiction
+154,Jeremy Flagg,male,April 22 2011,1963,El Salvador,Science Fiction
+155,Tom   Turner,male,February 9 2007,1990,Holland,Science Fiction
+156,Karen Horney,male,March 23 2014,1991,Lithuania,Psychology$Psychoanalysis$Women Gender Studies
+157,Bram Stoker,male,July 2 2012,1986,Brunei,Horror
+158,Harry James Fox,male,November 17 2008,1961,Lithuania,Science Fiction
+159,Shelly Bell,female,June 23 2009,1978,Ecuador,Romance
+160,Shanna Hatfield,female,September 23 2013,1953,Panama,Romance
+161,Lisa Unger,female,April 4 2007,1985,Moldova,Mystery
+162,Michael  Pierce,male,May 2 2009,1987,Samoa,Young Adult
+163,Amanda Marrone,female,January 26 2014,1963,Czech,Children S Books$Young Adult
+164,Darren Endymion,male,December 2 2010,1956,Chad,Paranormal$Gay And Lesbian
+165,Renée Ahdieh,male,January 19 2011,1970,Gambia,Young Adult
+166,Shilpi Somaya Gowda,female,September 26 2009,1981,Ghana,Fiction
+167,Pete Hamill,male,August 6 2017,1981,Cape Verde,Biographies Memoirs$Fiction
+168,Anne  Barton,female,November 16 2007,1960,India,Romance
+169,Peter Gent,male,October 16 2010,1977,Tajikistan,Sports and Games$Science Fiction
+170,David Hackett Fischer,male,October 17 2018,1984,Ecuador,History
+171,Eric R. Kandel,male,October 13 2008,1994,Burundi,Science Fiction$Biographies Memoirs
+172,Robert Lawson,male,April 1 2011,1992,Lithuania,Children S
+173,Shayla Kersten,female,August 22 2012,1960,Israel,Gay Lesbian$Romance
+174,Iain M. Banks,male,April 14 2013,1953,Jamaica,Science Fiction
+175,Patrick Carman,male,November 3 2017,1977,Uzbekistan,Young Adult$Children S Books
+176,Andrew Seaward,male,February 6 2018,1960,Saudi Arabia,Fiction$Humor
+177,Mayandree Michel,female,August 3 2015,1970,Iceland,Romance$Historical
+178,Chris Abouzeid,male,April 12 2010,1998,Yemen,Young Adult$Children S Books
+179,Janice Galloway,female,December 17 2013,1950,Emirate,Science Fiction$Memoir
+180,M.H. Herlong,female,January 17 2017,1970,Tonga,Science Fiction$Young Adult
+181,Mike Gold,male,April 9 2013,1977,Netherlands,Comics Graphic Novels
+182,Meredith Daniels,male,October 4 2012,1963,Palau,Gay And Lesbian
+183,James E. Talmage,male,July 13 2016,1977,Switzerland,Religion Spirituality
+184,Ashley Suzanne,female,October 15 2014,1991,Tanzania,Romance
+185,Herodotus,male,August 3 2017,1964,Qatar,History$Fiction
+186,Debra Dockter,male,November 23 2009,1956,Solomon,Young Adult
+187,Wendell Berry,male,February 19 2011,1987,Holland,Poetry$Fiction$Outdoors Nature
+188,Chloe Neill,female,September 2 2012,1970,Latvia,Science Fiction$Young Adult
+189,Santino Hassell,male,November 9 2009,1972,Mozambique,Gay Lesbian
+190,Joey W. Hill,female,May 22 2011,1967,Bahamas,Romance
+191,Zenna Henderson,female,February 3 2013,1956,Czech,Science Fiction
+192,Marie Force,female,February 9 2010,1991,Armenia,Romance
+193,Colleen Houck,female,May 23 2012,1998,Lesotho,Romance
+194,Sarah Diemer,male,April 21 2009,1977,Tobago,Young Adult
+195,Amélie Nothomb,female,January 24 2009,1963,Macedonia,Fiction
+196,Eliza Tilton,female,August 7 2008,1968,Zimbabwe,Young Adult
+197,Amy  Stewart,female,June 3 2013,1958,Slovenia,Fiction
+198,Tiffanie DeBartolo,female,December 17 2010,1976,Herzegovina,Science Fiction
+199,Rachel Cohn,female,July 24 2011,1992,Haiti,Young Adult
+200,Ashwin Sanghi,male,May 24 2015,1989,Grenada,Historical
+201,K.C. Blake,male,February 11 2012,1996,Bissau,Young Adult$Science Fiction$Fantasy
+202,William Gibson,male,July 25 2008,1985,Morocco,Science Fiction
+203,Samuel Snoek-Brown,male,February 18 2010,1992,Czech,Fiction
+204,Barry Hughart,male,July 19 2007,1986,Gambia,Science Fiction
+205,Ian Frazier,male,November 8 2016,1950,British,Nonfiction
+206,Robin Paige,male,August 3 2019,1990,England,Thriller
+207,Balli Kaur Jaswal,female,November 23 2014,1988,Mexico,Contemporary$Historical
+208,Vincent Bugliosi,male,December 22 2015,1971,Czech,Nonfiction$Thriller
+209,Amy Finnegan,female,April 5 2016,1990,Japan,Young Adult
+210,Lemony Snicket,male,December 16 2016,1994,Luxembourg,Children S Books$Thriller
+211,Elizabeth Norris,female,January 27 2010,1999,Kuwait,Young Adult
+212,Nikos Kazantzakis,male,June 4 2013,1967,Rwanda,Fiction$Philosophy
+213,Beth Revis,female,November 11 2017,1977,Norway,Young Adult$Science Fiction
+214,Kathleen  Barber,female,December 27 2016,1982,Benin,Suspense
+215,Thomas More,male,August 14 2014,1983,Liechtenstein,Philosophy$Catholicism
+216,Linus Suryadi,male,September 7 2014,1976,Samoa,Poetry
+217,Jaclyn Dolamore,female,September 24 2014,1951,Antigua,Young Adult$Science Fiction
+218,Lindsay Buroker,male,September 13 2014,1979,Singapore,Fantasy$Science Fiction
+219,Samantha Stemler,female,March 13 2011,1977,Swaziland,Young Adult
+220,Lynetta Halat,female,January 9 2019,1999,Armenia,Science Fiction$Romance
+221,S.J. Frost,female,May 9 2012,1991,Holland,Gay Lesbian
+222,Karen Whitelaw Smith,female,October 26 2007,1981,Sudan,Nonfiction$Health Mind Body
+223,Jeff Smith,male,May 4 2017,1950,Senegal,Comics Graphic Novels
+224,Jaclyn Friedman,male,December 1 2010,1953,Sudan,Poetry
+225,Seth Grahame-Smith,male,November 22 2011,1959,East Timor,Horror$Fiction
+226,Marisa Calin,female,December 27 2017,1959,Somalia,Young Adult
+227,Brian Greene,male,December 2 2018,1967,Mauritania,Science Fiction
+228,Susan  Wilson,male,April 25 2015,1966,Samoa,Fiction
+229,Poppy Z. Brite,male,August 19 2018,1955,Marshall,Horror$Fiction
+230,Mark  Thompson,male,October 15 2017,1988,Afghanistan,History
+231,Devon Monk,female,April 6 2011,1955,United States,Science Fiction
+232,Leo Tolstoy,male,November 8 2019,1954,Brunei,Science Fiction$Philosophy$Fiction
+233,Patrick Donovan,male,September 21 2018,1962,Oman,Fantasy
+234,Mia Castile,female,January 14 2019,1969,Grenada,Young Adult$New Adult
+235,M.A. Stacie,female,June 6 2014,1981,Indonesia,Romance
+236,Gene Wolfe,male,August 9 2008,1986,Tajikistan,Fiction$Science Fiction
+237,Tasaro G.K.,male,February 18 2017,1972,Norway,Fiction$Historical$Nonfiction
+238,Cinda Williams Chima,female,July 11 2016,1963,Tanzania,Fiction
+239,Chuck Gallagher,male,November 21 2007,1960,Finland,Self Help
+240,Emme Rollins,female,August 7 2009,1971,Barbados,Science Fiction
+241,James Clavell,male,November 19 2008,1973,Ireland,Historical
+242,Travis Bradberry,male,April 12 2011,1997,Djibouti,Biography
+243,K.N. Lee,female,October 28 2014,1990,Algeria,Fantasy
+244,Kerry O'Malley Cerra,female,October 28 2016,1963,Denmark,Children S
+245,Sierra Dean,female,August 26 2010,1970,Tanzania,Science Fiction$Romance
+246,Alice Oswald,female,April 8 2014,1976,Niger,Poetry
+247,Damon Suede,male,December 21 2009,1973,Kyrgyzstan,Gay Lesbian
+248,John Ringo,male,March 23 2015,1995,Croatia,Science Fiction
+249,Leigh Evans,male,June 26 2011,1973,Central African Republic,Paranormal
+250,Sidney Sheldon,male,September 20 2012,1958,Monaco,Fiction$Thriller$Children S Books
+251,Kazuma Kodaka,female,July 26 2014,1982,Vatican,Manga$Gay And Lesbian$Romance
+252,Jami Brumfield,female,June 24 2010,1995,South Sudan,Fantasy$Paranormal
+253,Lola Stark,female,April 17 2017,1974,Namibia,Erotica
+254,Andrew Clements,male,September 1 2011,1950,Solomon,Children S Books
+255,Jordan Castillo Price,female,February 17 2018,1992,Burma,Horror$Gay Lesbian
+256,Michelle   Cooper,female,February 10 2015,1989,Angola,Young Adult
+257,Diane Mae Robinson,male,December 9 2017,1962,Malta,Children S
+258,Julia Heaberlin,female,July 5 2007,1967,America,Science Fiction
+259,Walter Farley,male,July 19 2008,1963,Armenia,Children S$Science Fiction
+260,Megan McCafferty,male,August 21 2019,1959,Montenegro,Young Adult
+261,Jaime Rush,male,October 14 2007,1996,Togo,Romance
+262,Shaun Hutson,male,December 11 2013,1954,Great Britain,Fiction$Horror
+263,Matt Rees,male,January 20 2012,1969,Mali,Thriller
+264,Ally Carter,female,May 1 2018,1987,Benin,Young Adult
+265,Melody Grace,male,July 3 2008,1975,St Lucia,Romance$Contemporary
+266,Terri Blackstock,female,March 6 2014,1985,Brunei,Religion Spirituality
+267,Eric Shonkwiler,male,December 27 2014,1973,Grenadines,Contemporary
+268,Penny Watson,female,July 10 2013,1998,Scottish,Science Fiction$Humor
+269,Clayton M. Christensen,male,January 1 2019,1966,British,Innovation
+270,Lorie Ann Grover,female,July 4 2008,1968,Tanzania,Fiction
+271,J.K. Accinni,male,April 21 2011,1993,New Zealand,Paranormal
+272,Michael  Grant,male,March 23 2010,1976,Sweden,Young Adult
+273,Anatoli Rybakov,male,October 13 2019,1974,Eritrea,History$Historical
+274,Allie Larkin,female,September 23 2007,1974,Djibouti,Fiction$Humor
+275,Greer Macallister,female,February 22 2011,1989,Netherlands,Historical
+276,Jay Northcote,male,July 16 2008,1975,Liechtenstein,Romance
+277,Timothy Zahn,male,April 3 2014,1962,Georgia,Science Fiction
+278,Regan Walker,male,April 26 2007,1995,Palau,Historical
+279,Emily Murdoch,female,August 28 2008,1967,Korea,Young Adult
+280,Molly Gloss,male,February 18 2008,1972,Oman,Fiction$Science Fiction
+281,David Markson,male,November 23 2007,1978,Maldives,Fiction$Poetry$Nonfiction
+282,Joshua Zeitz,male,March 19 2014,1966,Bissau,History
+283,Elizabeth Ellen Carter,male,July 23 2013,1986,Canada,Romance
+284,Mary Norton,female,April 14 2015,1983,Libya,Fiction$Children S Books
+285,Elizabeth Cunningham,male,June 6 2016,1965,Sudan,Historical
+286,Robert D. Kaplan,male,May 5 2018,1965,England,History$Politics
+287,Mark Klempner,male,May 13 2012,1994,San Marino,History
+288,Lisa Cach,female,March 7 2007,1971,Eritrea,Romance
+289,M.K. England,female,July 2 2017,1997,Mali,Young Adult
+290,Eric Berne,male,January 16 2010,1951,South Africa,Psychology$Psychotherapy Psychoanalysis$Transactional Analysis
+291,Masami Tsuda,male,December 12 2013,1978,Bhutan,Comics Graphic Novels$Romance
+292,Teresa Orts,male,June 21 2015,1954,France,Young Adult
+293,Christine M. Knight,male,April 17 2009,1975,Egypt,Fiction
+294,James  Jones,male,July 7 2017,1968,St Lucia,Fiction$Biographies Memoirs
+295,Cheryl Strayed,female,November 1 2012,1957,Liechtenstein,Fiction
+296,Giles Milton,male,July 22 2018,1960,Gambia,Nonfiction
+297,Heather Davis,female,September 18 2012,1959,Bhutan,Young Adult
+298,Avery Aames,female,February 9 2016,1969,Mali,Thriller
+299,Judith Butler,female,July 24 2015,1978,Trinidad,Philosophy$Women Gender Studies$Gay Lesbian
+300,Kelly Anne Blount,female,February 4 2013,1953,Papua,Young Adult
+301,Cat Gardiner,female,October 9 2014,1996,Mauritius,Romance
+302,Federico García Lorca,male,August 21 2009,1975,Seychelles,Poetry$Fiction
+303,Alfred Hitchcock,male,August 5 2014,1993,Paraguay,Thriller$Horror
+304,Charity Parkerson,female,July 17 2018,1977,America,Romance
+305,Neal Gabler,male,January 14 2013,1987,Niger,Biographies Memoirs$History
+306,Lauren Child,female,June 17 2010,1976,Zambia,Children S Books
+307,Tony DiTerlizzi,male,October 5 2016,1961,Burkina,Children S Books
+308,M.T. Anderson,male,February 21 2016,1952,Tobago,Children S Books
+309,Alison Croggon,female,February 16 2010,1985,Ghana,Fantasy
+310,Chris Claremont,male,June 11 2016,1985,Eritrea,Comics Graphic Novels$Science Fiction
+311,Debra Kayn,female,August 13 2011,1975,Philippines,Romance
+312,Kristy  Marie,female,January 7 2014,1968,Indonesia,Romance
+313,Jamie Fessenden,male,November 17 2014,1954,Emirate,Gay Lesbian
+314,Rachel Hollis,female,April 28 2007,1964,Uruguay,Chick Lit
+315,Dashiell Hammett,male,November 6 2014,1962,Palau,Thriller
+316,Heinrich Böll,male,June 5 2013,1990,China,Fiction$Travel$Short Stories
+317,Laura Lee Guhrke,female,May 15 2010,1961,Austria,Romance
+318,Jennifer Hillier,female,January 22 2018,1959,Liberia,Thriller
+319,J.R. Lenk,male,August 1 2013,1965,Philippines,Young Adult$Horror$Gay Lesbian
+320,Roy A. Mauritsen,male,March 22 2009,1953,Ivory Coast,Fantasy
+321,Ned Vizzini,male,June 4 2014,1963,Netherlands,Young Adult
+322,Meredith Wild,female,March 22 2019,1980,Luxembourg,Romance
+323,Bill Willingham,male,January 17 2008,1987,Niger,Comics Graphic Novels
+324,Arturo Pérez-Reverte,male,June 1 2009,1972,Bosnia,Fiction
+325,Dorothy Baker,female,January 2 2015,1993,Bulgaria,Fiction
+326,Ann Aguirre,female,July 16 2018,1957,Namibia,Science Fiction$Romance
+327,Victoria Denault,female,October 26 2017,1965,Greece,Romance
+328,Terry Teachout,male,May 17 2010,1979,Liechtenstein,Biographies Memoirs$Arts Photography
+329,May Sarton,female,November 27 2015,1993,Guinea,Poetry
+330,Tricia Goyer,female,June 5 2017,1975,Austria,Religion Spirituality
+331,Guy Gavriel Kay,male,July 22 2008,1978,Wales,Science Fiction
+332,Scott O'Dell,male,March 21 2018,1971,Tunisia,Children S Books$Historical
+333,Cyn Balog,female,April 4 2018,1998,Dominica,Young Adult$Paranormal
+334,Carla J. Hanna,female,April 17 2013,1962,Mongolia,Young Adult
+335,Courtney Summers,female,July 3 2013,1995,Kuwait,Young Adult
+336,Jen Sincero,female,January 11 2017,1975,Madagascar,Humor
+337,Kat Richardson,female,May 1 2014,1967,Guatemala,Science Fiction
+338,Jean Plaidy,female,February 7 2019,1988,Jamaica,Historical$History
+339,Elle Kennedy,female,April 14 2011,1977,Antigua,Romance
+340,Yoshihiro Togashi,male,September 12 2009,1957,Solomon,Comics Graphic Novels
+341,Robin York,female,March 24 2015,1952,Indonesia,Romance
+342,George Eliot,female,June 25 2018,1976,United Kingdom,Fiction$Poetry
+343,Claire Kent,male,December 28 2007,1982,Ghana,Romance
+344,Lynelle Clark,male,March 27 2013,1951,Suriname,Contemporary
+345,Nikolas Lee,male,April 7 2018,1968,Sri Lanka,Children S
+346,Fran Sorin,female,July 20 2015,1996,Morocco,Gardening
+347,Karen Marie Moning,female,October 16 2017,1967,Croatia,Paranormal
+348,K.B. Miller,male,November 24 2011,1994,Costa Rica,Young Adult
+349,Jordan Lynde,male,September 25 2009,1972,Sierra Leone,Young Adult
+350,Shari Lambert,female,November 25 2009,1979,Vatican,Young Adult
+351,Valia Lind,female,December 18 2019,1967,Belgium,Young Adult
+352,Alex Duval,male,November 10 2007,1978,Macedonia,Science Fiction$Young Adult
+353,Wataru Yoshizumi,female,January 19 2012,1965,Philippines,Comics Graphic Novels$Romance
+354,Kerry Madden,female,September 21 2017,1968,Bhutan,Children S Books
+355,C.V. Wedgwood,female,May 1 2012,1999,Somalia,History
+356,Jennifer Bernard,female,August 1 2008,1960,Ivory Coast,Romance
+357,Sam B. Morgan,male,March 18 2007,1987,Liechtenstein,Gay And Lesbian
+358,Sara Furlong Burr,female,May 10 2014,1987,Tobago,Science Fiction
+359,A.J.  Rose,male,April 4 2010,1986,South Africa,Gay Lesbian
+360,Giada De Laurentiis,female,October 5 2009,1964,Madagascar,Cooking Food Wine
+361,Sogyal Rinpoche,male,May 10 2012,1999,Kosovo,Spirituality$Self Help$Fiction
+362,Richard Dawkins,male,June 19 2007,1971,Cambodia,Nonfiction$Science Fiction
+363,Tatjana Soli,male,December 12 2007,1958,Algeria,Fiction
+364,Leona Windwalker,female,November 12 2018,1978,Spain,Romance$Gay And Lesbian
+365,Carl Jung,male,November 14 2015,1955,Djibouti,Psychology$Science Fiction
+366,Kelly Creagh,male,February 8 2019,1956,Antigua,Young Adult$Horror
+367,John Layman,male,May 20 2015,1980,Georgia,Comics Graphic Novels
+368,Brandilyn Collins,female,April 22 2012,1998,Qatar,Suspense
+369,Amber Kizer,female,August 8 2014,1993,Cape Verde,Young Adult$Fiction
+370,Graham Masterton,male,August 2 2010,1993,Botswana,Horror$Health Mind Body
+371,E.J. Copperman,male,June 2 2019,1983,Mozambique,Thriller$Humor
+372,Tessa Afshar,female,July 17 2019,1980,Denmark,Historical
+373,Carol Ryrie Brink,female,August 13 2012,1965,Grenada,Children S Books$Fiction
+374,Lilly Singh,female,August 24 2015,1999,Welsh,Self Help
+375,Jessica Park,female,August 25 2012,1977,Cameroon,Romance
+376,Kimmery Martin,female,April 14 2012,1996,Palau,Science Fiction$Contemporary
+377,William Makepeace Thackeray,male,December 9 2009,1953,San Marino,Science Fiction
+378,Rachel Caine,male,May 5 2019,1967,Tobago,Thriller
+379,Deborah Macgillivray,female,April 13 2012,1952,Argentina,Romance
+380,James D. Doss,male,May 16 2008,1960,Kiribati,Thriller
+381,Elizabeth Borton de Treviño,female,August 2 2018,1974,Herzegovina,Young Adult
+382,Brooke McKinley,female,February 26 2015,1979,Trinidad,Gay Lesbian$Romance
+383,Christine James,male,April 23 2018,1954,Laos,Science Fiction
+384,Sarah Rees Brennan,female,June 18 2007,1967,America,Science Fiction$Young Adult
+385,Nevil Shute,male,June 2 2016,1992,Kenya,Science Fiction$Fiction
+386,Chris Dietzel,male,June 2 2019,1993,Yemen,Dystopian
+387,Diana Norman,female,April 22 2013,1995,Kuwait,Historical$Thriller
+388,Wallace Stevens,male,September 2 2017,1950,Hungary,Poetry$Essays
+389,Frederic C. Rich,male,December 28 2014,1956,Dominica,Science Fiction
+390,E.M. Forster,male,August 13 2017,1965,Tunisia,Science Fiction$Essays
+391,Phillip W. Simpson,male,October 8 2017,1997,Mexico,Young Adult
+392,Rennie Airth,male,March 19 2010,1985,Grenada,Fiction$Thriller
+393,Daniel José Older,male,August 14 2015,1964,Germany,Fantasy
+394,Barbara Vine,female,February 2 2015,1980,Myanmar,Thriller
+395,Devney Perry,female,June 3 2011,1956,Emirate,Romance
+396,Jim Benton,male,September 7 2016,1972,Iraq,Arts Photography
+397,Tish Thawer,female,July 12 2015,1995,Peru,Romance
+398,Mark Twain,male,December 17 2013,1985,Barbados,Fiction$Short Stories
+399,Tanya Eavenson,female,March 15 2016,1992,Vietnam,Christian Fiction
+400,Alex J. Cavanaugh,male,December 25 2009,1952,Antigua,Science Fiction
+401,Melissa Petreshock,female,May 8 2013,1982,Tuvalu,Fantasy$Romance
+402,Salman Aditya,male,December 11 2017,1964,Malaysia,Humor
+403,James Dickey,male,June 13 2013,1953,Tanzania,Fiction$Poetry
+404,Emma Trevayne,male,June 7 2009,1950,Papua,Science Fiction
+405,Marissa Moss,male,May 22 2010,1971,Canada,Children S Books
+406,Maureen Johnson,female,March 16 2016,1992,Bosnia,Fiction
+407,Anne Rice,female,March 5 2019,1963,Turkmenistan,Horror
+408,Jessica Brockmole,male,September 6 2008,1981,Zambia,Historical
+409,Lisa M. Harley,male,June 15 2017,1997,Bosnia,Romance
+410,Emmuska Orczy,female,January 3 2018,1986,Vanuatu,Fiction
+411,K.C. Hilton,female,January 1 2009,1959,Macedonia,Historical
+412,Else Holmelund Minarik,female,August 2 2011,1977,Moldova,Children S Books
+413,Elizabeth Strout,female,March 27 2011,1969,Germany,Fiction
+414,Kiera Cass,male,January 19 2011,1970,British,Young Adult
+415,Jennifer Rush,female,December 24 2010,1954,Niger,Young Adult
+416,Laura Kinsale,female,March 17 2011,1963,Turkey,Romance$Historical
+417,Ashley Jade,male,December 16 2010,1973,Azerbaijan,Romance$Erotica
+418,Katie de Long,male,July 27 2012,1977,Vatican,Romance
+419,Angela  Graham,male,November 28 2010,1988,San Marino,Romance$Contemporary
+420,Heinrich Harrer,male,November 1 2017,1950,Madagascar,Biography$Travel
+421,Jay Kristoff,male,September 8 2018,1974,Syria,Science Fiction
+422,Lynne   Kelly,female,January 21 2017,1980,Zimbabwe,Children S Books
+423,Cath Crowley,male,August 14 2009,1998,Iran,Young Adult
+424,Nancy Garden,female,December 5 2019,1985,Czech,Young Adult$Children S Books
+425,Anton Szandor LaVey,male,November 5 2019,1951,Kyrgyzstan,Religion Spirituality
+426,Carrie Vaughn,female,February 3 2010,1989,Emirate,Science Fiction$Thriller
+427,Penelope Fletcher,female,January 22 2007,1997,Namibia,Science Fiction
+428,Michelle Warren,female,April 27 2014,1983,Bosnia,Young Adult
+429,Nicholas Eames,male,January 10 2012,1967,St Kitts,Fantasy
+430,Maggie Stiefvater,female,December 6 2016,1955,Nepal,Young Adult
+431,Nicola Haken,male,March 13 2018,1990,St Kitts,Romance
+432,Ilsa Madden-Mills,female,March 1 2013,1965,Venezuela,Ebooks
+433,S.L. Jennings,female,September 2 2013,1955,Herzegovina,Contemporary
+434,Courtney Allison Moulton,female,November 22 2017,1971,Uruguay,Young Adult
+435,Yōko Ogawa,female,March 21 2018,1998,Grenadines,Contemporary$Science Fiction
+436,James Fenimore Cooper,male,July 21 2015,1972,Uganda,Science Fiction$Historical
+437,Whitney Gardner,female,January 3 2012,1980,England,Young Adult
+438,Angela Carter,female,April 2 2008,1987,Tajikistan,Science Fiction
+439,Anastasia Hopcus,male,December 18 2008,1999,Mexico,Young Adult$Science Fiction
+440,Caroline Knapp,female,April 24 2009,1984,Denmark,Nonfiction
+441,René Zografos,male,August 26 2016,1962,Trinidad,Fiction
+442,Norman L. Geisler,male,February 3 2017,1964,Mozambique,Religion Spirituality
+443,Catherynne M. Valente,female,December 1 2008,1950,Ivory Coast,Fiction
+444,Robert Lynn Asprin,male,December 5 2009,1986,Ghana,Science Fiction
+445,Phyllis T. Smith,male,July 27 2018,1973,Norway,Historical
+446,Alan Furst,male,December 13 2015,1960,Austria,Thriller$Historical
+447,Shashi Tharoor,male,April 4 2009,1984,Morocco,Fiction
+448,Carson McCullers,female,September 15 2019,1978,Micronesia,Science Fiction$Poetry$Tragicomedy
+449,Dashka Slater,female,July 8 2013,1986,Armenia,Children S Books
+450,Jami Alden,female,January 6 2017,1967,Ivory Coast,Fiction$Romance$Thriller
+451,M.G. Wells,female,May 23 2011,1978,Morocco,Fantasy
+452,Jacqueline Winspear,female,December 23 2018,1956,Spain,Thriller
+453,Jessica James,female,November 17 2016,1987,Burkina,Suspense$Historical
+454,Rick Chiantaretto,male,October 5 2018,1980,El Salvador,Suspense
+455,Jeff Kinney,male,January 11 2014,1998,Antigua,Children S Books
+456,Kaylene Johnson,male,October 22 2014,1988,Singapore,Biographies Memoirs$Outdoors Nature
+457,Lila Dare,female,February 27 2009,1953,Nigeria,Thriller
+458,K.M. Shea,female,October 3 2019,1991,Austria,Fantasy
+459,Jess Walter,male,May 16 2013,1957,Sierra Leone,Fiction$Thriller
+460,Conor Kostick,male,August 23 2012,1971,Bulgaria,Science Fiction
+461,Amanda Downum,male,March 13 2014,1970,Madagascar,Science Fiction
+462,Dan Chaon,male,August 13 2011,1977,Ecuador,Fiction$Short Stories
+463,Alyloony,female,May 7 2013,1970,Korea,Young Adult
+464,Amalie Howard,female,April 6 2013,1969,Niger,Young Adult
+465,Julie Cross,female,August 10 2009,1990,Portugal,New Adult
+466,Johan Harstad,male,September 2 2008,1953,Tobago,Fiction
+467,Julie Johnstone,male,November 19 2010,1972,Holland,Romance
+468,Julia Quinn,female,October 21 2019,1981,Indonesia,Romance$Historical
+469,Vasily Mahanenko,male,October 22 2018,1986,Marshall,Litrpg$Fantasy
+470,Tara A. Fuller,male,July 23 2014,1963,Algeria,Romance
+471,Stacey Nash,female,April 26 2009,1970,Mauritius,Young Adult
+472,Christina Mobley,female,June 8 2015,1980,Congo,Young Adult
+473,Jeri Smith-Ready,female,October 6 2015,1983,Bhutan,Young Adult
+474,Sherrie Henry,male,June 5 2013,1989,Ghana,Young Adult
+475,Jon Ronson,male,April 9 2018,1988,Norway,Journalism
+476,Evangeline Anderson,female,June 7 2007,1952,Myanmar,Romance
+477,Sarah J. Maas,female,April 3 2014,1997,Malaysia,Young Adult
+478,Karin Tabke,female,August 20 2016,1959,Libya,Romance
+479,Louise Fitzhugh,female,November 17 2019,1956,Tuvalu,Children S Books
+480,Snorri Sturluson,male,November 1 2019,1979,St Kitts,History$Poetry
+481,Vicki Myron,male,February 25 2009,1956,Tanzania,Nonfiction
+482,Sandra Byrd,female,July 12 2010,1993,Haiti,Historical
+483,Carol K. Carr,female,December 28 2011,1970,Bissau,Historical$Thriller
+484,Elizabeth Haydon,male,May 22 2010,1997,Djibouti,Science Fiction
+485,Melonie Johnson,female,December 11 2009,1985,Indonesia,Romance
+486,Emma Donoghue,female,October 3 2018,1978,Chad,Fiction
+487,Ann Cleeves,female,October 15 2015,1967,Indonesia,Crime
+488,Jim Gaffigan,male,August 26 2018,1987,San Marino,Humor
+489,Jacky Hyams,male,July 13 2017,1978,Thailand,Memoir
+490,Tamora Pierce,male,February 4 2007,1995,Italy,Science Fiction$Children S Books
+491,Catherine Christian,female,April 19 2014,1984,Andorra,Children S Books$Science Fiction
+492,Amy Rose Capetta,female,November 16 2013,1952,Bosnia,Young Adult
+493,Barb Hendee,male,June 5 2008,1989,Qatar,Science Fiction
+494,A.J. Pine,female,October 16 2012,1987,Guatemala,Romance
+495,Mikhail Bulgakov,male,August 11 2011,1959,Iraq,Science Fiction$Short Stories$Memoir
+496,Stylo Fantome,male,April 21 2014,1991,Solomon,Science Fiction
+497,Kristin Halbrook,female,March 27 2016,1955,Scotland,Young Adult
+498,Melissa Turner Lee,male,February 10 2010,1985,Syria,Young Adult
+499,M.  Robinson,male,June 15 2013,1974,Malaysia,Romance
+500,Eileen Wilks,female,August 28 2007,1970,Bulgaria,Science Fiction$Romance
+501,Ben Peller,male,December 18 2018,1993,Oman,Humor$Entertainment
+502,Rebecca A. Rogers,female,May 27 2016,1988,Brunei,Fantasy
+503,Ashley Poston,female,February 10 2013,1959,Italy,Young Adult
+504,Allison Hawn,female,November 13 2014,1984,Mexico,Humor
+505,Kimberly Karalius,female,July 9 2014,1966,Japan,Young Adult
+506,M.  Clarke,female,July 15 2007,1986,England,Romance$Chick Lit$Contemporary
+507,T.S. Krupa,female,November 16 2011,1976,Maldives,Romance
+508,Caroline Kraus,male,May 7 2012,1971,Greece,Biographies Memoirs
+509,Michelle Zink,male,December 4 2012,1984,Slovakia,Young Adult
+510,Meša Selimović,male,June 2 2007,1993,Tobago,Fiction$Religion Spirituality
+511,John Kennedy Toole,male,September 22 2009,1962,Pakistan,Science Fiction
+512,Kimberly Joy Villanueva,female,January 3 2013,1961,Burundi,Young Adult
+513,Jennifer Castle,female,March 14 2019,1992,St Lucia,Young Adult
+514,T.K. Leigh,female,December 17 2011,1967,Thailand,Contemporary
+515,Will Cuppy,male,November 23 2013,1976,New Zealand,Humor$History$Zoology
+516,Sophie McKenzie,male,March 7 2011,1955,San Marino,Thriller
+517,Elizabeth Hoyt,male,April 13 2011,1985,Ethiopia,Romance
+518,L.A. Fiore,male,February 22 2009,1992,South Africa,Romance
+519,Beth Wiseman,female,February 16 2009,1974,Montenegro,Romance
+520,Rachel Hartman,female,April 22 2010,1973,Belgium,Young Adult$Science Fiction
+521,Brett J. Talley,male,October 2 2011,1995,Tunisia,Horror
+522,Algernon Blackwood,male,June 22 2012,1973,Netherlands,Horror$Short Stories$Fiction
+523,Sylvia Brownrigg,female,July 25 2013,1955,Bissau,Science Fiction
+524,Kelly Keaton,female,February 15 2018,1997,Cuba,Young Adult$Science Fiction
+525,David Seltzer,male,January 24 2015,1968,Afghanistan,Horror$Science Fiction$Fantasy
+526,Ree Drummond,female,April 23 2016,1958,USA,Cooking Food Wine$Romance
+527,James Faro,male,January 27 2016,1975,Algeria,Historical
+528,Henry Gray,male,September 14 2007,1961,America,Science Fiction
+529,Euclid,male,March 7 2011,1994,Jordan,Mathematics
+530,Mazarkis Williams,male,April 18 2009,1959,Philippines,Science Fiction
+531,Gennifer Albin,female,March 11 2009,1989,Sweden,Young Adult
+532,Laurell K. Hamilton,female,March 4 2008,1956,Algeria,Science Fiction
+533,Dan  Allen,male,May 17 2007,1977,Lesotho,Fantasy
+534,Josh McDowell,male,May 4 2014,1963,Brunei,Religion Spirituality
+535,Kerri Maniscalco,female,January 14 2010,1972,Kyrgyzstan,Young Adult
+536,Lisa Gillis,female,July 4 2012,1999,Serbia,Contemporary
+537,David Nicholls,male,September 21 2011,1991,Singapore,Fiction
+538,James Frey,male,June 9 2019,1993,Paraguay,Biographies Memoirs$Science Fiction
+539,Amy Plum,female,April 9 2008,1975,Nauru,Young Adult
+540,Cait Jarrod,male,November 1 2008,1987,Ecuador,Romance
+541,C.S. Harris,female,December 8 2018,1957,Switzerland,Thriller$Historical
+542,Daniel Clowes,male,March 8 2012,1962,Kuwait,Comics Graphic Novels
+543,Yvonne Ventresca,female,May 20 2016,1971,Czech,Young Adult
+544,Patricia H. Graham,female,July 1 2015,1983,Luxembourg,Fiction
+545,Blaize Clement,female,August 16 2007,1986,Nauru,Thriller
+546,Sophie Jordan,female,July 5 2008,1990,Argentina,Romance$Young Adult
+547,Chelsea Fine,male,December 8 2009,1977,Moldova,New Adult
+548,Susan Fanetti,female,August 4 2011,1962,Belize,Romance
+549,Ruth Prawer Jhabvala,female,February 2 2015,1975,Ethiopia,Fiction$History$Entertainment
+550,Gordon B. Hinckley,male,December 4 2008,1965,Denmark,Religion Spirituality
+551,Timothy Egan,male,August 13 2011,1985,Romania,History
+552,Belinda Burke,male,July 23 2012,1952,Israel,Fantasy$Romance
+553,John Berendt,male,April 3 2008,1955,Malawi,Fiction
+554,Joan He,female,January 4 2019,1967,Germany,Young Adult
+555,Jill Thompson,female,April 14 2015,1961,Kosovo,Comics Graphic Novels$Children S Books
+556,Karen      Rose,female,May 24 2008,1962,India,Suspense
+557,M.T. Vasudevan Nair,male,August 21 2008,1980,Peru,Science Fiction$Children S$Fiction
+558,Robert Wright,male,February 24 2009,1985,Antigua,Nonfiction$Science Fiction
+559,Julietta Suzuki,female,March 1 2018,1952,Nauru,Manga
+560,Patti Smith,female,November 3 2015,1954,Suriname,Poetry$Memoir
+561,Lisa Renee Jones,female,April 13 2008,1957,Bahamas,Romance
+562,Melissa Perea,male,August 14 2008,1957,Burkina,Young Adult
+563,Al Franken,male,May 13 2008,1988,Kenya,Nonfiction
+564,Khalid Muhammad,male,February 28 2015,1986,Gabon,Thriller
+565,Angel Sefer,female,March 6 2007,1964,Antigua,Mystery
+566,Kasia James,male,January 21 2010,1984,Ecuador,Science Fiction$Short Stories
+567,Jack Brighton,male,September 25 2007,1979,Djibouti,Gay Lesbian
+568,Isak Dinesen,female,June 15 2008,1967,Hungary,Science Fiction$Memoir
+569,J.A. Saare,female,May 16 2013,1972,Bangladesh,Horror
+570,John Fowles,male,April 27 2016,1993,Tajikistan,Fiction
+571,Mary Ting,female,September 2 2010,1997,Norway,Young Adult
+572,Anna Lee Waldo,female,April 2 2011,1967,Guinea,Historical
+573,Samantha Shannon,male,May 16 2018,1984,Mauritius,Science Fiction
+574,Ellen Oh,male,January 4 2014,1962,Botswana,Young Adult
+575,Keith Ferrazzi,male,December 11 2011,1952,Gabon,Business
+576,Paul Kalanithi,male,September 26 2007,1987,Belarus,Fiction$Memoir
+577,Masara Minase,male,June 1 2011,1986,Costa Rica,Manga$Bl$Yaoi
+578,Tijan,male,November 22 2016,1952,South Africa,Science Fiction
+579,Mario Puzo,male,May 20 2009,1997,India,Fiction$Classics
+580,River Jaymes,male,June 28 2010,1993,Burkina,Gay And Lesbian
+581,Malcolm X,male,March 22 2015,1968,Rwanda,Nonfiction$Biographies Memoirs
+582,Toni Mount,male,July 7 2008,1961,Belarus,History
+583,Emily Albright,female,December 7 2019,1983,Liberia,Young Adult
+584,Ania Ahlborn,female,December 12 2013,1951,Ghana,Horror
+585,Kelly deVos,female,April 21 2010,1964,Brazil,Young Adult
+586,Robert Sobel,male,March 11 2009,1983,Netherlands,Business$History$Science Fiction
+587,Jill Shalvis,female,May 4 2008,1977,Guinea,Romance
+588,Aubrey Rose,female,May 17 2014,1996,Panama,Romance
+589,Jessica Sorensen,female,October 15 2012,1953,Honduras,Young Adult
+590,Arnold Lobel,male,January 28 2010,1978,Bahrain,Children S Books
+591,David K. Saunders,male,July 9 2010,1969,Georgia,History$Historical
+592,Al Gore,male,August 3 2011,1956,Burma,Fiction
+593,Earlene Fowler,female,June 17 2019,1993,Ghana,Thriller
+594,Jenny  Martin,female,August 19 2011,1959,Portugal,Young Adult
+595,Tony Kushner,male,September 3 2009,1966,Japan,Fiction
+596,Jennifer Salvato Doktorski,female,December 1 2015,1985,El Salvador,Young Adult
+597,Amy Sohn,female,December 20 2010,1960,Bangladesh,Fiction
+598,Mindee Arnett,male,March 7 2014,1969,Cameroon,Young Adult
+599,Tessa Bailey,male,April 8 2018,1992,Turkmenistan,Romance
+600,Janette Rallison,female,September 21 2019,1951,Welsh,Romance
+601,T.E. Carter,female,July 23 2015,1973,Georgia,Contemporary
+602,Shelly Crane,female,February 26 2014,1981,Vanuatu,Young Adult
+603,Natasha Madison,female,February 18 2018,1955,Burundi,Romance
+604,Lily  White,female,April 18 2009,1962,Samoa,Science Fiction
+605,Heidi R. Kling,female,August 21 2011,1961,Iceland,Science Fiction$Thriller
+606,Steve Kluger,male,November 5 2015,1960,Ecuador,Fiction$Gay Lesbian
+607,Katherine Paterson,female,July 2 2017,1988,Chile,Children S Books
+608,Joel T. McGrath,male,October 9 2011,1980,Tunisia,Children S Books$Young Adult
+609,Zachary Karabell,male,March 23 2009,1961,Liechtenstein,History
+610,Kirsty Moseley,male,February 17 2015,1958,Mexico,Young Adult
+611,Serena Yates,male,July 9 2018,1993,San Marino,Gay
+612,Louise L. Hay,female,October 6 2017,1992,Herzegovina,Religion Spirituality$Women Gender Studies
+613,Moïra Fowley-Doyle,female,February 18 2009,1987,Wales,Young Adult
+614,Steven Wolff,male,February 23 2012,1994,Kenya,Paranormal
+615,Heather Burch,male,September 1 2012,1995,Peru,Contemporary
+616,Jack L. Chalker,male,December 22 2010,1963,Sao Tome,Science Fiction
+617,Ruth  Silver,female,June 15 2013,1993,Lithuania,Young Adult
+618,Jana Oliver,female,February 13 2007,1975,Nigeria,Young Adult
+619,Bee Wilson,female,July 9 2016,1999,Armenia,Fiction$History
+620,J. Bartell,male,February 27 2010,1983,Russia,Memoir
+621,Durgesh Satpathy,male,July 10 2007,1971,Swaziland,Self Help
+622,Robert Munsch,male,December 21 2011,1971,Libya,Children S
+623,Seth Godin,male,September 14 2017,1967,Cyprus,Business
+624,Jeff Somers,male,September 23 2007,1986,Burundi,Fantasy
+625,Chad Harbach,male,March 15 2016,1986,Mauritius,Fiction
+626,A.J.  Walters,female,November 3 2015,1981,Kenya,Contemporary
+627,Adam Lewis Walker,male,December 27 2012,1957,Maldives,Fiction
+628,Yasunari Kawabata,male,December 23 2018,1983,Cape Verde,Fiction$Short Stories
+629,Jessica  Keller,female,April 26 2013,1964,Belgium,Romance
+630,Simone Elkeles,female,August 3 2012,1992,St Lucia,Young Adult
+631,Nancy Werlin,male,November 21 2017,1953,Honduras,Fiction$Thriller
+632,James Joyce,male,May 18 2018,1972,Liechtenstein,Science Fiction$Poetry
+633,Ellie R. Hunter,female,February 1 2012,1998,Algeria,Romance
+634,Beth Williamson,female,April 6 2013,1990,Tonga,Romance
+635,Patrick Lencioni,male,August 1 2015,1962,Sierra Leone,Business
+636,Laura Miller,female,November 2 2016,1975,Zambia,Science Fiction
+637,S.M. Reine,male,January 21 2011,1966,Russia,Science Fiction
+638,Claudia Gabel,male,July 8 2018,1996,Latvia,Young Adult$Fantasy
+639,John William Polidori,male,October 16 2017,1996,Russia,Fiction$Horror
+640,Amy Spalding,female,October 20 2007,1965,Sudan,Young Adult
+641,Jenna Jameson,female,July 2 2011,1995,Brunei,Biographies Memoirs
+642,Clare Harvey,male,August 22 2017,1986,Mali,Historical
+643,Norton Juster,male,January 11 2019,1964,Yemen,Children S Books
+644,Julie Campbell,female,May 26 2018,1972,Lesotho,Thriller$Young Adult
+645,Laurie Faria Stolarz,female,November 18 2008,1985,Luxembourg,Romance
+646,Jorie Graham,female,April 26 2008,1953,Tanzania,Poetry
+647,David        Cook,male,November 5 2011,1999,Wales,Historical
+648,Michelle Modesto,female,April 15 2011,1966,Botswana,Young Adult
+649,L.M. Montgomery,female,December 19 2016,1971,Samoa,Children S Books$Fiction
+650,Luther Blissett,male,November 21 2014,1993,Belize,Fiction$Historical
+651,Lenora Bell,female,July 7 2019,1983,Nepal,Romance
+652,Stephen Hawking,male,April 13 2014,1956,France,Science Fiction$Fiction
+653,Christopher Paul Curtis,male,December 1 2011,1985,Swaziland,Children S Books
+654,Melvin Burgess,male,May 22 2007,1983,Maldives,Fiction$Children S Books
+655,Ruby Dixon,female,February 3 2016,1972,Austria,Romance$Science Fiction
+656,Victor LaValle,male,November 7 2017,1972,Slovenia,Fiction
+657,Samantha Towle,female,November 19 2019,1980,Morocco,Romance
+658,Sona Charaipotra,female,February 1 2008,1979,Kuwait,Young Adult
+659,Joe Craig,male,May 27 2015,1969,Sao Tome,Children S
+660,J.L. Merrow,female,December 26 2017,1987,Liechtenstein,Gay Lesbian
+661,Kimberly Kincaid,female,May 20 2014,1978,St Kitts,Contemporary
+662,Sharon Lee,female,July 16 2016,1977,Bulgaria,Science Fiction$Thriller
+663,Georgette Heyer,female,August 3 2011,1989,Bahamas,Romance$Historical$Thriller
+664,Sara Gruen,female,June 27 2017,1973,Kosovo,Historical
+665,Cynthia  Wright,female,December 22 2008,1997,Turkmenistan,Historical
+666,Peter Robinson,male,March 17 2016,1982,New Zealand,Thriller
+667,Tessa Dare,female,October 28 2009,1968,Mauritania,Romance
+668,Stacey  Lee,female,August 16 2017,1964,Afghanistan,Young Adult
+669,AdriAnne Strickland,female,January 15 2018,1984,USA,Young Adult
+670,Leonie Swann,male,January 27 2010,1976,Costa Rica,Mystery
+671,Kristen Ashley,female,November 17 2010,1985,Solomon,Romance$Humor
+672,Jacob Z. Flores,male,August 7 2012,1978,Djibouti,Gay And Lesbian
+673,Robert Fisk,male,July 9 2014,1978,Guyana,Nonfiction
+674,D.B. Reynolds,male,September 13 2008,1991,Antigua,Paranormal$Romance
+675,J.R. Rain,male,July 26 2008,1972,Vanuatu,Paranormal
+676,Maryrose Wood,male,February 23 2009,1956,Sudan,Children S
+677,Jonathan Safran Foer,male,April 7 2009,1986,Austria,Science Fiction
+678,Martina Riemer,male,December 28 2018,1999,Comoros,Romance
+679,Mark Shearman,male,January 19 2013,1959,Serbia,Science Fiction
+680,Katherine Arden,female,November 9 2010,1981,Antigua,Fantasy
+681,Savannah Brown,female,May 8 2017,1992,Jordan,Young Adult
+682,Elizabeth Haynes,female,December 13 2008,1986,Honduras,Fiction$Mystery
+683,Sophie Hannah,female,February 20 2016,1978,Slovakia,Crime
+684,Caleb Carr,male,January 27 2008,1983,Israel,Science Fiction$Nonfiction
+685,Madhur Jaffrey,female,June 25 2014,1951,Kosovo,Cooking Food Wine$Biographies Memoirs
+686,Danika Dinsmore,female,June 11 2017,1964,Burkina,Young Adult
+687,Hunter S. Thompson,male,October 3 2011,1984,Bahrain,Nonfiction$Entertainment$Gonzo Journalism
+688,Lisa Desrochers,female,July 15 2018,1996,British,New Adult
+689,Mary Wollstonecraft Shelley,female,August 15 2018,1995,Sweden,Fiction$Horror$Science Fiction
+690,Katie Kacvinsky,male,July 1 2007,1978,Morocco,Young Adult
+691,Quinn Loftis,female,December 19 2017,1964,Vatican,Romance
+692,Emery Lord,male,January 20 2015,1962,Bahrain,Young Adult$Contemporary
+693,Julia Karr,male,September 25 2012,1971,Slovakia,Young Adult$Science Fiction
+694,Kate  McIntyre,female,September 20 2010,1979,St Kitts,Fantasy
+695,Allison Pataki,male,March 13 2018,1988,Germany,Historical
+696,Wendy Owens,female,March 7 2014,1976,Cyprus,Romance
+697,Paul Andrulis,male,February 24 2009,1958,Paraguay,Action Adventure
+698,Sherry Gammon,female,June 4 2013,1990,India,Young Adult
+699,Sam Kean,male,September 11 2016,1960,Barbados,Nonfiction$Science Fiction
+700,P.B. Kerr,male,July 12 2017,1959,Chad,Children S Books$Science Fiction
+701,Lisa Napoli,female,November 6 2009,1996,Jordan,Memoir
+702,Gary R. Henry,male,February 19 2016,1970,Welsh,Fantasy
+703,Louise Rennison,male,January 7 2012,1965,Vietnam,Young Adult$Fiction
+704,D.H. Starr,male,August 25 2019,1989,Czech,Gay Lesbian$Science Fiction
+705,Jussi Adler-Olsen,male,April 24 2016,1961,Emirate,Thriller
+706,Miralee Ferrell,female,November 27 2008,1999,America,Historical
+707,Rebecca Schaeffer,female,March 14 2014,1988,Great Britain,Fantasy
+708,Masamune Shirow,male,April 3 2018,1961,Belize,Manga$Science Fiction
+709,Alexis  Hall,male,November 26 2008,1999,Togo,Gay And Lesbian
+710,Julia Justiss,female,August 26 2012,1965,Central African Republic,Romance
+711,Nancy Thayer,female,November 2 2016,1964,Nigeria,Fiction$Women Gender Studies
+712,Reed Farrel Coleman,male,March 10 2013,1954,Chad,Thriller
+713,Siri Mitchell,female,May 19 2018,1964,Solomon,Christian Fiction
+714,Katsuhiro Otomo,male,May 14 2008,1984,Ecuador,Comics Graphic Novels
+715,Andy McDermott,male,November 11 2009,1989,Greece,Thriller
+716,Karin Fossum,female,August 11 2016,1953,Kosovo,Thriller
+717,Sei Shōnagon,male,November 14 2009,1997,Israel,Poetry$Short Stories
+718,Julia Donaldson,male,October 4 2011,1999,Peru,Children S Books
+719,Erin Nicholas,female,October 10 2014,1989,Australia,Romance
+720,Ginny Bryce,male,December 28 2007,1959,Vietnam,Historical
+721,Tom   Reynolds,male,April 4 2015,1979,Japan,Young Adult
+722,John Shelton Jones,male,October 8 2013,1967,Chile,Fiction
+723,Rachael Slate,female,March 21 2015,1951,Indonesia,Romance
+724,Farahad Zama,male,December 1 2016,1986,Canada,Fiction
+725,Sandra Brown,female,December 16 2010,1950,Chad,Thriller
+726,Stephanie Rowe,female,November 4 2007,1956,Ireland,Romance
+727,Ronie Kendig,female,April 26 2009,1997,Panama,Christian Fiction
+728,Claire Legrand,female,November 17 2015,1956,Algeria,Science Fiction
+729,L.B. Simmons,female,May 25 2017,1982,Indonesia,Chick Lit
+730,J. Sheridan Le Fanu,male,January 13 2011,1991,Sudan,Fiction$Horror$Short Stories
+731,Andrea Hirata,male,June 28 2017,1966,Senegal,Fiction
+732,Tanya Holmes,male,July 24 2017,1965,Yemen,Romance$Paranormal
+733,W.J. Lundy,male,June 3 2008,1966,Argentina,Horror$Science Fiction
+734,W. Bruce Cameron,female,February 15 2014,1979,Belgium,Fiction$Humor
+735,John Keegan,male,May 1 2012,1982,Rwanda,History$Biographies Memoirs
+736,Stephanie Bond,female,September 8 2016,1959,Guatemala,Romance
+737,Kristin D. Van Risseghem,female,October 18 2017,1980,South Africa,Fantasy
+738,Kate Elliott,female,August 6 2007,1976,Sweden,Science Fiction
+739,Dan Ariely,male,September 12 2019,1953,Welsh,Science
+740,Eleanor Estes,female,January 7 2019,1962,Switzerland,Children S Books
+741,Samantha Schutz,male,July 25 2012,1953,Madagascar,Young Adult$Biographies Memoirs
+742,Jake Malden,male,May 22 2008,1952,Tuvalu,Ebooks$Romance
+743,Bec Botefuhr,male,January 8 2015,1987,Djibouti,Science Fiction
+744,Victor J. Banis,male,December 28 2014,1983,France,Gay Lesbian
+745,Jodi Thomas,male,May 18 2011,1964,Moldova,Historical$Romance
+746,Anthony Doerr,male,February 11 2016,1954,Vanuatu,Fiction$Nonfiction
+747,K.C. Neal,female,November 21 2011,1982,Bahrain,Young Adult
+748,Lauren Weisberger,female,April 16 2015,1986,Japan,Fiction
+749,D.L. Bogdan,male,October 15 2010,1978,Marshall,Historical
+750,Kelly Favor,female,September 24 2012,1953,Philippines,Romance
+751,Tammara Webber,male,September 10 2018,1958,Sweden,Romance
+752,Elizabeth Gilbert,female,October 18 2011,1953,Eritrea,Memoir
+753,Lorraine Heath,female,December 18 2013,1973,Wales,Romance
+754,Suzanne Collins,female,March 23 2016,1950,Marshall,Science Fiction$Science Fiction
+755,Robert Rite,male,May 2 2012,1990,Mozambique,Religion
+756,Sakurako Gokurakuin,female,September 12 2008,1973,San Marino,Manga$Yaoi
+757,K.I. Lynn,female,April 1 2019,1995,Malawi,Romance
+758,Shane K.P. O'Neill,male,May 6 2016,1977,Bulgaria,Horror
+759,Dava Sobel,female,December 22 2014,1975,Latvia,Nonfiction$History
+760,Mario  Giordano,male,August 18 2008,1982,Tuvalu,Thriller
+761,Alan Walsh,male,March 8 2008,1976,Germany,Science Fiction
+762,Shannon Hale,male,August 28 2014,1998,New Zealand,Young Adult$Fiction
+763,Susan Meissner,female,May 12 2019,1982,Iraq,Fiction
+764,James Daugherty,male,October 1 2013,1966,Cameroon,Children S$Historical
+765,S.R. Watson,female,August 22 2015,1977,Portugal,Romance
+766,William  Boyd,male,February 13 2012,1984,Guinea,Fiction
+767,Marie Kondō,male,April 22 2019,1978,Brunei,Self Help$Fiction
+768,Jet Mykles,male,November 28 2010,1989,Suriname,Romance
+769,Sara Walsh,male,November 18 2015,1972,Botswana,Science Fiction
+770,Elizabeth Gray Vining,female,March 18 2016,1982,Estonia,Children S Books$Nonfiction
+771,Azar Nafisi,male,January 1 2017,1956,Angola,Nonfiction
+772,Lesley Livingston,male,October 26 2017,1959,Bosnia,Young Adult$Science Fiction$Historical
+773,L.L. Collins,female,May 23 2019,1984,Poland,Science Fiction
+774,Erasmus,male,June 26 2009,1992,Liberia,Catholicism$Philosophy
+775,Jennifer Probst,female,February 8 2014,1950,Marshall,Romance
+776,Bernice Rubens,female,January 3 2011,1973,Bosnia,Fiction
+777,Daniel Abraham,male,April 27 2015,1980,Kiribati,Fantasy$Science Fiction
+778,Christopher Scotton,male,October 19 2019,1984,Ukraine,Science Fiction
+779,Angie Sage,female,November 8 2015,1982,Guinea,Young Adult
+780,Annabel Joseph,female,January 13 2018,1996,Zambia,Romance
+781,Anne O'Gleadra,female,November 7 2014,1955,Scottish,Gay And Lesbian$Science Fiction
+782,Maya Banks,female,June 2 2008,1976,San Marino,Romance
+783,Missouri Dalton,female,November 17 2015,1977,Emirate,Science Fiction
+784,Nicholas Monsarrat,male,January 13 2011,1979,Vatican,Fiction$Biography
+785,Philippa Gregory,female,November 14 2019,1992,Iceland,Fiction
+786,Per Petterson,male,August 1 2013,1974,Argentina,Fiction
+787,Peter Cameron,male,January 1 2009,1992,Latvia,Fiction
+788,Karen Russell,female,April 17 2009,1984,Tanzania,Fiction$Short Stories$Humor
+789,Erin A. Craig,female,October 4 2014,1994,Bahamas,Young Adult
+790,Lloyd C. Douglas,male,June 19 2011,1963,El Salvador,Fiction$Religion Spirituality$Historical
+791,Ava Lore,female,March 13 2015,1970,Tunisia,Ebooks
+792,Lynda Chance,male,April 18 2015,1995,Nauru,Romance$Erotica
+793,Sara Poole,female,November 17 2019,1986,Belize,Historical
+794,C.J. Ellisson,female,May 5 2012,1954,Moldova,Fantasy$Thriller
+795,Linda Kage,female,August 25 2014,1998,Sudan,Romance
+796,Gloria Naylor,female,May 22 2016,1976,Kosovo,Fiction
+797,Emma   Louise,male,October 23 2008,1953,Scottish,Romance$Chick Lit
+798,Sarah Dessen,male,September 26 2014,1974,Namibia,Fiction
+799,Holy Ghost Writer,male,December 26 2007,1997,Bissau,Mystery
+800,Patrick J. Buchanan,male,November 3 2011,1992,Indonesia,Politics$History
+801,Sarah Ahiers,male,July 15 2010,1972,England,Young Adult$Fantasy
+802,Laurie Lee,male,December 12 2017,1971,Laos,Biographies Memoirs$Poetry$Fiction
+803,Young-Ha Kim,male,September 13 2014,1987,Norway,Science Fiction$Contemporary
+804,Rene Folsom,female,January 20 2017,1988,Andorra,Romance$Paranormal
+805,Koethi Zan,female,November 18 2013,1983,Burundi,Crime
+806,J.A. London,female,September 18 2016,1966,Lebanon,Young Adult
+807,Sean Hayden,male,March 15 2008,1951,Trinidad,Horror$Science Fiction
+808,Sandrine Gasq-Dion,male,August 2 2011,1953,Chile,Romance
+809,Jay Crownover,female,January 22 2019,1995,Italy,Romance
+810,Susan Sofayov,male,August 19 2013,1978,Argentina,Contemporary
+811,Ellen Wittlinger,female,May 3 2014,1963,Taiwan,Young Adult
+812,Zadie Smith,female,April 18 2013,1962,Niger,Science Fiction$Essays
+813,Shannon Delany,female,July 13 2019,1950,Cameroon,Young Adult
+814,Stephanie Perkins,male,July 6 2014,1965,Korea,Young Adult
+815,Eugene B. Sledge,male,October 28 2016,1962,New Zealand,Nonfiction$History$Biography
+816,Victoria Dougherty,female,August 16 2019,1954,Solomon,Thriller
+817,John Simpson,male,February 21 2014,1985,Nicaragua,Gay Lesbian$Romance
+818,Wendy Higgins,female,June 21 2013,1951,Suriname,Young Adult
+819,Lloyd Alexander,male,May 7 2010,1958,Kazakhstan,Children S$Science Fiction
+820,Summer Devon,female,May 18 2017,1960,Norway,Romance
+821,James Hogg,male,November 7 2009,1965,Austria,Historical$Poetry$Short Stories
+822,Lisa Mantchev,female,July 10 2014,1959,Togo,Young Adult
+823,Miriam Forster,female,May 11 2010,1976,Botswana,Young Adult
+824,Beth Flynn,female,August 9 2019,1989,Congo,Romance
+825,John Grisham,male,April 6 2013,1991,USA,Thriller
+826,Allyson Lindt,female,June 20 2007,1975,Thailand,Romance
+827,Mark Z. Danielewski,male,May 4 2012,1968,St Lucia,Fiction$Thriller
+828,John A.   Saunders,male,December 27 2018,1973,Chile,Mystery
+829,Nicole  Castle,female,September 24 2017,1970,New Zealand,Romance$Gay And Lesbian
+830,Hiromu Arakawa,female,April 25 2015,1962,Tunisia,Manga$Fantasy$Contemporary
+831,Isabel Allende,female,March 16 2009,1972,Argentina,Fiction$Biographies Memoirs
+832,Andrew  Smith,male,August 28 2012,1975,Gambia,Young Adult
+833,Z.A. Maxfield,male,December 26 2015,1977,Bhutan,Gay And Lesbian$Romance
+834,Margaret Mallory,female,May 3 2007,1964,Iceland,Romance
+835,Suzanne Wright,female,June 9 2016,1962,Portugal,Romance
+836,Chris Weitz,male,November 24 2009,1968,Mongolia,Young Adult
+837,Kate L. Mary,male,March 14 2012,1967,Malaysia,Science Fiction
+838,Michelle K. Pickett,female,October 10 2012,1954,Moldova,Young Adult
+839,Adrian Mendoza,male,November 5 2018,1994,Belarus,Science Fiction
+840,Greta Burroughs,female,August 22 2017,1982,Armenia,Young Adult
+841,Janet Chapman,female,August 23 2012,1995,Indonesia,Romance$Fantasy
+842,Cora Carmack,female,November 8 2013,1973,Uzbekistan,Romance
+843,Michael  Barnett,male,February 27 2013,1993,Nepal,Fiction
+844,Gary D. Schmidt,male,February 28 2017,1972,Belgium,Children S Books$Fiction
+845,Michael James Gallagher,male,September 12 2014,1950,United Kingdom,Science Fiction
+846,Patrick Ness,male,May 19 2009,1960,East Timor,Young Adult
+847,Winston Graham,male,August 11 2013,1976,Holland,Fiction
+848,Amy A. Bartol,female,March 26 2017,1985,Tobago,Romance
+849,Betsy Cornwell,female,March 4 2009,1967,Zimbabwe,Fiction
+850,James L. Rubart,male,April 26 2009,1957,France,Contemporary
+851,John Green,male,November 5 2012,1962,San Marino,Fiction
+852,Tiffany Clare,female,March 2 2008,1984,Cuba,Romance
+853,Christopher  Rice,male,December 22 2016,1972,Guinea,Thriller
+854,Polly Horvath,female,September 27 2019,1958,Mauritius,Children S Books
+855,Mary Karr,female,August 6 2014,1995,Malawi,Poetry$Biographies Memoirs
+856,Brad Meltzer,male,May 10 2015,1971,Korea,Thriller
+857,Martin Adil-Smith,male,June 20 2016,1988,Mozambique,Fantasy
+858,Gina L. Maxwell,female,February 24 2007,1967,Great Britain,Romance
+859,Danielle   Davis,male,October 25 2018,1970,Belize,Children S
+860,Chris Cleave,male,January 25 2016,1962,Bahamas,Fiction
+861,Nancy S.  Thompson,female,May 18 2017,1954,Welsh,Thriller
+862,Laurie Notaro,male,November 19 2010,1998,Hungary,Nonfiction$Biographies Memoirs
+863,Jerome K. Jerome,male,December 26 2009,1976,British,Humor
+864,Tarian P.S.,male,May 10 2014,1987,Indonesia,Science Fiction
+865,Olivia Cunning,female,June 17 2012,1981,Cuba,Romance
+866,Julie Ann Walker,female,May 21 2010,1957,Barbados,Romance
+867,Jennifer E. Smith,female,September 21 2009,1963,Denmark,Young Adult
+868,E.L. Konigsburg,female,March 2 2013,1970,Guyana,Children S Books
+869,Thomas Mullen,male,January 21 2015,1992,Tuvalu,Fiction$Historical
+870,Kaitlyn Oruska,male,July 3 2017,1951,Laos,Science Fiction$Thriller
+871,Julien Jamar,female,October 2 2014,1992,Angola,Fantasy
+872,Jenn Reese,male,October 21 2012,1997,Syria,Science Fiction$Children S
+873,Emily Brightwell,female,February 24 2008,1974,Canada,Mystery$Historical
+874,Leonard Mlodinow,male,December 25 2019,1959,Cameroon,Science Fiction$Children S
+875,Mary Doria Russell,female,April 3 2013,1967,Saudi Arabia,Science Fiction$Fiction
+876,Joanna Bourne,female,May 16 2019,1990,Moldova,Romance$Historical
+877,Cornelia Funke,female,April 17 2014,1956,Chile,Science Fiction
+878,Ernst Jünger,male,January 26 2011,1968,Sierra Leone,Fiction$Memoir
+879,Robert Charles Wilson,male,January 24 2013,1952,Uganda,Science Fiction
+880,M. Pierce,male,December 14 2010,1997,Chad,Romance
+881,Martin Waddell,male,October 2 2010,1973,Kyrgyzstan,Children S
+882,Nic Schuck,male,February 25 2009,1980,Ireland,Science Fiction$Travel
+883,Dusti Bowling,female,April 14 2019,1950,Lithuania,Children S$Young Adult
+884,K.A. Tucker,female,April 22 2019,1971,Georgia,Romance
+885,Anthony Burgess,male,July 12 2013,1997,Belize,Nonfiction$Fiction
+886,Jocelyn Davies,female,September 23 2016,1966,Syria,Young Adult
+887,Abraham   Verghese,male,April 2 2014,1960,Slovakia,Fiction
+888,George Lucas,male,August 25 2015,1956,St Kitts,Fantasy$Adventure$Science Fiction
+889,Julie   Johnson,female,August 9 2015,1956,Brunei,Romance
+890,Maki Minami,female,May 22 2011,1955,Brazil,Comics Graphic Novels
+891,Sarah Glenn Marsh,female,September 23 2011,1989,Barbados,Young Adult
+892,Robert K. Ressler,male,January 11 2016,1952,Angola,Fiction$Psychology$Crime
+893,David Gilbert,male,July 24 2009,1959,Malta,Contemporary
+894,John M. McIlveen,male,February 21 2013,1995,Portugal,Science Fiction
+895,Toni Blake,female,September 16 2010,1954,Nigeria,Romance
+896,Kate A. Boorman,male,April 21 2015,1973,Tuvalu,Young Adult$Fantasy
+897,Kid Boise,male,May 12 2008,1971,Oman,Science Fiction
+898,Sarah M. Ross,female,June 10 2019,1973,Taiwan,Young Adult
+899,Matthew Plourde,male,October 9 2011,1996,England,Science Fiction
+900,J.L. Paul,male,March 20 2018,1997,Panama,Romance$Young Adult
+901,LeighAnn Kopans,female,May 3 2009,1957,Uruguay,Young Adult
+902,Ava March,female,July 27 2017,1967,Moldova,Romance
+903,Aly Martinez,female,July 23 2014,1967,Japan,Contemporary$Romance
+904,Melina Marchetta,female,January 10 2018,1952,Mexico,Fiction$Science Fiction
+905,Maj Sjöwall,male,February 1 2008,1967,Liechtenstein,Thriller
+906,Emlyn Chand,male,June 4 2015,1979,Slovenia,Romance
+907,Danielle Vega,male,November 15 2007,1978,Russia,Horror
+908,Dorothy L. Sayers,female,February 7 2007,1966,Pakistan,Mystery$Poetry
+909,Church of England,male,August 8 2017,1984,San Marino,Religion
+910,Hilary Mantel,female,May 5 2011,1998,Cameroon,Fiction$Historical
+911,Chuck Klosterman,male,November 24 2007,1952,Luxembourg,Nonfiction
+912,Jhumpa Lahiri,female,April 12 2015,1966,Bulgaria,Fiction
+913,Louis Sachar,male,November 9 2019,1976,Cyprus,Children S Books$Fiction
+914,Ann Hite,female,January 16 2019,1973,Bosnia,Fiction$Historical
+915,Alison Bechdel,female,October 10 2015,1973,Cuba,Comics Graphic Novels
+916,Jane Smiley,female,December 26 2008,1954,Jamaica,Fiction$Short Stories
+917,Italo Calvino,male,November 16 2018,1962,Algeria,Fiction$Biographies Memoirs
+918,M.J. Haag,female,May 7 2011,1959,Bangladesh,Fantasy
+919,Nancy Farmer,female,July 18 2016,1957,Holland,Science Fiction$Young Adult
+920,Jodi Meadows,male,November 20 2017,1964,Scottish,Young Adult$Science Fiction
+921,Paige P. Horne,female,September 13 2018,1950,Iraq,Contemporary
+922,Laura Lane McNeal,female,April 4 2015,1996,Grenadines,Science Fiction
+923,Shannon A. Thompson,female,October 11 2016,1995,Switzerland,Young Adult
+924,Margaret Hodges,female,August 4 2010,1992,Mali,Children S
+925,A.A. Milne,male,July 25 2009,1992,Ethiopia,Children S Books$Poetry$Fiction
+926,Margaret Mitchell,female,January 11 2007,1971,Singapore,Romance$History$Science Fiction
+927,Jenna Black,female,December 28 2016,1987,Somalia,Science Fiction
+928,Eric    Weiner,male,December 26 2018,1986,Togo,Travel
+929,Gene Zion,male,February 1 2016,1951,St Kitts,Children S Books
+930,Jon Messenger,male,September 13 2014,1960,Suriname,Science Fiction
+931,Lyndsay Ely,male,June 26 2012,1952,Azerbaijan,Young Adult
+932,Jonathan Evison,male,December 27 2015,1987,Panama,Fiction
+933,Erin Morgenstern,female,January 2 2015,1980,Sierra Leone,Fiction
+934,Jennifer Ashley,female,October 14 2008,1995,India,Romance
+935,Marius Gabriel,male,April 23 2008,1980,Palau,Historical
+936,Nina G. Jones,female,November 19 2014,1952,Liberia,Erotica$Mystery
+937,Sinclair Lewis,male,December 2 2014,1979,Burkina,Science Fiction
+938,Richard K. Morgan,male,February 18 2010,1983,Ivory Coast,Science Fiction
+939,Dennis Lehane,male,April 27 2013,1973,Iran,Thriller
+940,Sarah Crossan,female,May 12 2019,1969,Georgia,Fiction
+941,Richard Dreyfuss,male,July 25 2013,1964,Israel,Fiction
+942,Elizabeth Gaskell,female,August 13 2008,1990,Montenegro,Science Fiction$Biography
+943,Tui T. Sutherland,male,June 13 2009,1953,Brazil,Young Adult$Science Fiction
+944,Sharon Cameron,female,January 23 2013,1971,Mali,Historical$Young Adult
+945,Erin McCarthy,female,May 20 2015,1958,Bulgaria,Romance$New Adult
+946,Joyce Shor Johnson,male,October 27 2016,1958,Somalia,Children S
+947,Larry Correia,male,July 9 2014,1951,Barbados,Science Fiction$Horror
+948,Kody Keplinger,male,March 14 2017,1976,Malawi,Young Adult$Romance
+949,J. Fally,female,October 2 2014,1966,Guatemala,Gay And Lesbian$Romance
+950,John Ashbery,male,December 9 2012,1963,Panama,Poetry
+951,Jillian Larkin,female,December 13 2014,1981,Australia,Historical$Young Adult
+952,J.L. Bryan,male,August 14 2017,1951,Trinidad,Horror
+953,Rachel Joyce,female,June 20 2018,1981,Barbados,Fiction
+954,Frances Hodgson Burnett,female,July 8 2011,1995,Trinidad,Children S Books$Fiction
+955,Nick Hornby,male,February 11 2016,1986,Scottish,Fiction$Entertainment
+956,William Hope Hodgson,male,July 23 2016,1993,Sudan,Horror$Fiction$Fantasy
+957,Alexa Snow,female,August 6 2007,1975,Nauru,Gay Lesbian
+958,Francette Phal,female,April 14 2014,1963,Gabon,Contemporary$Romance
+959,Cassie Alexander,female,March 18 2012,1966,Sierra Leone,Paranormal
+960,Harold Robbins,male,February 6 2011,1986,Pakistan,Fiction
+961,Saya Lopez Ortega,male,June 25 2018,1971,Panama,Contemporary
+962,Hannah Hurnard,female,March 8 2009,1970,Papua,Christian Fiction$Religion
+963,Sergio de la Pava,male,August 16 2007,1956,Poland,Fiction
+964,Becca Fitzpatrick,female,February 8 2016,1967,Bahamas,Young Adult
+965,Kate Williams,female,July 24 2013,1970,Bosnia,History$Historical
+966,Yossi Klein Halevi,male,November 4 2017,1983,Morocco,Fiction
+967,Vanessa Waltz,female,October 20 2007,1956,Slovakia,Romance
+968,K.L. Going,female,February 24 2017,1991,Angola,Young Adult
+969,L. Sprague de Camp,male,January 26 2018,1989,Denmark,Science Fiction
+970,Francine Rivers,female,August 8 2008,1959,Peru,Romance
+971,Walter M. Miller Jr.,male,February 7 2018,1951,Kyrgyzstan,Science Fiction
+972,Martine Leavitt,female,April 1 2009,1982,Gabon,Children S Books$Science Fiction
+973,A.N. Roquelaure,male,November 5 2014,1963,Grenadines,Romance
+974,Edward Lee,male,February 24 2011,1969,Zimbabwe,Horror$Fiction
+975,Marissa Ames,female,November 19 2016,1994,Tunisia,Fantasy
+976,Michele Jaffe,male,March 8 2016,1983,Jamaica,Young Adult
+977,Sharon Bala,female,April 19 2018,1983,Lebanon,Science Fiction
+978,Marie Lu,male,November 12 2015,1969,Canada,Young Adult$Science Fiction
+979,Tom Rath,male,October 5 2008,1991,Turkey,Fiction
+980,Dante Alighieri,male,December 4 2012,1971,Jamaica,Poetry$Religion$Philosophy
+981,Samuel Beckett,male,June 13 2012,1980,Pakistan,Fiction$Theatre
+982,Edith Hamilton,female,May 5 2014,1976,Venezuela,Nonfiction
+983,Ella Frank,male,September 1 2015,1976,Paraguay,Romance
+984,Mackenzie Crowne,male,March 15 2011,1964,Cyprus,Romance
+985,Jean M. Auel,female,May 2 2014,1982,Kyrgyzstan,Fiction
+986,Rob Colton,male,July 24 2019,1955,Algeria,Gay And Lesbian
+987,Heather Demetrios,female,October 14 2008,1988,Albania,Young Adult
+988,Albert Cossery,male,February 26 2009,1977,Djibouti,Science Fiction
+989,Lili St. Germain,female,August 20 2016,1975,Canada,Contemporary$Thriller
+990,Fred Gipson,male,January 17 2017,1981,Estonia,Science Fiction$Historical$Classics
+991,J.G. Farrell,male,May 21 2018,1987,Egypt,Historical
+992,The Church of Jesus Christ of Latter-day Saints,male,November 13 2012,1967,Holland,Religion$Christian Fiction
+993,Audrey Carlan,female,June 6 2012,1980,Ireland,Contemporary
+994,Deeanne Gist,female,March 20 2011,1976,Somalia,Historical
+995,Richard Stevenson,male,October 6 2008,1960,Somalia,Thriller$Gay Lesbian
+996,Dahlia West,male,October 2 2007,1950,Kazakhstan,Romance
+997,Adolf Hitler,male,October 19 2018,1952,Mongolia,Biographies Memoirs$Politics$History
+998,Ian McGuire,male,April 4 2019,1976,Luxembourg,Science Fiction$Historical
+999,Margaret George,female,October 21 2007,1982,Turkmenistan,Historical
+1000,Livia Blackburne,female,October 27 2008,1951,Bissau,Young Adult
+1001,Stephen Paul Register,male,December 9 2008,1965,Nauru,Biographies Memoirs
+1002,Clemence McLaren,female,November 21 2019,1972,Panama,Young Adult$Children S
+1003,Rhys Ford,female,October 28 2013,1986,Uruguay,Gay Lesbian
+1004,Sally  Thorne,female,March 17 2009,1954,Germany,Romance
+1005,Brad Boney,male,March 25 2009,1961,Tuvalu,Gay And Lesbian
+1006,Kate Brian,male,December 22 2018,1958,Bahrain,Young Adult
+1007,Willow Winters,female,October 2 2018,1999,Somalia,Romance
+1008,Jennifer Love Hewitt,female,April 23 2008,1965,Bahamas,Comics Graphic Novels$Nonfiction
+1009,Erica Ridley,female,March 17 2014,1966,Serbia,Romance
+1010,Ken Dickson,male,January 6 2011,1998,St Kitts,Memoir$Fiction
+1011,Randy Shilts,male,April 12 2016,1963,Serbia,Nonfiction$Gay Lesbian
+1012,Deborah Diesen,female,April 3 2015,1964,Switzerland,Children S
+1013,Jonathan Stroud,male,July 22 2013,1964,Algeria,Science Fiction
+1014,Mya Robarts,female,December 2 2014,1975,Sierra Leone,Young Adult
+1015,Marshall Thornton,male,March 25 2007,1954,Ecuador,Thriller$Gay Lesbian
+1016,Angie Fox,female,May 6 2014,1954,Gabon,Mystery$Romance
+1017,Marc Brown,male,February 1 2018,1954,Kuwait,Children S
+1018,Ryan Michele,female,October 1 2012,1981,Tonga,Romance
+1019,Angie Thomas,female,April 25 2007,1958,Belize,Young Adult
+1020,Tiffany Truitt,female,November 17 2008,1971,Sweden,Young Adult
+1021,Cassandra Clare,female,April 6 2010,1958,Micronesia,Science Fiction
+1022,Patricia Burroughs,female,May 26 2012,1955,Bhutan,Fantasy
+1023,J.D. Robb,male,December 19 2015,1952,Cuba,Suspense$Science Fiction
+1024,Patricia MacLachlan,female,September 17 2016,1997,Gabon,Children S Books
+1025,Albert Camus,male,March 25 2018,1983,Malta,Science Fiction$Philosophy
+1026,Sara  Humphreys,female,October 15 2015,1950,Canada,Romance
+1027,Daniel Quinn,male,April 11 2007,1991,Australia,Fiction$Nonfiction
+1028,J. Elizabeth Hill,female,August 12 2007,1960,Tunisia,Fantasy
+1029,Anthony Lavisher,male,September 13 2012,1950,Scotland,Science Fiction
+1030,Sandy Williams,female,December 5 2010,1963,Namibia,Science Fiction
+1031,George Selden,male,July 10 2011,1979,Nauru,Children S Books
+1032,Delilah S. Dawson,female,April 13 2017,1990,Chile,Fantasy
+1033,Dianne Sylvan,female,February 17 2016,1951,Solomon,Science Fiction$Religion Spirituality
+1034,Lenore Hart,male,January 16 2016,1995,Herzegovina,Historical$Children S Books
+1035,Sergei Lukyanenko,male,February 16 2012,1995,Egypt,Science Fiction$Fantasy
+1036,W. Chan Kim,male,June 8 2018,1973,Bissau,Nonfiction$Business
+1037,Laura Thalassa,female,June 22 2013,1974,Suriname,Paranormal
+1038,Shay Savage,female,November 27 2010,1977,Cyprus,Science Fiction
+1039,Vanessa A. Ryan,female,March 21 2012,1972,Serbia,Science Fiction$Paranormal
+1040,Jonathan Cahn,male,June 3 2009,1950,Canada,Christian Fiction
+1041,Veronica Roth,female,March 18 2016,1996,Antigua,Young Adult$Science Fiction
+1042,Ian D.G. Sandusky,male,January 5 2007,1999,Cambodia,Horror$Thriller
+1043,K.M. Golland,female,October 14 2013,1971,Montenegro,Romance
+1044,Daisy Goodwin,female,December 24 2015,1975,Guinea,Historical
+1045,Marjorie M. Liu,female,October 9 2013,1998,Gabon,Comic Books
+1046,E.M. Havens,male,March 3 2011,1979,Japan,Fantasy
+1047,Amanda Lance,female,August 21 2014,1974,America,Young Adult
+1048,Rainer Maria Rilke,male,June 24 2012,1951,Liechtenstein,Poetry$Fiction
+1049,David Ebershoff,male,July 5 2009,1984,Mexico,Fiction
+1050,Mishell Baker,male,June 6 2012,1998,Vatican,Fantasy
+1051,Kerrelyn Sparks,female,November 18 2009,1973,Macedonia,Romance
+1052,Paullina Simons,female,January 21 2016,1999,Palau,Historical
+1053,Iain Parke,male,March 13 2018,1971,Bulgaria,Crime
+1054,Leah Thomas,female,August 1 2018,1981,Netherlands,Young Adult$Science Fiction
+1055,Eliezer Yudkowsky,male,March 20 2017,1976,Turkey,Science Fiction
+1056,Carrie Butler,female,October 13 2009,1991,Cameroon,Romance
+1057,Melanie Dickerson,female,April 5 2012,1977,Morocco,Historical
+1058,Lee Child,male,June 19 2018,1983,Guatemala,Fiction
+1059,Mao Zedong,male,August 22 2018,1968,Uzbekistan,Politics$Philosophy$Poetry
+1060,Akira Toriyama,male,April 6 2013,1957,Gambia,Manga$Comics Graphic Novels
+1061,Margaret Stohl,female,January 23 2009,1970,Uruguay,Young Adult
+1062,L.H. Cosway,male,November 26 2010,1995,China,Romance$Fantasy
+1063,Karen  Prince,female,October 23 2018,1983,Croatia,Fiction
+1064,Al Ries,male,May 14 2008,1963,Fiji,Business
+1065,Loretta Lynn,male,September 21 2014,1969,Comoros,Memoir$Music
+1066,Dana Gynther,female,September 23 2018,1964,Hungary,Historical$Fiction
+1067,Jeff VanderMeer,male,August 22 2019,1991,Palau,Fiction$Science Fiction
+1068,Anya Seton,female,March 3 2008,1978,Norway,Fiction
+1069,Paul Van Der Merwe,male,December 22 2008,1951,Liberia,Self Help$Psychology
+1070,Gretchen McNeil,female,December 27 2018,1999,Oman,Young Adult
+1071,Tara Sue Me,female,December 12 2007,1989,Azerbaijan,Romance
+1072,Ariana Franklin,female,July 24 2010,1977,Kosovo,Historical$Thriller
+1073,T. Michael Martin,male,May 13 2019,1988,Vietnam,Young Adult
+1074,Chris     Murray,male,January 11 2007,1982,Cuba,Business
+1075,Laura Elizabeth Woollett,female,May 21 2016,1963,Kuwait,Contemporary$Science Fiction
+1076,Diane Setterfield,female,June 21 2013,1959,Gambia,Science Fiction$Mystery
+1077,Christina Mercer,female,April 7 2016,1963,Lithuania,Young Adult
+1078,Joel Cornah,male,October 21 2016,1951,Romania,Fantasy
+1079,Donna Ball,male,January 27 2008,1967,Welsh,Mystery$Science Fiction
+1080,Elizabeth C. Bunce,male,July 4 2012,1986,America,Science Fiction$Young Adult
+1081,Brandon Sanderson,male,September 2 2007,1970,Mexico,Science Fiction
+1082,Simone de Beauvoir,female,June 11 2011,1972,Finland,Fiction$Nonfiction$Politics
+1083,Jean Anouilh,male,February 24 2009,1968,Japan,Theatre
+1084,Elizabeth Isaacs,female,August 23 2016,1980,Kazakhstan,Romance
+1085,Michael Lowenthal,male,March 10 2013,1988,Scotland,Gay Lesbian$Historical
+1086,Marta Acosta,female,October 5 2017,1985,Liberia,Science Fiction
+1087,David Goodwillie,male,May 5 2007,1955,Ghana,Fiction$Biographies Memoirs
+1088,Jessica Verdi,female,February 12 2012,1987,Poland,Young Adult
+1089,Bernadette Marie,male,June 13 2013,1978,Kenya,Romance
+1090,Steven D. Levitt,male,September 22 2008,1998,Argentina,Nonfiction
+1091,Louisa Luna,female,February 26 2018,1967,Angola,Fiction$Thriller
+1092,Leah Clifford,female,March 8 2014,1953,San Marino,Young Adult
+1093,Alyssa Cole,female,July 7 2016,1958,Gambia,Romance
+1094,M.T. Magee,male,September 2 2009,1950,Belize,Fantasy
+1095,Jasinda Wilder,female,December 8 2012,1995,Jordan,Romance
+1096,Jayne Ann Krentz,female,July 17 2019,1969,Mongolia,Romance
+1097,Charlotte Huang,male,July 19 2009,1966,El Salvador,Young Adult
+1098,Gabrielle Zevin,female,October 4 2009,1992,United States,Fiction
+1099,Mark Walden,male,March 22 2017,1988,Grenadines,Fiction
+1100,Michele Fogal,male,December 27 2013,1958,Mauritius,Romance
+1101,Bel Kaufman,female,July 3 2014,1998,Kenya,Fiction
+1102,Jane Harvey-Berrick,male,June 22 2012,1951,Ivory Coast,Romance$Sports and Games
+1103,Jack Weatherford,male,September 7 2007,1984,Brazil,History$Science
+1104,Dixie Lynn Dwyer,female,February 28 2016,1959,England,Romance
+1105,Sally Hepworth,female,March 24 2017,1964,Zimbabwe,Science Fiction
+1106,Kirby McCauley,male,August 16 2009,1952,Nauru,Editor
+1107,Patricia Bracewell,female,March 11 2014,1973,Scotland,Historical
+1108,Warsan Shire,female,January 23 2008,1989,Macedonia,Poetry
+1109,Chris Crutcher,male,March 18 2014,1956,British,Fiction
+1110,J. Saman,female,July 24 2011,1952,Slovakia,Contemporary
+1111,Melissa Foster,female,February 2 2015,1952,Ghana,Romance$Science Fiction
+1112,R.K. Narayan,male,January 11 2007,1969,Montenegro,Science Fiction$Memoir
+1113,Rhiannon Thomas,female,October 25 2016,1963,Kosovo,Young Adult
+1114,Red Tash,male,May 26 2012,1973,Belarus,Science Fiction
+1115,Harry Harrison,male,November 14 2017,1982,Brunei,Science Fiction$Fantasy
+1116,Karina Halle,female,March 27 2010,1999,Brunei,Romance
+1117,Richard Peck,male,June 26 2007,1952,Eritrea,Children S Books$Fiction$Young Adult
+1118,Joseph Nicolosi,male,September 14 2019,1974,Sweden,Psychology
+1119,Talia Jager,male,March 11 2019,1989,Germany,Young Adult
+1120,Michelle Hodkin,female,August 28 2017,1964,Spain,Young Adult
+1121,Carol S. Dweck,female,June 26 2010,1984,Scotland,Psychology$Health Mind Body
+1122,Mira Grant,female,October 23 2013,1954,Bolivia,Horror
+1123,Harper Lee,female,January 3 2012,1974,Swaziland,Fiction
+1124,Donald Ray Pollock,male,May 3 2016,1996,Luxembourg,Short Stories$Science Fiction
+1125,Thierry Jonquet,male,July 7 2009,1997,Canada,Fiction$Thriller
+1126,Charles Frazier,male,March 10 2014,1984,Colombia,Fiction$Historical
+1127,Malcolm Bradbury,male,September 18 2016,1998,Hungary,Fiction
+1128,Michael R. Fletcher,male,January 8 2015,1983,Liberia,Science Fiction
+1129,William Golding,male,January 15 2018,1969,United States,Fiction
+1130,Kate Constable,female,September 28 2019,1992,Romania,Science Fiction
+1131,Elle Jacklee,male,March 13 2017,1954,Cyprus,Fantasy
+1132,Sienna Mynx,female,September 12 2009,1983,America,Romance
+1133,Andrea  Johnston,female,March 28 2019,1997,Thailand,Contemporary
+1134,Paul Ekman,male,August 15 2008,1972,British,Science Fiction$Nonfiction
+1135,Lance Carbuncle,male,June 14 2008,1985,Guyana,Fiction$Humor
+1136,Carl Sagan,male,December 26 2018,1971,Venezuela,Science Fiction$Nonfiction
+1137,Kaye Dacus,female,May 22 2009,1989,Sweden,Romance
+1138,Gregory Maguire,male,March 18 2008,1961,St Kitts,Science Fiction$Children S Books
+1139,Nina-Marie Gardner,female,December 13 2011,1991,Cape Verde,Fiction
+1140,Katie Hamstead,female,March 11 2018,1993,Dominica,Romance
+1141,Cameron Dane,male,September 10 2015,1961,Afghanistan,Romance$Gay Lesbian
+1142,Wynne Channing,female,September 25 2015,1967,America,Young Adult
+1143,Charles  James,male,June 2 2014,1968,Tanzania,Crime
+1144,Jorge Luis Borges,male,March 25 2011,1989,Haiti,Science Fiction$Short Stories$Poetry
+1145,Siobhan Dowd,female,June 26 2015,1989,Kuwait,Young Adult
+1146,Mary Robinette Kowal,female,September 3 2016,1997,Malaysia,Science Fiction
+1147,Suzanne  Sutherland,male,August 22 2018,1969,Tajikistan,Young Adult
+1148,Dani Alexander,male,December 25 2013,1955,China,Gay Lesbian
+1149,Rex Stout,male,August 22 2007,1960,Portugal,Thriller
+1150,Hubert Selby Jr.,male,April 15 2018,1980,New Zealand,Fiction$Crime
+1151,Thomas J. Stanley,male,July 16 2019,1988,Maldives,Fiction$Business
+1152,Michael Crichton,male,November 6 2007,1968,United Kingdom,Fiction$Science Fiction
+1153,Taylor V. Donovan,male,December 9 2017,1966,Kyrgyzstan,Romance
+1154,James Wright,male,June 15 2019,1965,South Sudan,Poetry
+1155,Yuu Moegi,male,March 13 2018,1958,Sudan,Manga
+1156,Kai Meyer,male,May 16 2017,1999,New Zealand,Children S Books$Young Adult
+1157,Leah Bobet,male,December 19 2018,1955,Congo,Young Adult
+1158,Stuart MacBride,female,February 7 2015,1976,Somalia,Thriller
+1159,Beth Hoffman,female,May 25 2015,1963,Portugal,Fiction
+1160,Thea Harrison,male,September 13 2008,1956,Turkey,Romance$Science Fiction
+1161,Ken Kesey,male,March 3 2014,1998,Uruguay,Fiction
+1162,Connie Suttle,female,October 17 2014,1984,Israel,Science Fiction
+1163,Katie Hayoz,female,April 18 2018,1956,Uruguay,Science Fiction
+1164,Arthur Conan Doyle,male,December 13 2015,1955,Sweden,Science Fiction$Crime
+1165,Megan Shepherd,female,October 18 2011,1974,Gambia,Young Adult
+1166,Nawal El-Saadawi,female,July 25 2010,1978,Croatia,Nonfiction$Women Gender Studies
+1167,Mary  Elizabeth,female,October 28 2010,1973,Burkina,Romance
+1168,Cindy L.  Rodriguez,male,December 11 2013,1990,Laos,Contemporary
+1169,Harlan Coben,male,February 18 2008,1958,Ireland,Mystery
+1170,Ella Dominguez,female,December 8 2014,1993,Angola,Romance
+1171,Annie Seaton,female,May 6 2010,1966,Chile,Contemporary
+1172,Kathleen Peacock,female,July 4 2016,1959,America,Young Adult$Science Fiction$Thriller
+1173,Owen Wister,male,December 18 2008,1955,England,Thriller
+1174,Henning Mankell,male,April 24 2009,1952,Syria,Thriller$Fiction
+1175,Robert K. Massie,male,May 5 2019,1979,Cyprus,History
+1176,Ais,male,March 3 2019,1960,Comoros,Gay Lesbian
+1177,Laramie Briscoe,female,July 10 2007,1962,Paraguay,Romance$Suspense
+1178,Sue Townsend,female,May 16 2017,1974,Belgium,Fiction
+1179,Lisa McMann,female,April 13 2018,1952,Israel,Young Adult
+1180,Adam Carolla,male,September 4 2013,1952,Wales,Humor
+1181,Carol Pavliska,female,October 25 2015,1972,Tonga,Romance
+1182,Laurann Dohner,male,August 6 2010,1977,Bosnia,Romance
+1183,Beth K. Vogt,female,December 20 2010,1983,Samoa,Science Fiction
+1184,Ted Chiang,male,November 5 2019,1973,Comoros,Science Fiction$Science Fiction$Speculative
+1185,John Grogan,male,March 1 2016,1958,Greece,Biographies Memoirs
+1186,Mary Ann Shaffer,female,August 2 2010,1990,St Lucia,Fiction
+1187,Gemma Malley,male,May 23 2007,1976,Armenia,Young Adult
+1188,Cynthia B. Ainsworthe,female,December 4 2018,1977,Peru,Romance
+1189,Christiane F.,female,March 18 2014,1973,Algeria,Biographies Memoirs
+1190,Dale Carnegie,male,November 8 2008,1975,Australia,Nonfiction$Biographies Memoirs
+1191,Arthur C. Clarke,male,September 17 2014,1992,South Africa,Science Fiction$Science Fiction
+1192,J.D. Tyler,female,December 23 2008,1985,Brunei,Romance
+1193,Todd Strasser,male,June 8 2015,1962,Singapore,Young Adult
+1194,Mia James,male,May 7 2015,1986,Scotland,Science Fiction$Young Adult
+1195,John McCain,male,February 14 2011,1969,Malaysia,Biographies Memoirs$Nonfiction
+1196,C.E. Morgan,female,May 7 2012,1979,Nauru,Fiction
+1197,Trudi Canavan,female,August 17 2014,1973,Guyana,Science Fiction
+1198,Colum McCann,male,August 1 2016,1980,East Timor,Fiction$Biographies Memoirs
+1199,Karen Healey,male,April 17 2014,1972,Kyrgyzstan,Young Adult
+1200,Idir Aitsahalia,male,January 8 2015,1985,Saudi Arabia,Contemporary$Science Fiction
+1201,L.H. Nicole,female,March 21 2009,1965,Andorra,Young Adult
+1202,Chris  Watson,male,March 22 2019,1972,Greece,Business$Fiction
+1203,Stephen Brusatte,male,April 3 2011,1997,Latvia,Science Fiction
+1204,C.S. Pacat,male,May 11 2019,1967,Estonia,Science Fiction
+1205,K.A. Mitchell,female,September 18 2010,1978,Colombia,Gay Lesbian
+1206,Simone St. James,female,February 15 2017,1985,South Africa,Thriller
+1207,Donna K. Childree,female,January 16 2012,1984,Guyana,Science Fiction
+1208,Clare Vanderpool,female,November 3 2010,1951,Ireland,Children S Books
+1209,Rick Riordan,male,May 28 2011,1983,Cuba,Children S
+1210,Ed McBain,male,April 16 2008,1978,Australia,Fiction$Crime
+1211,Sarah Jio,female,July 24 2015,1966,Palau,Fiction
+1212,John  Cassian,male,May 11 2019,1970,Myanmar,Horror$Thriller$Crime
+1213,Macy Beckett,male,November 4 2017,1976,Mauritania,Romance
+1214,Stephanie  Diaz,female,November 14 2015,1961,Vatican,Young Adult
+1215,Michael Crummey,male,December 23 2011,1980,Wales,Fiction$Poetry
+1216,P.J.  Adams,female,May 27 2008,1958,East Timor,Romance$Suspense
+1217,Francisco X. Stork,male,September 10 2013,1985,Canada,Fiction$Young Adult
+1218,John Varley,male,September 11 2010,1976,Belgium,Science Fiction
+1219,Miley Cyrus,female,April 11 2011,1961,Andorra,Entertainment
+1220,Cordelia Kingsbridge,male,April 11 2009,1977,Sierra Leone,Gay And Lesbian
+1221,Petra F. Bagnardi,female,August 22 2017,1986,Lebanon,Science Fiction$Contemporary
+1222,David Sedaris,male,September 23 2019,1984,Thailand,Memoir$Humor
+1223,Eckhart Tolle,male,June 26 2010,1959,Ukraine,Spirituality$Self Help
+1224,Mark  Lawrence,male,May 26 2017,1960,Paraguay,Fantasy
+1225,Kate Wilhelm,female,October 5 2016,1985,Fiji,Science Fiction$Thriller
+1226,Lawrence Ferlinghetti,male,July 5 2010,1984,Bolivia,Poetry
+1227,Jennifer Latham,male,May 4 2007,1994,Palau,Young Adult
+1228,Ellen Schreiber,male,March 7 2009,1956,Haiti,Young Adult
+1229,John  White,male,March 25 2008,1976,Wales,Religion Spirituality$Science Fiction
+1230,Oliver La Farge,male,October 21 2014,1961,Belgium,Fiction$Nonfiction
+1231,Meljean Brook,female,November 21 2014,1998,Croatia,Romance
+1232,Lisa Tawn Bergren,male,December 9 2018,1962,South Sudan,Historical
+1233,Joyce Carol Oates,female,January 18 2019,1972,Malawi,Fiction
+1234,Jane Porter,male,June 6 2017,1984,Canada,Romance
+1235,David Brin,male,March 1 2019,1970,Mauritius,Science Fiction
+1236,Isaac Asimov,male,September 1 2014,1998,Kazakhstan,Science Fiction$Thriller
+1237,Laura Joffe Numeroff,male,May 4 2013,1993,Tunisia,Children S Books
+1238,Gerri Chanel,female,August 4 2013,1953,Bulgaria,Fiction
+1239,Robert Graves,male,July 8 2011,1957,Solomon,Fiction$Poetry$Biographies Memoirs
+1240,Harry Turtledove,male,July 19 2012,1956,Haiti,Science Fiction
+1241,Catherine Jinks,female,October 27 2012,1967,Laos,Fiction$Children S Books
+1242,Michael Cox,male,August 10 2014,1983,Singapore,Fiction$Biographies Memoirs
+1243,Flann O'Brien,male,December 9 2009,1962,France,Science Fiction$Science Fiction
+1244,Jacqueline Sheehan,male,April 25 2016,1962,Zimbabwe,Fiction
+1245,Diane Mannino,male,May 10 2013,1971,Liechtenstein,Young Adult$Romance
+1246,Lauren Strasnick,male,August 14 2018,1995,Cambodia,Young Adult
+1247,Helena Hunting,female,April 28 2007,1977,Albania,Romance
+1248,Jenni James,male,January 23 2013,1973,Myanmar,Young Adult
+1249,William Hertling,male,December 2 2019,1988,Brazil,Science Fiction
+1250,Anne Morrow Lindbergh,female,November 13 2019,1984,Qatar,Biographies Memoirs$Nonfiction
+1251,Kathy Reichs,female,November 24 2019,1960,Scottish,Thriller
+1252,Chris Bachelder,male,March 20 2007,1958,Mauritius,Fiction
+1253,Christina Baker Kline,male,January 24 2019,1967,Latvia,Science Fiction
+1254,Daisy Whitney,female,February 1 2007,1958,Benin,Young Adult
+1255,Candace Calvert,male,February 19 2007,1965,Lebanon,Christian Fiction
+1256,Pittacus Lore,male,August 10 2007,1951,Monaco,Young Adult$Science Fiction
+1257,Christina  Farley,female,August 25 2018,1952,Guatemala,Young Adult
+1258,Gary Chapman,male,February 7 2019,1960,Liechtenstein,Christian Fiction
+1259,Chuck Palahniuk,male,April 27 2018,1987,United Kingdom,Fiction
+1260,Ciji Ware,female,December 8 2018,1984,Jamaica,Historical
+1261,Mary Crow Dog,female,June 13 2014,1989,Welsh,Memoir
+1262,Paul Aertker,male,December 21 2018,1978,Wales,Children S
+1263,Jen McLaughlin,female,January 17 2007,1963,Taiwan,Romance$Young Adult
+1264,Lily Foster,female,May 8 2013,1954,Canada,New Adult
+1265,Chris O'Mara,male,September 10 2010,1968,Tunisia,Fantasy
+1266,Amanda Sun,male,December 14 2008,1971,Scotland,Young Adult
+1267,Sofia Grey,female,May 18 2008,1978,United States,Romance
+1268,Robert    Carter,male,December 18 2009,1969,Kiribati,Science Fiction
+1269,Stephen B. Oates,male,February 15 2012,1974,Chad,Biographies Memoirs$History
+1270,Alan Garner,male,August 22 2014,1951,Paraguay,Science Fiction$Children S Books
+1271,Connilyn Cossette,female,September 20 2007,1987,Turkey,Historical
+1272,Robin Alexander,female,September 2 2011,1961,Peru,Fiction$Romance
+1273,Bret Easton Ellis,male,September 2 2018,1956,Comoros,Satire
+1274,R.A. Salvatore,male,July 26 2007,1964,South Sudan,Science Fiction
+1275,Barbara Kyle,male,May 4 2015,1952,Italy,Historical
+1276,Mira W.,male,March 19 2011,1950,Zambia,Fiction
+1277,Lauren Conrad,female,May 5 2010,1985,Russia,Young Adult
+1278,Clarissa Goenawan,female,May 20 2017,1962,Sweden,Science Fiction$Mystery
+1279,Leslie Feinberg,male,August 16 2017,1974,Belgium,Science Fiction$Gay And Lesbian
+1280,Anne Sexton,female,December 13 2018,1968,Saudi Arabia,Poetry
+1281,Robert N. Charrette,male,August 22 2017,1961,Mexico,Science Fiction
+1282,Will Jordan,male,May 20 2009,1998,Burma,Thriller
+1283,Rize Shinba,male,December 7 2019,1989,Guinea,Manga
+1284,Meg Leder,female,June 10 2018,1956,Mali,Contemporary$Romance
+1285,Charlotte Perkins Gilman,female,September 7 2016,1995,Ecuador,Science Fiction$Sociology$Poetry
+1286,J.C. Owens,male,October 23 2016,1982,Comoros,Gay Lesbian$Romance
+1287,Geoff  Laughton,male,August 23 2008,1985,Macedonia,Gay And Lesbian
+1288,Melissa Mayhue,female,March 8 2017,1989,France,Romance
+1289,James Agee,male,July 7 2019,1975,Lesotho,Entertainment$Fiction$Poetry
+1290,Karen Kincy,female,April 20 2008,1992,Emirate,Science Fiction$Romance
+1291,J.P. Bowie,male,February 14 2012,1972,Burma,Gay Lesbian$Romance
+1292,Keary Taylor,female,November 18 2019,1998,Turkey,Science Fiction
+1293,Leisa Rayven,male,November 25 2015,1982,Mauritius,Romance
+1294,Georgina Guthrie,female,February 28 2013,1960,Congo,Fiction
+1295,Jim Grimsley,male,October 20 2015,1970,Bangladesh,Science Fiction
+1296,Perry Moore,male,June 26 2018,1986,Madagascar,Gay Lesbian$Young Adult
+1297,Trinity Faegen,female,October 22 2016,1999,Korea,Young Adult
+1298,Nancy Springer,female,January 5 2019,1977,Costa Rica,Science Fiction
+1299,Kim Culbertson,male,February 2 2017,1971,Sudan,Young Adult
+1300,Jaye McKenna,female,January 19 2010,1978,Denmark,Gay And Lesbian
+1301,Luigi Pirandello,male,September 9 2007,1971,Lebanon,Fiction$Theatre
+1302,C. Vann Woodward,male,May 5 2019,1994,Azerbaijan,History$Biography
+1303,Zora Neale Hurston,female,August 5 2015,1993,Pakistan,Science Fiction$Poetry
+1304,Rodman Philbrick,male,March 24 2018,1992,Latvia,Children S Books
+1305,Diane  Adams,male,August 10 2009,1971,Congo,Gay And Lesbian$Romance
+1306,Henri Charrière,male,September 13 2016,1976,Cambodia,Biographies Memoirs
+1307,Archie Comics,male,October 7 2010,1973,Benin,Comics Graphic Novels$Humor
+1308,Dorothy Dreyer,male,February 13 2010,1998,Chile,Young Adult
+1309,R.C. Stephens,female,September 20 2018,1995,Pakistan,Romance
+1310,Nicky Charles,female,October 9 2013,1989,Belarus,Romance$Paranormal
+1311,Amy Poehler,female,July 3 2008,1997,Maldives,Fiction$Humor
+1312,Mary Downing Hahn,female,January 6 2016,1972,Ivory Coast,Children S Books$Young Adult
+1313,Adriana Noir,female,September 23 2016,1958,Czech,Dark
+1314,Molly O'Keefe,female,September 6 2013,1992,Moldova,Romance
+1315,P. Craig Russell,male,November 26 2009,1996,Luxembourg,Comics Graphic Novels$Gay Lesbian
+1316,Melissa Brayden,male,August 21 2013,1996,Bissau,Romance
+1317,David Estes,male,October 7 2018,1965,Colombia,Science Fiction
+1318,Lisa Schroeder,female,January 12 2013,1988,Nepal,Young Adult$Children S Books
+1319,Roxanne St. Claire,male,October 21 2008,1977,United States,Romance
+1320,Flora Rheta Schreiber,male,January 5 2007,1970,Wales,Biographies Memoirs
+1321,Hailey Abbott,female,March 16 2011,1958,Chad,Young Adult$Romance$Contemporary
+1322,Jessie G.,male,November 7 2011,1999,Albania,Gay And Lesbian
+1323,Anna Akhmatova,female,April 13 2013,1987,Seychelles,Poetry
+1324,H. Beam Piper,male,November 2 2017,1950,Venezuela,Science Fiction$Thriller
+1325,Viktor E. Frankl,male,June 4 2008,1987,East Timor,Memoir$Psychology
+1326,Judy Blume,female,October 10 2014,1964,Panama,Children S Books
+1327,Eric Clapton,male,December 27 2010,1968,Paraguay,Biographies Memoirs$Entertainment
+1328,Jeanette Murray,female,August 11 2012,1982,USA,Romance
+1329,Caroline Kepnes,female,September 10 2013,1987,Ethiopia,Thriller
+1330,S.E. Jakes,female,August 25 2015,1986,Belize,Romance
+1331,D.K. Cassidy,female,May 27 2008,1976,Madagascar,Science Fiction
+1332,Jessica Warman,female,September 21 2015,1998,Greece,Fiction$Young Adult
+1333,Ellen Hopkins,female,October 16 2012,1982,Guatemala,Fiction$Young Adult
+1334,Zhuangzi,male,April 10 2017,1977,Belgium,Philosophy
+1335,Johnny Gruelle,male,September 20 2012,1964,Turkey,Children S Books
+1336,Garth Nix,male,July 21 2014,1991,Kenya,Science Fiction
+1337,Rumiko Takahashi,female,September 1 2009,1984,Taiwan,Manga
+1338,Doug Dillon,male,November 8 2016,1978,Peru,Fiction
+1339,Jerold J. Kreisman,male,December 15 2009,1969,Mexico,Health Mind Body
+1340,Mary Renault,female,January 12 2007,1991,Libya,Fiction$Historical
+1341,Nathan Burgoine,male,July 13 2007,1962,Bhutan,Gay Lesbian
+1342,Alan Lightman,male,March 15 2015,1976,Armenia,Fiction$Science Fiction
+1343,Sarah Beth Durst,female,May 9 2013,1958,Macedonia,Fantasy
+1344,Cathy Gohlke,female,October 26 2013,1952,Palau,Historical
+1345,Misty Paquette / Misty Provencher,female,January 27 2017,1973,Romania,Fantasy
+1346,Karen   White,female,October 26 2011,1994,Great Britain,Science Fiction
+1347,Susanna Clarke,female,September 17 2013,1966,Wales,Science Fiction$History
+1348,E.D. Walker,female,August 20 2013,1993,Malawi,Romance
+1349,Kristin Riddick,male,August 10 2018,1973,Kuwait,Science Fiction
+1350,Suzanne Enoch,female,April 18 2012,1953,Colombia,Romance
+1351,Sara Ryan,male,August 5 2011,1962,Tonga,Young Adult
+1352,M.E. Carter,male,May 26 2012,1983,Iraq,Romance$Sports and Games
+1353,Jenn Lyons,female,May 21 2015,1953,Estonia,Fantasy
+1354,Irving Stone,male,March 9 2009,1970,Chile,Fiction$Arts Photography$History
+1355,Sara Paretsky,female,January 1 2016,1958,Estonia,Thriller
+1356,D.M. Wolfenden,male,November 28 2008,1996,Italy,Horror$Science Fiction
+1357,Joanne Harris,female,May 15 2015,1984,Guatemala,Fiction
+1358,Heather  Webb,female,July 19 2018,1966,Fiji,Historical
+1359,Elif Shafak,female,December 3 2014,1965,Netherlands,Science Fiction
+1360,Hazel Gaynor,female,May 15 2012,1987,Antigua,Historical
+1361,David Gemmell,male,August 26 2014,1975,Argentina,Science Fiction
+1362,M-E Girard,male,May 14 2010,1989,Honduras,Young Adult
+1363,Angela Morrison,male,May 8 2014,1990,Italy,Young Adult
+1364,Deborah  Brown,female,May 1 2013,1989,British,Thriller
+1365,D.D. Barant,male,March 8 2012,1974,Hungary,Science Fiction
+1366,Yoshiki Nakamura,female,February 20 2016,1974,Ghana,Comics Graphic Novels$Romance$Humor
+1367,Amanda Palmer,female,December 8 2017,1973,Ghana,Fiction$Arts Photography
+1368,Rebecca Zanetti,male,January 22 2019,1969,Afghanistan,Romance$Paranormal
+1369,Tracie Puckett,male,April 25 2014,1963,Sweden,Young Adult
+1370,Lisa Voisin,female,August 14 2013,1975,Rwanda,Young Adult
+1371,Ilona Andrews,male,March 28 2019,1955,America,Science Fiction
+1372,Barry Lyga,male,April 3 2009,1959,Korea,Fiction$Comics Graphic Novels
+1373,Umberto Eco,male,November 18 2019,1962,Antigua,Historical
+1374,Audie Murphy,male,June 14 2007,1957,England,Biography$Poetry
+1375,Cheryl Koevoet,male,January 6 2011,1960,Vatican,Fantasy
+1376,Georgina Hannan,male,April 3 2010,1951,Zimbabwe,Young Adult
+1377,Jean de Brunhoff,male,April 4 2017,1960,Central African Republic,Children S Books$Gentle Satire
+1378,James Lee Burke,male,May 24 2017,1964,Uzbekistan,Thriller
+1379,Ellen Datlow,female,July 2 2014,1970,South Sudan,Science Fiction
+1380,John Milton,male,December 21 2011,1959,Sao Tome,Poetry$Politics
+1381,Laura Esquivel,female,October 3 2019,1953,Burkina,Science Fiction
+1382,Arnold Bennett,male,March 11 2019,1998,Tajikistan,Science Fiction
+1383,Michel Faber,male,May 4 2008,1960,Monaco,Fiction$Science Fiction
+1384,Cindy Bauer,female,November 10 2010,1958,Luxembourg,Thriller$Crime
+1385,Jonathan  Miles,male,June 28 2008,1977,Albania,Science Fiction
+1386,Patrick O'Brian,male,January 8 2018,1960,Angola,Fiction$Biographies Memoirs
+1387,Juli Page Morgan,female,February 14 2015,1958,Cuba,Romance
+1388,Rachel  Morgan,female,September 22 2012,1983,Uganda,Young Adult
+1389,Jaycee DeLorenzo,female,March 8 2015,1953,El Salvador,Romance
+1390,Scott B. Smith,male,August 17 2015,1981,Laos,Horror$Thriller$Entertainment
+1391,Katherine Applegate,female,October 3 2016,1989,Emirate,Science Fiction
+1392,Jack Hessey,male,February 28 2012,1999,Israel,Science Fiction
+1393,Midge Raymond,female,December 23 2017,1950,Mauritania,Fiction
+1394,Connie Willis,female,December 27 2014,1992,Cameroon,Science Fiction$Fantasy
+1395,Kate Riordan,female,December 27 2012,1952,Bangladesh,Science Fiction$Mystery
+1396,Lisa Jackson,male,December 3 2009,1987,Moldova,Romance
+1397,Peter V. Brett,male,November 10 2015,1971,Serbia,Science Fiction
+1398,Nalini Singh,male,August 25 2019,1962,Croatia,Romance$Science Fiction
+1399,Kaizen Elizabeth Love,female,July 19 2009,1955,Somalia,Science Fiction
+1400,Michelle  Adams,male,June 17 2014,1997,British,Children S Books$Fiction
+1401,Irene Preston,female,September 8 2008,1954,Burkina,Romance
+1402,D.J. Molles,male,November 26 2019,1983,Mauritius,Fiction$Horror$Science Fiction
+1403,Jonathan Maberry,male,October 7 2010,1966,Belarus,Thriller
+1404,Nicole Hill,male,August 22 2008,1997,Zimbabwe,Thriller
+1405,Jeff Sampson,male,March 19 2008,1982,Malawi,Young Adult$Science Fiction
+1406,Founding Fathers,male,January 6 2007,1984,Czech,Fiction
+1407,Len Deighton,male,March 26 2008,1981,Sudan,Thriller$Historical
+1408,Joelle Charbonneau,male,March 8 2016,1996,Swaziland,Thriller
+1409,Thomas Buergenthal,male,August 23 2018,1976,Laos,Nonfiction$Memoir$History
+1410,Elizabeth   Hunter,female,March 22 2011,1958,Holland,Science Fiction
+1411,Simone Pond,male,April 7 2018,1989,Croatia,Science Fiction
+1412,Spider Robinson,male,August 8 2010,1980,Andorra,Science Fiction$Fantasy
+1413,Kimber S. Dawn,male,March 21 2013,1990,Israel,Romance
+1414,Rowan Speedwell,female,February 10 2007,1970,Comoros,Romance$Gay Lesbian
+1415,Philip Pullman,male,August 17 2010,1965,Namibia,Children S Books
+1416,Luis Carlos Montalván,male,July 13 2008,1975,Argentina,Biographies Memoirs
+1417,Miguel Syjuco,male,July 14 2018,1966,Australia,Fiction
+1418,Victoria Thompson,female,November 8 2014,1977,Grenadines,Historical
+1419,Mitch Albom,male,October 2 2008,1987,Swaziland,Biographies Memoirs
+1420,Sara Shepard,female,August 22 2010,1984,Russia,Young Adult
+1421,Jessica Verday,male,January 26 2012,1989,Lesotho,Children S Books$Young Adult
+1422,Sherry Thomas,female,January 16 2007,1959,Italy,Mystery
+1423,Sharon Kay Penman,female,September 3 2012,1995,Sweden,Fiction
+1424,Shawna Romkey,female,July 11 2013,1966,Peru,Young Adult
+1425,Shelly Laurenston,female,June 10 2008,1986,Tonga,Romance$Paranormal
+1426,Malcolm Gladwell,male,June 6 2013,1984,Welsh,Business$Fiction
+1427,Devon Hartford,male,March 16 2014,1962,Emirate,Romance
+1428,Robert W. Chambers,male,June 27 2009,1993,Kuwait,Science Fiction$Horror$Historical
+1429,Heather Jensen,male,April 2 2013,1962,Kiribati,Young Adult
+1430,Rory Freedman,female,September 2 2013,1957,Laos,Nonfiction
+1431,George Carlin,male,May 24 2014,1979,Afghanistan,Biographies Memoirs$Nonfiction
+1432,Hideaki Sorachi,male,December 24 2015,1994,Lesotho,Comics Graphic Novels
+1433,Trel W. Sidoruk,male,December 11 2013,1974,Cameroon,Thriller$Fantasy
+1434,Barry Finlay,male,January 13 2013,1976,India,Science Fiction
+1435,Michael Ende,male,July 7 2008,1964,Senegal,Children S Books$Fiction
+1436,Lynn Austin,female,August 13 2011,1980,Argentina,Fiction$Religion Spirituality
+1437,Christina Lauren,male,November 15 2013,1966,France,Romance
+1438,Christina Brooke,female,January 21 2015,1965,Bangladesh,Romance
+1439,Robin Schone,male,October 5 2014,1993,Paraguay,Romance$Historical
+1440,Matt Ridley,male,July 20 2008,1955,St Kitts,Science Fiction
+1441,Donna Tartt,female,October 20 2016,1957,Slovenia,Science Fiction$Short Stories
+1442,Leslye Walton,female,June 12 2019,1965,Iran,Young Adult
+1443,Kelly Thompson,female,January 7 2008,1997,Croatia,Young Adult
+1444,Kara Dalkey,female,March 5 2018,1988,United Kingdom,Science Fiction$Young Adult
+1445,Gil Adamson,female,August 16 2016,1996,Sierra Leone,Fiction$Short Stories
+1446,Simon W. Clark,male,July 15 2011,1999,Mali,Thriller$Horror
+1447,Richard Siken,male,March 8 2017,1967,Czech,Poetry
+1448,Kristen Simmons,female,May 3 2018,1951,Croatia,Young Adult
+1449,Keri Smith,female,July 8 2017,1965,Tajikistan,Arts Photography$Crafts Hobbies
+1450,Alaa Al Aswany,male,February 1 2008,1965,Marshall,Fiction
+1451,V.L. Jennings,female,September 16 2007,1999,Togo,Science Fiction
+1452,Chris   Rose,female,May 11 2011,1977,New Zealand,Science Fiction
+1453,Emily Snow,female,November 23 2017,1997,Oman,Romance
+1454,Helen Boswell,female,September 3 2019,1955,Ethiopia,Paranormal
+1455,Steven Galloway,male,February 3 2018,1980,Madagascar,Fiction
+1456,Gena Showalter,female,December 24 2012,1994,Swaziland,Romance$Young Adult
+1457,Sandhya Menon,male,August 3 2014,1952,Zimbabwe,Young Adult
+1458,Danielle Trussoni,female,April 17 2019,1955,Turkey,Fiction
+1459,Lisa Jervis,male,March 5 2019,1963,USA,Nonfiction$Cooking Food Wine
+1460,Russel Lazega,male,October 24 2017,1977,Grenadines,Memoir
+1461,Diane Ackerman,female,September 7 2013,1974,East Timor,Nonfiction
+1462,Bec McMaster,female,October 7 2009,1970,Zambia,Romance
+1463,Normandie Alleman,female,October 28 2012,1992,Germany,Romance
+1464,Jodie Lynn Zdrok,female,February 11 2018,1955,Romania,Young Adult
+1465,Eugene O'Neill,male,October 7 2011,1990,Mozambique,Theater
+1466,Friedrich Nietzsche,male,August 8 2011,1994,Brazil,Philosophy$Science
+1467,Rachel Vail,male,September 18 2018,1959,Russia,Young Adult
+1468,Michelle Madow,female,October 25 2015,1988,Turkey,Fantasy
+1469,Claire Contreras,female,June 18 2013,1997,Egypt,Romance
+1470,David Sosnowski,male,March 21 2011,1954,Niger,Fiction
+1471,Dan Rabarts,male,October 15 2014,1950,Eritrea,Fantasy$Science Fiction
+1472,Cayla Kluver,female,May 19 2014,1987,Lesotho,Young Adult
+1473,Jay Bell,male,July 22 2012,1966,Turkmenistan,Science Fiction
+1474,Wendelin Van Draanen,female,December 6 2012,1967,Bahamas,Young Adult
+1475,Mark Tufo,male,November 28 2016,1984,Wales,Horror
+1476,Lisa Kleypas,female,September 10 2012,1989,Solomon,Romance$Fiction
+1477,Peter Mayle,male,April 15 2010,1984,Malaysia,Travel$Nonfiction
+1478,C.B. Conwy,male,June 9 2010,1968,Great Britain,Gay Lesbian$Romance
+1479,Joseph Moldover,male,January 12 2010,1984,Brunei,Young Adult
+1480,Tracey Garvis Graves,female,August 1 2017,1984,Bulgaria,Romance
+1481,Annie Sullivan,male,October 20 2013,1984,Albania,Young Adult$Fantasy
+1482,Rosary  McQuestion,female,June 6 2014,1974,Morocco,Romance
+1483,Peter   John,female,May 18 2018,1969,Bolivia,Paranormal
+1484,Douglas Coupland,male,July 6 2010,1972,Uzbekistan,Fiction
+1485,Jamie Eubanks,male,June 6 2015,1971,Sao Tome,Suspense
+1486,Jeph Loeb,male,August 14 2007,1956,Welsh,Comics Graphic Novels
+1487,Brooklyn Skye,female,February 3 2014,1957,East Timor,Contemporary
+1488,Sophocles,male,October 10 2015,1979,Burkina,Theatre$Poetry
+1489,Jun'ichirō Tanizaki,male,July 23 2015,1979,Croatia,Fiction$Fiction
+1490,Jeff Wheeler,male,March 9 2012,1969,Nepal,Science Fiction
+1491,Mark   Tompkins,male,October 26 2009,1989,South Sudan,Historical
+1492,Elle Casey,female,August 26 2014,1980,Sao Tome,Fantasy
+1493,Rick Yancey,male,October 25 2019,1966,Serbia,Thriller
+1494,Jennifer Gilmore,female,September 25 2018,1969,New Zealand,Fiction
+1495,Dave Gibbons,male,January 9 2013,1954,Kuwait,Comics Graphic Novels
+1496,Stacey R. Campbell,female,January 1 2008,1972,Maldives,Young Adult
+1497,Marcus Alexander,male,June 8 2013,1985,Brunei,Fantasy$Children S
+1498,Megan O'Brien,female,January 21 2012,1986,Iraq,Romance
+1499,Brandy Purdy,male,November 22 2016,1968,Iceland,Historical
+1500,Hermann Hesse,male,February 14 2013,1956,Serbia,Science Fiction$Poetry
+1501,Sara  King,male,June 1 2011,1970,Russia,Science Fiction$Romance
+1502,Elle Jasper,female,March 5 2008,1989,Djibouti,Science Fiction
+1503,Kieran Scott,female,May 9 2013,1960,Indonesia,Young Adult
+1504,Jill Hathaway,female,February 4 2011,1958,Sierra Leone,Young Adult
+1505,Omar Barghouti,male,October 20 2012,1986,Zambia,Nonfiction
+1506,Paula Brackston,female,March 16 2018,1972,Sri Lanka,Historical$Fantasy
+1507,A. Lynden Rolland,female,February 12 2010,1973,Uzbekistan,Young Adult
+1508,P.J. Fiala,male,May 22 2011,1991,Latvia,Romance
+1509,Riko Miyagi,male,September 14 2007,1990,Lithuania,Romance$Comics Graphic Novels$Humor
+1510,Robin McKinley,female,July 1 2019,1998,Liechtenstein,Science Fiction
+1511,Lucian Bane,male,March 8 2010,1950,Turkey,Romance
+1512,John Van Stry,male,February 9 2010,1951,Myanmar,Science Fiction$Fantasy
+1513,Annie Proulx,female,May 20 2009,1956,East Timor,Fiction$Short Stories$Cooking Food Wine
+1514,Amanda Bonilla,female,April 3 2009,1960,Burundi,Science Fiction
+1515,Amanda Quick,female,August 23 2007,1980,Bhutan,Romance
+1516,Erika Kelly,female,March 6 2015,1954,Sao Tome,Romance
+1517,Paige Weaver,female,July 22 2014,1993,Nicaragua,Romance
+1518,Brian Selznick,male,November 23 2017,1994,Barbados,Children S Books$Arts Photography
+1519,Belinda Boring,female,April 19 2018,1986,Switzerland,Romance
+1520,Diane Magras,female,March 15 2019,1984,Malta,Children S
+1521,Anita Amirrezvani,male,November 5 2007,1996,Guyana,Fiction
+1522,Leigh Michaels,female,May 9 2016,1983,Peru,Romance$History
+1523,Lili St. Crow,female,March 10 2015,1960,Switzerland,Science Fiction
+1524,Chancery Stone,female,June 27 2008,1957,Nigeria,Fiction$Thriller
+1525,Christina Boyd,female,August 14 2011,1993,Taiwan,Historical$Romance
+1526,Karina Yan Glaser,female,April 14 2015,1967,Tobago,Children S
+1527,Kaylea Cross,female,September 13 2013,1962,Myanmar,Romance
+1528,Fyodor Dostoyevsky,male,November 7 2016,1969,Kazakhstan,Science Fiction$Psychology
+1529,Bảo Ninh,male,October 22 2019,1985,Argentina,Science Fiction
+1530,Louisa May Alcott,female,May 19 2016,1965,Honduras,Fiction$Historical
+1531,Sam Crescent,female,November 3 2010,1969,Panama,Romance
+1532,Sean Kennedy,male,April 15 2015,1954,Macedonia,Gay Lesbian
+1533,Lao Tzu,male,March 22 2010,1986,Iran,Philosophy
+1534,Anne Perry,female,July 5 2011,1994,Honduras,Fiction
+1535,Shari Randall,female,September 16 2009,1992,Zambia,Mystery$Crime
+1536,W. Michael Gear,male,March 6 2015,1964,Bissau,Fiction$Nonfiction
+1537,Margaret Wise Brown,female,February 12 2008,1987,Czech,Children S Books
+1538,Bernard Cornwell,male,June 16 2007,1993,Lebanon,Historical$Thriller
+1539,Jackson Pearce,female,June 11 2010,1990,United States,Young Adult
+1540,Jean Rhys,female,August 5 2007,1968,Armenia,Science Fiction
+1541,Ednah Walters,female,February 16 2007,1952,El Salvador,Romance
+1542,Elizabeth Scott,male,April 21 2011,1977,New Zealand,Young Adult
+1543,Julie Reece,female,April 10 2015,1998,Antigua,Young Adult
+1544,Paolo Bacigalupi,male,July 24 2008,1954,Iran,Science Fiction
+1545,T.F. Walsh,female,January 22 2009,1950,Luxembourg,Paranormal
+1546,Michelle Diener,female,March 14 2015,1988,Switzerland,Historical
+1547,Desmond Young,male,March 13 2016,1973,South Sudan,Biography$History
+1548,Vi Keeland,female,March 17 2010,1988,Tanzania,Romance
+1549,Bridget Zinn,female,May 13 2010,1996,Kenya,Young Adult
+1550,Emily St. John Mandel,female,October 23 2019,1988,India,Fiction
+1551,Robert Penn Warren,male,July 5 2019,1986,Liberia,Poetry$Science Fiction
+1552,Anand Neelakantan,male,March 14 2018,1953,Chad,Fiction$Religion Spirituality
+1553,Cecelia Ahern,female,March 14 2012,1981,Bahrain,Chick Lit
+1554,Irene Helenowski,female,September 20 2007,1960,Niger,Science Fiction$Fantasy
+1555,Chuck Dixon,male,February 7 2014,1998,Cameroon,Comics Graphic Novels
+1556,Jason  Matthews,male,October 13 2011,1978,Czech,Thriller$Suspense
+1557,Alexandra Ivy,female,January 14 2019,1960,Argentina,Romance
+1558,Caroline Peckham,female,February 2 2016,1957,Kuwait,Young Adult
+1559,Sylvain Reynard,male,February 6 2015,1953,Honduras,Fiction
+1560,Heidi Ashworth,female,September 4 2019,1956,Tanzania,Romance
+1561,Dan Slott,male,January 26 2017,1968,Bolivia,Comics Graphic Novels
+1562,Georgia Cates,male,January 14 2011,1991,Argentina,Romance$Adult Fiction
+1563,Ransom Riggs,male,June 1 2017,1974,Brunei,Young Adult
+1564,Kelley Armstrong,female,June 10 2012,1953,Uzbekistan,Science Fiction$Thriller
+1565,P.C. Cast,female,June 22 2008,1972,Canada,Young Adult
+1566,Kevin Henkes,male,April 23 2016,1964,Lebanon,Children S Books
+1567,Hunter S. Jones,female,March 7 2011,1963,East Timor,History
+1568,Ira Levin,male,December 18 2011,1972,Austria,Thriller$Fiction
+1569,Tim Lebbon,male,October 25 2013,1976,Cuba,Horror
+1570,Cheryl Yeko,male,July 7 2011,1993,Panama,Romance
+1571,Carlos Ruiz Zafón,male,March 27 2016,1964,Afghanistan,Fiction
+1572,Charity Bradford,female,August 20 2010,1993,Malta,Science Fiction
+1573,Agatha Christie,female,November 6 2014,1964,New Zealand,Mystery$Crime
+1574,Jessica Anthony,male,August 24 2014,1973,Bahamas,Science Fiction
+1575,Cat Winters,female,June 12 2009,1970,Djibouti,Historical
+1576,Benjamin Black,male,February 7 2016,1950,Tonga,Thriller$Fiction
+1577,Britta Lundin,female,July 8 2013,1974,Senegal,Young Adult
+1578,Shanna Swendson,female,March 14 2011,1966,New Zealand,Romance$Science Fiction
+1579,Christopher Moore,male,May 11 2012,1963,Venezuela,Fiction
+1580,Dakota Rebel,female,September 5 2015,1974,Czech,Romance$Erotica
+1581,Kris Waldherr,male,December 4 2016,1955,Scotland,Women Gender Studies
+1582,Marieke Nijkamp,male,July 24 2014,1978,Romania,Young Adult
+1583,Louise Murphy,female,December 19 2014,1984,Iran,Fiction$Poetry
+1584,Colleen McCullough,female,December 12 2014,1999,USA,Historical$Romance$Memoir
+1585,E.D. Baker,female,August 5 2009,1984,Palau,Science Fiction
+1586,Steven Erikson,male,January 2 2007,1953,Myanmar,Science Fiction
+1587,Diane Duane,female,May 7 2016,1975,USA,Science Fiction$Young Adult
+1588,Charles Addams,male,September 26 2012,1972,Suriname,Comics Graphic Novels$Horror
+1589,Eden Summers,male,October 15 2016,1955,Grenadines,Romance
+1590,Nicole  Williams,female,March 13 2010,1991,Serbia,Young Adult
+1591,Robert Bloch,male,October 13 2015,1971,Bissau,Horror$Thriller$Science Fiction
+1592,Pat Conroy,male,August 9 2014,1997,Marshall,Fiction$Nonfiction
+1593,Raymond Briggs,male,October 13 2014,1967,East Timor,Children S Books$Comics Graphic Novels
+1594,Steven Stickler,male,February 7 2012,1978,Angola,Children S Books
+1595,John Keay,male,August 15 2016,1999,Gambia,History
+1596,Scarlett Dawn,female,January 28 2017,1987,Estonia,Romance
+1597,Cindy Pon,female,April 15 2011,1957,Vatican,Young Adult
+1598,John Julius Norwich,male,March 8 2016,1954,Russia,History
+1599,Jordan Sonnenblick,male,October 7 2016,1992,Maldives,Children S Books$Young Adult
+1600,Stewart O'Nan,male,May 21 2015,1973,Jordan,Fiction
+1601,Gwen Hayes,female,March 16 2013,1974,Central African Republic,Young Adult$Romance
+1602,James W. Loewen,male,November 12 2015,1954,Kosovo,History$Nonfiction
+1603,Esphyr Slobodkina,male,October 21 2011,1950,Finland,Children S
+1604,Janet Evanovich,male,April 11 2010,1953,Lithuania,Thriller
+1605,Hala Alyan,female,November 1 2017,1957,Slovenia,Poetry
+1606,Simon Winchester,male,June 6 2017,1968,Czech,Nonfiction$History
+1607,Martha Marks,male,September 24 2009,1958,Ivory Coast,Historical
+1608,Julie Buxbaum,male,April 17 2010,1962,Wales,Fiction
+1609,Gregory David Roberts,male,March 18 2011,1996,Bahrain,Fiction$Screenwriter
+1610,Robert  Allison,male,April 26 2007,1962,Thailand,Science Fiction$Historical
+1611,Yury Olesha,male,June 23 2016,1971,Tajikistan,Classics$Fiction
+1612,Christopher  Shields,male,January 26 2019,1967,Grenada,Young Adult
+1613,Emily Brontë,female,September 10 2018,1991,Antigua,Science Fiction$Poetry
+1614,H.D. Gordon,female,February 5 2009,1968,Nigeria,Fantasy
+1615,Skye Warren,male,May 26 2007,1968,India,Romance$Suspense
+1616,L.J. Shen,female,March 14 2011,1995,Mauritius,Romance$Young Adult
+1617,Annie Rains,female,November 16 2012,1996,Benin,Romance
+1618,Barry Banther,male,April 23 2016,1962,Senegal,Business
+1619,Kaye Gibbons,female,June 1 2017,1971,Korea,Fiction
+1620,J.D. Field,male,November 16 2013,1957,Bangladesh,Young Adult
+1621,Alex Garland,male,April 13 2007,1957,Scottish,Fiction
+1622,Betty  Smith,female,August 11 2009,1999,Oman,Fiction
+1623,Heidi Cullinan,female,March 26 2014,1990,Syria,Gay Lesbian
+1624,Bernal Díaz del Castillo,male,January 6 2017,1992,Belarus,History$Nonfiction$Biographies Memoirs
+1625,Adrian Phoenix,female,January 25 2008,1977,Myanmar,Science Fiction
+1626,Mary  Weber,female,October 9 2015,1957,Luxembourg,Young Adult
+1627,Carrie Jones,female,December 5 2017,1955,Jordan,Children S Books$Young Adult
+1628,Henry James,male,November 18 2014,1969,Mali,Fiction$Short Stories
+1629,Lilith Saintcrow,female,April 8 2007,1970,Bhutan,Science Fiction$Romance
+1630,Michael Chabon,male,November 20 2018,1958,Azerbaijan,Fiction
+1631,Elizabeth Letts,male,October 7 2013,1960,Sierra Leone,Fiction
+1632,T.M. Frazier,female,December 22 2014,1989,Togo,Science Fiction
+1633,Isaac Bashevis Singer,male,June 6 2017,1952,Samoa,Science Fiction$Fiction
+1634,Jacquelyn Frank,male,September 5 2016,1998,Israel,Romance$Science Fiction
+1635,Janette Sebring Lowrey,female,February 27 2016,1979,Sudan,Children S Books
+1636,Constantinos P. Cavafis,male,May 23 2019,1982,Peru,Poetry$Science Fiction
+1637,Tonya Hurley,female,January 6 2012,1994,South Sudan,Young Adult
+1638,Jennifer Roy,male,February 17 2014,1966,Cyprus,Children S
+1639,Patricia C. Wrede,female,January 23 2018,1996,New Zealand,Young Adult$Fantasy
+1640,N. Griffin,female,July 25 2010,1988,Kuwait,Young Adult
+1641,Piper Vaughn,male,February 9 2019,1952,Cape Verde,Gay Lesbian
+1642,Michelle Muto,female,April 28 2012,1961,Bhutan,Young Adult
+1643,Iris Chang,female,March 22 2012,1973,Slovenia,History$Nonfiction
+1644,Justin Halpern,male,November 8 2007,1963,Japan,Humor
+1645,Kylie Scott,male,May 16 2019,1989,San Marino,Romance
+1646,Sheri  Fink,female,July 13 2014,1951,England,Fiction
+1647,Jude Deveraux,female,December 8 2018,1953,Gabon,Romance
+1648,Lenore Look,male,May 14 2013,1962,Switzerland,Children S Books
+1649,Stacy Green,female,December 17 2009,1957,Jordan,Thriller
+1650,Jane Nickerson,female,January 9 2017,1998,Central African Republic,Young Adult$Historical
+1651,Alice Sebold,male,January 5 2008,1965,Great Britain,Fiction$Biographies Memoirs
+1652,Sara Donati,female,June 14 2019,1974,East Timor,Historical
+1653,Richard J. Davidson,male,May 27 2014,1956,Bahrain,Psychology$Health Mind Body
+1654,Jess  Russell,female,June 12 2015,1995,Malawi,Romance
+1655,Myra McEntire,male,June 4 2007,1967,Nigeria,Science Fiction
+1656,Anna Breslaw,male,June 4 2016,1950,Mali,Young Adult
+1657,Tere Michaels,female,August 25 2015,1963,Papua,Romance
+1658,Manna Francis,male,August 7 2015,1953,Yemen,Gay And Lesbian$Science Fiction
+1659,Bridget Tyler,female,October 9 2017,1994,Zambia,Science Fiction
+1660,Heather Lynn Rigaud,female,January 16 2008,1971,America,Romance
+1661,Colleen Clayton,female,January 15 2009,1971,Georgia,Young Adult$Fiction
+1662,James N. Cook,male,February 25 2017,1972,Taiwan,Science Fiction$Horror$Thriller
+1663,Jonathan L. Ferrara,male,August 6 2011,1996,Seychelles,Young Adult
+1664,Claudia Gray,male,September 21 2011,1989,Japan,Young Adult
+1665,Megan Whitmer,female,September 21 2014,1985,Italy,Young Adult
+1666,Lucy Monroe,female,July 12 2012,1989,Uganda,Romance
+1667,Markus Zusak,male,May 7 2008,1958,Paraguay,Fiction
+1668,Isabel Abedi,male,March 2 2017,1989,Jamaica,Young Adult
+1669,Dawn White,female,November 5 2018,1954,Hungary,Crime
+1670,Noah Levine,male,February 27 2016,1965,Kuwait,Religion Spirituality$Philosophy
+1671,Astrid Yrigollen,female,March 5 2010,1957,Serbia,Young Adult
+1672,Frank E. Peretti,male,February 7 2009,1951,Nauru,Thriller
+1673,Roshani Chokshi,male,May 6 2015,1989,Yemen,Fantasy
+1674,Nicholas Sparks,male,June 19 2016,1977,Zimbabwe,Fiction
+1675,R.J. Larson,female,March 12 2013,1986,Niger,Fiction
+1676,Crystal King,female,April 11 2014,1966,Guinea,Historical
+1677,Lamar Giles,male,March 4 2019,1961,Malawi,Young Adult
+1678,Kevin Brockmeier,male,March 10 2016,1956,Holland,Fiction$Science Fiction$Children S Books
+1679,Lara Chapman,female,November 15 2012,1973,Guatemala,Children S
+1680,Brian Keene,male,July 9 2015,1994,Estonia,Horror
+1681,Michael Connelly,male,November 3 2009,1992,Kosovo,Crime
+1682,Peter Høeg,male,September 26 2007,1954,Antigua,Fiction$Mystery
+1683,Jessica Concha,female,December 4 2016,1970,Bissau,Science Fiction
+1684,J.M. Barlog,male,November 10 2010,1996,Hungary,Horror$Historical
+1685,L.E. Modesitt Jr.,male,June 2 2014,1988,Gambia,Science Fiction
+1686,Megan   Smith,female,April 10 2012,1956,Liechtenstein,Romance
+1687,Chris Wooding,male,November 7 2019,1957,Ireland,Fiction
+1688,Elie Wiesel,male,April 27 2007,1964,China,Memoir$Science Fiction
+1689,Shirow Miwa,male,February 23 2012,1954,Mauritania,Manga
+1690,Rabindranath Tagore,male,May 7 2018,1989,Spain,Poetry$Fiction$Philosophy
+1691,LaVyrle Spencer,female,May 5 2011,1972,Bosnia,Romance$Historical
+1692,Christine  Reilly,female,June 28 2010,1957,Latvia,Science Fiction
+1693,Chris Snider,male,December 20 2019,1985,Argentina,Horror
+1694,Tanith Lee,female,February 3 2010,1983,Bosnia,Science Fiction$Horror
+1695,Paige Toon,male,May 11 2017,1979,Lesotho,Chick Lit
+1696,Cynthia Rylant,female,October 23 2010,1968,United States,Children S Books$Young Adult
+1697,P.G. Wodehouse,male,October 17 2008,1999,Cape Verde,Science Fiction$Humor
+1698,Patrick Dillon,male,May 10 2012,1961,Scotland,Nonfiction
+1699,Beth Kery,female,August 6 2009,1991,Emirate,Romance
+1700,Emma Straub,female,February 9 2013,1993,Kenya,Fiction
+1701,Jasper Fforde,male,December 10 2011,1995,Malta,Science Fiction
+1702,Gwyn Hyman Rubio,female,March 15 2018,1960,St Lucia,Fiction
+1703,Greer Noble,female,January 4 2016,1981,Grenadines,Suspense
+1704,Kimberley Griffiths Little,female,June 22 2017,1978,Venezuela,Young Adult
+1705,Eugenia Kim,female,December 22 2016,1990,Scotland,Historical
+1706,David Westheimer,male,August 14 2008,1968,Czech,Science Fiction$Memoir
+1707,P.D. James,female,September 26 2007,1986,Belgium,Crime$Mystery$Suspense
+1708,Michele Bardsley,male,December 8 2013,1960,El Salvador,Paranormal
+1709,Linwood Barclay,male,August 12 2018,1984,Bissau,Thriller
+1710,Genevieve Dewey,male,July 11 2007,1996,Philippines,Fiction
+1711,Atul Gawande,male,December 21 2016,1960,Somalia,Nonfiction
+1712,John Christopher,male,May 27 2009,1983,British,Science Fiction$Children S Books
+1713,A.G. Howard,female,September 16 2015,1974,Georgia,Young Adult
+1714,Sylvain Neuvel,male,September 26 2011,1976,Bangladesh,Science Fiction
+1715,Farah Oomerbhoy,female,February 17 2011,1982,Honduras,Young Adult
+1716,Nicolette Day,female,February 21 2007,1968,Central African Republic,Romance
+1717,Shinobu Gotoh,male,May 4 2008,1990,Antigua,Manga$Gay And Lesbian
+1718,Paulette Jiles,female,September 13 2014,1987,Tanzania,Fiction$Fiction
+1719,Angela E. Brooks,female,December 14 2010,1984,Haiti,Ebooks
+1720,Kimberly McCreight,female,December 15 2017,1983,Tunisia,Fiction
+1721,Stanley M. Giannet,male,January 11 2008,1958,Gambia,Health Mind Body$Nonfiction$Philosophy
+1722,Rachel Vincent,female,January 15 2013,1957,Saudi Arabia,Science Fiction$Young Adult
+1723,E.B. White,male,December 17 2011,1999,San Marino,Children S Books$Fiction$Fiction
+1724,Kady Cross,female,May 17 2015,1988,Tanzania,Historical
+1725,Carlton Mellick III,male,October 23 2014,1957,Czech,Fiction
+1726,Michael Cart,male,January 16 2012,1974,Gabon,Fiction$Young Adult
+1727,George R. Stewart,male,November 7 2014,1959,Mali,Science Fiction$Fiction$Outdoors Nature
+1728,Tracy Grant,female,May 5 2010,1982,Morocco,Thriller
+1729,A.L. Jackson,female,November 4 2018,1952,Scotland,Romance
+1730,Susan Stoker,female,September 9 2018,1995,Serbia,Romance
+1731,Hans Christian Andersen,male,July 2 2019,1951,Congo,Children S$Fairytales$Poetry
+1732,O.J. Simpson,male,September 7 2019,1960,Grenada,Memoir$Crime
+1733,Kenneth H. Blanchard,male,June 10 2007,1981,Bhutan,Business
+1734,Thug Kitchen,male,January 16 2019,1950,Sri Lanka,Cookbooks
+1735,Sean      Allen,male,October 4 2010,1999,St Kitts,Science Fiction
+1736,Jonathan Tropper,male,May 21 2008,1996,Malawi,Fiction
+1737,Amber Lough,female,January 8 2011,1986,Wales,Fantasy
+1738,Nina Lane,female,February 10 2009,1993,Mozambique,Fiction
+1739,Simon R. Green,male,June 22 2017,1996,India,Science Fiction
+1740,Otoh Saki,female,May 26 2014,1985,Macedonia,Manga
+1741,Walter Isaacson,male,October 20 2016,1967,Malta,Biography$History
+1742,Hisamu Oto,male,August 7 2012,1970,Poland,Manga
+1743,Marcus Pfister,male,December 7 2009,1954,Peru,Children S Books
+1744,Jasper Kent,male,August 22 2008,1998,St Lucia,Horror
+1745,John Scalzi,male,February 14 2009,1995,Congo,Science Fiction$Science Fiction
+1746,Edna O'Brien,female,April 3 2008,1972,Algeria,Fiction
+1747,Melissa Kantor,male,September 11 2015,1963,Slovakia,Young Adult
+1748,Raine Miller,female,May 11 2017,1995,Great Britain,Romance
+1749,R.L. Griffin,female,August 13 2018,1991,Iran,Science Fiction
+1750,Roseanna M. White,female,August 9 2015,1989,El Salvador,Christian Fiction
+1751,Barbara Elsborg,female,February 19 2017,1955,Tuvalu,Paranormal$Romance
+1752,Kendall Grey,male,December 22 2014,1956,Gabon,Science Fiction
+1753,Scott Lynch,male,November 25 2011,1995,Eritrea,Science Fiction
+1754,Lucinda Riley,female,August 26 2013,1993,El Salvador,Historical
+1755,Christine S. Feldman,female,February 18 2012,1992,Peru,Romance$Fantasy
+1756,Kaylee Ryan,female,February 12 2007,1960,Dominica,Romance
+1757,Diana Ballew,female,April 8 2017,1973,Oman,Romance
+1758,Shungiku Nakamura,male,March 13 2014,1961,Italy,Yaoi$Slice Of Life$Manga
+1759,Gore Vidal,male,May 1 2013,1978,Canada,Biography$Science Fiction$Historical
+1760,Olivia Brynn,female,April 21 2007,1950,Monaco,Romance
+1761,Jonathan Swift,male,December 9 2015,1968,Haiti,Science Fiction$Satire$Poetry
+1762,Adam Jay Epstein,male,October 17 2010,1999,San Marino,Young Adult$Children S Books
+1763,Fannie Flagg,male,April 3 2013,1993,Zambia,Fiction
+1764,Michelle Howard,male,May 19 2008,1962,Spain,Romance$Paranormal
+1765,Annika Martin,male,August 26 2012,1970,Papua,Romance
+1766,Melanie Marchande,male,October 20 2008,1953,Sudan,Romance
+1767,Edith Wharton,female,December 28 2017,1994,Dominica,Science Fiction
+1768,Patricia Cornwell,female,April 10 2015,1971,Thailand,Thriller
+1769,Austin Aslan,male,May 6 2007,1969,St Lucia,Science Fiction
+1770,Piers Anthony,male,January 28 2018,1954,Guinea,Science Fiction
+1771,Airicka Phoenix,female,November 26 2011,1980,Myanmar,Contemporary
+1772,Raina Telgemeier,male,November 3 2010,1979,Bolivia,Comics Graphic Novels$Children S Books
+1773,Jared Diamond,male,March 6 2008,1993,Macedonia,Science
+1774,J.C. Valentine,female,December 7 2014,1991,Jamaica,Romance$Romance
+1775,K.A. Linde,female,March 9 2015,1966,Bulgaria,Romance
+1776,Eoin Colfer,male,February 21 2011,1995,Tuvalu,Fiction
+1777,Amanda Springer,male,May 15 2007,1988,Comoros,Thriller
+1778,Alice  Miller,female,August 12 2010,1990,El Salvador,Psychology
+1779,Marsha Mehran,female,June 20 2013,1957,Comoros,Fiction
+1780,Martha R. Carr,male,July 23 2008,1997,Kosovo,Thriller
+1781,Dezső Kosztolányi,male,February 3 2007,1971,Cyprus,Fiction$Poetry
+1782,Kade Boehme,male,November 12 2007,1980,Latvia,Gay And Lesbian
+1783,J. Kenner,female,February 5 2007,1966,Estonia,Romance
+1784,Cathy Maxwell,female,March 21 2011,1983,Montenegro,Historical$Romance
+1785,Gina Kolata,female,November 13 2015,1986,Vatican,Health Mind Body$Science Fiction
+1786,Marguerite Henry,female,July 20 2007,1992,Nepal,Children S Books$Outdoors Nature
+1787,Joseph F. Girzone,male,June 12 2016,1986,Paraguay,Religion Spirituality
+1788,Julia Scheeres,male,October 14 2007,1987,Hungary,Biographies Memoirs
+1789,D.M. Jarrett,male,August 2 2014,1953,Bangladesh,Science Fiction
+1790,Han Kang,female,March 6 2017,1950,Uruguay,Science Fiction
+1791,Jay McInerney,male,August 14 2018,1981,Greece,Fiction
+1792,Travis Casey,male,February 18 2017,1957,Guinea,Romance$Humor
+1793,Christine Brodien-Jones,male,September 18 2012,1980,Laos,Children S Books$Science Fiction
+1794,John Elder Robison,male,August 19 2019,1998,Namibia,Biographies Memoirs
+1795,Karen Armstrong,male,April 5 2011,1998,Slovakia,Religion Spirituality$History
+1796,George Bernard Shaw,male,May 11 2015,1965,Taiwan,Fiction$Theater
+1797,Ellen Marie Wiseman,female,April 5 2019,1958,France,Fiction
+1798,Krista Davis,female,August 18 2019,1969,Bahamas,Mystery
+1799,Lian Hearn,male,May 17 2011,1956,Sierra Leone,Science Fiction
+1800,Zoe Winters,female,August 8 2017,1995,Turkmenistan,Romance$Humor
+1801,Melody Winter,female,February 24 2010,1963,Panama,Romance
+1802,Anurag Mathur,male,June 2 2007,1972,Eritrea,Humor$Travel$Fiction
+1803,Johann Wolfgang von Goethe,male,April 14 2019,1989,Hungary,Science Fiction$Poetry$Science Fiction
+1804,Emily Godwin,female,November 21 2012,1986,Dominica,Young Adult
+1805,May Water,female,January 24 2018,1951,France,Romance
+1806,Lauren  Hunter,male,October 10 2015,1961,Albania,Romance$Paranormal
+1807,Jennifer Crusie,female,November 2 2019,1953,Mali,Romance$Fiction
+1808,H.M. Ward,female,November 19 2014,1997,Vatican,New Adult
+1809,China Miéville,male,October 12 2017,1995,Cuba,Science Fiction$Fiction
+1810,Norman Mailer,male,March 5 2011,1959,Gambia,Fiction$Science Fiction
+1811,Catherine Marshall,female,January 19 2018,1969,Guyana,Religion Spirituality$Nonfiction
+1812,Anna Banks,male,September 3 2019,1991,Guyana,Young Adult
+1813,Annie Dillard,female,April 8 2008,1991,Qatar,Nonfiction$Fiction
+1814,Laurie Bowler,female,November 28 2015,1962,Tajikistan,Horror$Romance
+1815,Cherrie Lynn,female,December 2 2011,1998,Argentina,Romance
+1816,Rahul Pandita,male,November 14 2018,1966,Syria,Fiction$Contemporary
+1817,Idrus,male,March 4 2007,1957,Sri Lanka,Fiction
+1818,Norman Rush,male,December 9 2012,1957,Marshall,Fiction
+1819,Whitney G.,female,January 23 2010,1989,Djibouti,Romance
+1820,Janna Yeshanova,female,May 27 2008,1952,Ecuador,Romance
+1821,Judith Merkle Riley,female,December 20 2012,1975,Trinidad,Historical$Romance
+1822,Laura Levine,male,April 4 2017,1991,Central African Republic,Thriller
+1823,Rose Wynters,male,December 22 2008,1963,Syria,Romance
+1824,Julie   Murphy,female,July 16 2015,1951,Croatia,Young Adult
+1825,Harper Sloan,female,December 16 2017,1989,Oman,Contemporary
+1826,Charlaine Harris,female,June 16 2012,1972,Singapore,Fantasy
+1827,Julie Klassen,female,November 2 2010,1972,San Marino,Historical
+1828,Richard P. Denney,male,June 16 2015,1980,Cyprus,Science Fiction$Mystery$Gay And Lesbian
+1829,C.E. Murphy,female,August 9 2019,1958,Tonga,Science Fiction
+1830,Natasha Hanova,female,May 28 2017,1998,Estonia,Paranormal
+1831,Kara McDowell,female,August 19 2015,1960,Afghanistan,Young Adult
+1832,Sophie Summers,male,May 17 2013,1972,Botswana,Fantasy
+1833,Mike Chen,male,April 16 2010,1995,Malawi,Science Fiction
+1834,Amy Sandas,female,September 13 2009,1954,Micronesia,Historical
+1835,Michelle Rowen,female,June 26 2016,1967,Latvia,Romance$Science Fiction
+1836,Jason Harvey,male,March 5 2007,1986,Pakistan,Nonfiction$Health Mind Body
+1837,Alexandra Adornetto,female,June 12 2007,1975,San Marino,Romance$Paranormal$Romance
+1838,E.M. Sky,male,January 4 2016,1994,Gabon,Science Fiction$Young Adult
+1839,S.E. Hinton,female,March 9 2011,1955,Finland,Fiction$Young Adult
+1840,Kristin Cashore,male,September 14 2016,1979,Portugal,Science Fiction
+1841,Sandi Tan,female,September 15 2014,1977,Nigeria,Fiction
+1842,Amy Engel,female,June 9 2008,1972,Monaco,Suspense
+1843,Mercy Celeste,male,September 25 2007,1986,Germany,Romance
+1844,Judith Starkston,female,August 1 2011,1989,Andorra,Fantasy
+1845,R.L. Mathewson,male,July 2 2014,1998,Costa Rica,Romance
+1846,Mie Hansson,female,December 1 2008,1996,Bulgaria,Poetry
+1847,M.K. Schiller,female,July 6 2015,1967,Rwanda,Romance$Chick Lit
+1848,Megan Crane,female,January 16 2015,1993,Benin,Romance
+1849,Naomi Klein,male,October 6 2014,1968,Czech,Nonfiction
+1850,Catherine Lockwood,male,February 5 2015,1970,Saudi Arabia,Alcoholism Recovery
+1851,Jackie Griffiths,female,September 2 2012,1965,Albania,Philosophy
+1852,Nicki Elson,female,March 22 2010,1967,Tajikistan,Romance$Humor

@@ -1,0 +1,35 @@
+Stack
+============================
+empty : Stack
+is_empty : Stack -> Bool
+top : Stack -> Int U {err}
+push : Stack x Int -> Stack
+pop : Stack -> Stack
+
+is_empty(empty()) = T
+is_empty(push(S, x)) = F
+top(empty()) == err
+top(push(S, x)) = x
+pop(push(S, x)) = S
+pop(empty()) == err
+
+
+Queue
+============================
+empty : Queue
+is_empty : Queue -> Bool
+front : Queue -> Int U {err}
+enqueue : Queue x Int -> Queue
+dequeue : Queue -> Queue
+
+is_empty(empty()) = T
+is_empty(enqueue(Q, x)) = F
+front(empty()) == err
+front(enqueue(Q, x)) = if is_empty(Q) then x else front(Q)
+dequeue(empty()) == err
+dequeue(enqueue(Q, x)) = if is_empty(Q) then empty() else enqueue(dequeue(Q), x) 
+
+
+
+http://users.csc.calpoly.edu/~gfisher/work/specl/documentation/ref-man/formal-spec-examples.html
+https://www.cs.scranton.edu/~mccloske/courses/se507/alg_specs_lec.html
