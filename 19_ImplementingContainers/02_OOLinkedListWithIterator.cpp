@@ -137,7 +137,16 @@ void List::delete_all() {
 }
 
 List::Node *List::make_copy(List::Node *p) {
-    return p ? new Node(p->data, p->prev, make_copy(p->next)) : NULL;
+    if (p != nullptr) {
+        Node *new_node = new Node(p->data);
+        new_node->next = make_copy(p->next);
+        if (new_node->next != NULL)
+            new_node->next->prev = new_node;
+        return new_node;
+    } else {
+        return NULL;
+    }
+    // return p ? new Node(p->data, p->prev, make_copy(p->next)) : NULL;
 }
 
 List::Iterator List::find(int x) {
@@ -158,6 +167,10 @@ int main() {
     l1.push_back(86);
     l1.push_front(43);
     l1.push_front(12);
+
+    List copy = l1;
+    copy.print();
+    cout << endl;
 
     List l2;
     l2.push_back(-8);
