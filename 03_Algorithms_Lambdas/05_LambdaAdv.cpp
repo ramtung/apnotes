@@ -3,10 +3,8 @@
 #include <algorithm>
 using namespace std;
 
-int main()
-{
+int main() {
 	vector<int> v = {12, 4, 748, 33, 50};
-
 	int sum = 0;
 	
 	// compile error:
