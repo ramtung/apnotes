@@ -17,7 +17,7 @@ int main() {
 		cout << "found!" << endl;
 
 	// The following line causes a compile error! How can we fix it?
-	replace(l.begin(), l.end(), "Gholi", "Shahpar");
+	// replace(l.begin(), l.end(), "Gholi", "Shahpar");
 	
 	for (auto it = l.begin(); it != l.end(); it++)
 		cout << *it << ' ';

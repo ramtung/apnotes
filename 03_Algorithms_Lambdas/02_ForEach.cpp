@@ -4,13 +4,14 @@
 #include <algorithm>
 using namespace std;
 
+void printString(string s) {
+  cout << s << ' ';
+}
+
 int main() {
 	list<string> l = {"Gholi", "aroosi", "naraft!"};
 
-	replace(l.begin(), l.end(), string("Gholi"), string("Shahpar"));
-	
+	for_each(l.begin(), l.end(), printString);
+  
 	for_each(l.begin(), l.end(), [](string s){ cout << s << ' '; });
-
-	// for (auto it = l.begin(); it != l.end(); it++)
-	// 	cout << *it << ' ';
 }
