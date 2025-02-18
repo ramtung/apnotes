@@ -13,9 +13,17 @@ int main() {
 	cout << grades.size() << endl;
 
 	for (auto it = grades.begin(); it != grades.end(); it++)
-		cout << it->first << "'s grade is " << it->second << endl;
+		cout << it->first << "'s grade is " 
+         << it->second << endl;
 
 	map<char, int> cc = {{'a', 4}, {'x', 3}, {'i', 1}};
 	for (auto it2 = cc.begin(); it2 != cc.end(); it2++)
 		cout << it2->first << "->" << it2->second << endl;
+
+  for (auto kv : cc)
+    cout << kv.first << "->" << kv.second << endl;
+
+  // C++17 and later:
+  for (auto [key, value] : cc)
+    cout << key << "->" << value << endl;
 }
