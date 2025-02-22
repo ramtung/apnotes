@@ -1,57 +1,52 @@
 #include <iostream>
 #include <vector>
+#include <map>
 using namespace std;
 
-vector<int> peg_a;
-vector<int> peg_b;
-vector<int> peg_c;
+typedef vector<int> Peg;
+typedef char Label;
+typedef map<Label, Peg> Hanoi;
 
-void print_peg(vector<int> peg)
-{
-    for (int i = 0; i < peg.size(); i++)
-        cout << peg[i] << ' ';
-    cout << '\n';
+void printPeg(const Peg& peg) {
+  for (int disc: peg)
+    cout << disc << ' ';
+  cout << '\n';
 }
 
-void print_pegs()
-{
-    cout << "A: ";
-    print_peg(peg_a);
-    cout << "B: ";
-    print_peg(peg_b);
-    cout << "C: ";
-    print_peg(peg_c);
-    cout << endl;
+void printHanoi(const Hanoi& hanoi) {
+  for (auto [label, peg] : hanoi) {
+    cout << label << ": ";
+    printPeg(peg);    
+  }
+  cout << '\n';
 }
 
-void move(vector<int>& from_peg, vector<int>& to_peg)
-{
-    to_peg.push_back(from_peg.back());
-    from_peg.pop_back();
-    print_pegs();
+void move(Peg& from, Peg& to) {
+  to.push_back(from.back());
+  from.pop_back();
 }
 
-void hanoi(vector<int>& from, vector<int>& to,
-           vector<int>& _using, int num_of_discs)
-{
-    if (num_of_discs == 1)
-        move(from, to);
-    else {
-        hanoi(from, _using, to, num_of_discs - 1);
-        move(from, to);
-        hanoi(_using, to, from, num_of_discs - 1);
-    }   
+void solve(Hanoi& hanoi, Label from, Label to, Label _using, int n) {
+  if (n == 1) {
+    move(hanoi[from], hanoi[to]);
+    printHanoi(hanoi);
+  } else {
+    solve(hanoi, from, _using, to, n-1);
+    move(hanoi[from], hanoi[to]);
+    printHanoi(hanoi);
+    solve(hanoi, _using, to, from, n-1);
+  }   
 }
 
-int main()
-{
-    int num_of_discs;
-    cout << "How many discs? ";
-    cin >> num_of_discs;
+int main() {
+  int n;
+  cout << "How many discs? ";
+  cin >> n;
 
-    for (int i = num_of_discs; i >= 1; i--)
-        peg_a.push_back(i);
+  Hanoi hanoi {{'A', {}}, {'B', {}}, {'C', {}}};
+  for (int i = n; i >= 1; i--)
+    hanoi['A'].push_back(i);
 
-    print_pegs();
-    hanoi(peg_a, peg_b, peg_c, num_of_discs);
+  printHanoi(hanoi);
+  solve(hanoi, 'A', 'B', 'C', n);
 }
