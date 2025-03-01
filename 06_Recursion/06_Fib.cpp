@@ -10,7 +10,7 @@ long fib(long n) {
   return fib(n - 1) + fib (n - 2);
 }
 
-long nr_fib(long n) {
+long iterativeFib(long n) {
   if (n <= 0)
     return 0;
   long a = 1;
@@ -23,25 +23,29 @@ long nr_fib(long n) {
   return b;
 }
 
+
+void printHeader() {
+  cout << setw(5) << "n"
+       << setw(17) << "Iterative"
+       << setw(17) << "Recursive"
+       << endl << string(40, '-') << endl;
+}
+
 void printDuration(steady_clock::time_point start, 
                    steady_clock::time_point end) {
   cout 
-    << setw(10) << fixed << setprecision(5) 
+    << setw(12) << fixed << setprecision(5) 
     << duration_cast<nanoseconds>(end - start).count() * 1e-6
     << " (ms)";
 }
 
 int main() {
-  cout << setw(5) << "n"
-       << setw(15) << "Non-Recursive"
-       << setw(15) << "Recursive"
-       << endl << string(35, '-') << endl;
-
+  printHeader();
   for (int n = 0; n < 50; n++) {
     cout << setw(5) << n;
 
     auto start = steady_clock::now();
-    nr_fib(n);
+    iterativeFib(n);
     auto end = steady_clock::now();
     printDuration(start, end);
 

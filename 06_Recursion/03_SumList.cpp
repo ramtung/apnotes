@@ -2,16 +2,14 @@
 #include <vector>
 using namespace std;
 
-int sum_list(vector<int> list, int i)
-{
+int sum_list(vector<int> list, int i) {
     if (i == list.size())
         return 0;
     else
         return list[i] + sum_list(list, i + 1);
 }
 
-int main()
-{
+int main() {
     vector<int> a;
     int x;
     while (cin >> x)
