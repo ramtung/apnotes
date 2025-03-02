@@ -20,27 +20,27 @@ int bsearch(vector<double> list, int from, int to, double key)
         return bsearch(list, from, mid - 1, key);
 }
 
-int binary_search(vector<double> v, double key) {
+int binarySearch(vector<double> v, double key) {
     return bsearch(v, 0, v.size() - 1, key);
 }
 
 TEST_CASE("Searching for an existing element") {
     vector<double> list = {1.5, 2.2, 4, 6.7, 8};
-    REQUIRE(binary_search(list, 2.2) == 1);
+    REQUIRE(binarySearch(list, 2.2) == 1);
 }
 
 TEST_CASE("Searching for a missing element") {
     vector<double> list = {1.5, 2.2, 4, 6.7, 8};
-    REQUIRE(binary_search(list, 2.3) == -1);
+    REQUIRE(binarySearch(list, 2.3) == -1);
 }
 
 TEST_CASE("Searching for a missing element in a singletorn list") {
     vector<double> list = {1.5};
-    REQUIRE(binary_search(list, 2.2) == -1);
+    REQUIRE(binarySearch(list, 2.2) == -1);
 }
 
 TEST_CASE("Searching for the only element in a singletorn list") {
     vector<double> list = {1.5};
-    REQUIRE(binary_search(list, 1.5) == 0);
+    REQUIRE(binarySearch(list, 1.5) == 0);
 }
 

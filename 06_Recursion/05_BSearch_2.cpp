@@ -1,42 +1,31 @@
-// Wrapping the recursive bsearch in binary_search to get rid of from and to parameters
 #include <iostream>
 #include <vector>
 using namespace std;
 
-int bsearch(vector<double> list, int from, int to, double key)
-{
-    if (list.size() == 0)
-        return -1;
-    if (from > to)
-        return -1;
+int bsearch(vector<double> v, int from, int to, double value) {
+  if (from > to)
+    return -1;
 
-    int mid = (from + to) / 2;
-    if (list[mid] == key)
-        return mid;
-    else if (list[mid] < key)
-        return bsearch(list, mid + 1, to, key);
-    else
-        return bsearch(list, from, mid - 1, key);
+  int mid = (from + to) / 2;
+  if (v[mid] == value)
+    return mid;
+  else if (v[mid] < value)
+    return bsearch(v, mid+1, to, value);
+  else
+    return bsearch(v, from, mid-1, value);
 }
 
-int binary_search(vector<double> v, double key) {
-    return bsearch(v, 0, v.size() - 1, key);
+int binarySearch(vector<double> v, double value) {
+  return bsearch(v, 0, v.size()-1, value);
 }
 
-int main()
-{
-    const int key = 19;
+int main() {
+  vector<double> v {1, 3, 5, 7, 9, 11, 13, 15};
+  int target = 7;
 
-    cout << "Enter a sorted list of numbers. I will look for 19 in the list! ";
-    vector<double> list;
-    int x;
-    while (cin >> x)
-        list.push_back(x);
-    
-    int idx = binary_search(list, key);
-    
-    if (idx == -1)
-        cout << "key not found" << endl;
-    else
-        cout << "key is found at index " << idx << endl;
-}
+  int idx = binarySearch(v, target);
+  
+  if (idx == -1)
+    cout << "Did not found " << target << endl;
+  else
+    cout << "Found " << target << " at index " << idx << endl;
