@@ -26,28 +26,22 @@ void printState(State state) {
   cin.get();
 }
 
-bool solve(State& state, int row) {
-  // uncomment the following for debugging:
-  // printState(state);
-
+void solveAll(State& state, int row) {
   if (row == SIZE)
-    return true;
+    printState(state);
     
   for (int col = 0; col < SIZE; col++) {
     if (safeToPutAt(state, row, col)) {
       state[row] = col;
-      if (solve(state, row + 1))
-        return true;
+      solveAll(state, row + 1);
       state[row] = -1;
     }
   }
-  return false;
 }
 
 int main() {
   State state;
   for (int row = 0; row < SIZE; row++)
     state[row] = -1;
-  if (solve(state, 0))
-    printState(state);
+  solveAll(state, 0);
 }
