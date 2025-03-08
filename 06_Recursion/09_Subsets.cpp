@@ -2,7 +2,7 @@
 #include <set>
 using namespace std;
 
-void print(const set<char>& s) {
+void printSet(const set<char>& s) {
   cout << '{';
   for (auto it = s.begin(); it != s.end(); ++it)
     cout << *it 
@@ -14,7 +14,7 @@ void printSubsets(set<char>::iterator first,
                   set<char>::iterator last, 
                   set<char>& subset) {
   if (first == last) {
-    print(subset);
+    printSet(subset);
     return;
   }
   
