@@ -10,14 +10,14 @@ bool controls(int r1, int c1, int r2, int c2) {
   return (r1 == r2 || c1 == c2 || abs(r1 - r2) == abs(c1 - c2));
 }
 
-bool safeToPutAt(Solution solution, int row, int col) {
+bool safeToPutAt(const Solution& solution, int row, int col) {
   for (int prevRow = 0; prevRow < row; prevRow++)
     if (controls(row, col, prevRow, solution[prevRow]))
       return false;
   return true;
 }
 
-void printSolution(Solution solution) {
+void printSolution(const Solution& solution) {
   for (int row = 0; row < SIZE; row++) {
     for (int col = 0; col < SIZE; col++)
       cout << (col == solution[row] ? "QQ" : "..");

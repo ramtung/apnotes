@@ -15,7 +15,7 @@ struct Solution {
   int moveNo;
 };
 
-void initState(Solution& solution, int initRow, int initCol) {
+void initSolution(Solution& solution, int initRow, int initCol) {
   for (int row = 0; row < ROW_COUNT; row++)
     for (int col = 0; col < COL_COUNT; col++)
       solution.board[row][col] = 0;
@@ -81,7 +81,7 @@ bool findTour(Solution& solution) {
 
 void solve(int initRow, int initCol) {
   Solution solution;
-  initState(solution, initRow, initCol);
+  initSolution(solution, initRow, initCol);
   if (findTour(solution))
     printSolution(solution);
   else
