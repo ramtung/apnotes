@@ -12,12 +12,11 @@ void printSet(const set<char>& s) {
 
 void printSubsets(set<char>::iterator first, 
                   set<char>::iterator last, 
-                  set<char>& subset) {
+                  set<char> subset={}) {
   if (first == last) {
     printSet(subset);
     return;
-  }
-  
+  }  
   subset.insert(*first);
   printSubsets(next(first), last, subset);
   subset.erase(*first);
@@ -26,6 +25,5 @@ void printSubsets(set<char>::iterator first,
 
 int main() {
   set<char> s {'A', 'B', 'C'};
-  set<char> subset;
-  printSubsets(s.begin(), s.end(), subset);
+  printSubsets(s.begin(), s.end());
 }

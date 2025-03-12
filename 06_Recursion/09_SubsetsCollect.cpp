@@ -17,8 +17,7 @@ void collectSubsets(set<char>::iterator first,
   if (first == last) {
     result.push_back(subset);
     return;
-  }
-  
+  } 
   subset.insert(*first);
   collectSubsets(next(first), last, result, subset);
   subset.erase(*first);
@@ -31,7 +30,6 @@ void collectSubsets(set<char>::iterator first,
   set<char> subset;
   collectSubsets(next(first), last, result, subset);
 }
-
 
 int main() {
   set<char> s {'A', 'B', 'C'};
