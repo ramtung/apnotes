@@ -4,15 +4,18 @@ using namespace std;
 
 class Date {
 public:
-  // methods or member functions
+  Date(int d=1, int m=1, int y=0);
   void setDate(int d, int m, int y);
   void printDate();
 private:
-  // fields or member variables
   int day;
   int month;
   int year;
 };
+
+Date::Date(int d, int m, int y) {
+  setDate(d, m, y);
+}
 
 void Date::setDate(int d, int m, int y) {
   if (y < 0 || m < 1 || m > 12 || d < 1 || 
@@ -30,10 +33,7 @@ void Date::printDate() {
   cout << day << '/' << month << '/' << year << endl;
 }
 
-int main() {
-  Date bd;
-  bd.setDate(31, 6, 1352);
-  bd.printDate();
-  // compile error: access to private member
-  // bd.day = 14;
+int main() {	
+  Date d;
+  d.printDate();
 }
