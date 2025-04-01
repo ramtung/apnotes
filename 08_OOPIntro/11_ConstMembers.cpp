@@ -1,56 +1,92 @@
 #include <iostream>
+#include <stdexcept>
 using namespace std;
 
-class Complex {
+class Date {
 public:
-    Complex(double r, double i) : real(r), imag(i) {}
-    Complex(double r) : real(r), imag(0) {}
-    void print() const;
+  Date(int d, int m, int y);
+  void setDate(int d, int m, int y);
+  void printDate() const;
+  void advanceByOneDay();
+  bool equals(const Date& d) const;
 
-    Complex add(const Complex& c) const;
-    void inc(const Complex& c);
-
-    double re() const { return real; }
-    double im() const { return imag; }
+  int getDay() const{ return day; }
+  int getMonth() const { return month; }
+  int getYear() const { return year; }
 private:
-    double real;
-    double imag;
+  int day;
+  int month;
+  int year;
 };
 
-Complex Complex::add(const Complex& c) const {
-    return Complex(real + c.real, imag + c.imag);
+bool isLeapYear(int year) {
+  int r = year % 33;
+  return r==1 || r==5 || r==9 || r==13 || r==17 || r==22 || r==26 || r==30;
 }
 
-void Complex::inc(const Complex& c) {
-    real += c.real;
-    imag += c.imag;
+int daysOfMonth(int m, int y) {
+  if (m < 7)
+    return 31;
+  else if (m < 12)
+    return 30;
+  else if (m == 12)
+    return isLeapYear(y) ? 30 : 29;
+  else  
+    throw invalid_argument("Invalid date parameters");
 }
 
-void Complex::print() const {
-    cout << real;
-    if (imag > 0)
-        cout << '+' << imag << 'i';
-    else if (imag < 0)
-        cout << imag << 'i';
+Date::Date(int d, int m, int y) {
+  setDate(d, m, y);
 }
 
-int main() {    
-    Complex a(1, 2);
-    Complex b(4, -2);
+void Date::setDate(int d, int m, int y) {
+  if (y < 0 || m < 1 || m > 12 || d < 1 || d > daysOfMonth(m, y))
+    throw invalid_argument("Invalid date parameters");
 
-    a.print();     // 1+2i
-    b.print();     // 4-2i
+  day = d;
+  month = m;
+  year = y;
+}
 
-    Complex c = a.add(b);
-    c.print();     // 5
-    
-    b.inc(c);      // 9-2i
-    b.print();
+void Date::advanceByOneDay() {
+  day++;
+  if (day > daysOfMonth(month, year)) {
+    day = 1;
+    month++;
+    if (month > 12) {
+      month = 1;
+      year++;
+    }
+  }
+}
 
-    const Complex zero(0,0);    
-    zero.print();
-    a.inc(zero);                // OK, since inc's argument is const
-    Complex d = zero.add(a);    // OK, since add is marked as a const method
-    // compile error, inc is not marked as a const method
-    // zero.inc(a);    
+void Date::printDate() const {
+  cout << day << '/' << month << '/' << year << endl;
+}
+
+bool Date::equals(const Date& d) const {
+  return day == d.day && 
+         month == d.month && 
+         year == d.year;
+}
+                    
+int daysBetween(Date d1, Date d2) {
+  // Assuming that d1 is not later than d2
+  int count = 1;
+  while (!d1.equals(d2)) {
+    d1.advanceByOneDay();
+    count++;
+  }
+  return count;
+}
+
+int main() {
+  const Date UTFoundationDay(8, 3, 1313);
+  UTFoundationDay.printDate();
+  // Compile error:
+  // UTFoundationDay.advanceByOneDay();
+  
+  Date today(12, 1, 1404);
+  cout << today.equals(UTFoundationDay) << endl;
+  cout << daysBetween(UTFoundationDay, today) << endl;
 }

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 #include <stdexcept>
 using namespace std;
 
@@ -7,7 +8,8 @@ public:
   Date(int d, int m, int y);
   void setDate(int d, int m, int y);
   void printDate();
-  void incOneDay();
+  void advanceByOneDay();
+  bool equals(Date d);
 
   int getDay() { return day; }
   int getMonth() { return month; }
@@ -47,7 +49,7 @@ void Date::setDate(int d, int m, int y) {
   year = y;
 }
 
-void Date::incOneDay() {
+void Date::advanceByOneDay() {
   day++;
   if (day > daysOfMonth(month, year)) {
     day = 1;
@@ -62,9 +64,41 @@ void Date::incOneDay() {
 void Date::printDate() {
   cout << day << '/' << month << '/' << year << endl;
 }
+
+bool Date::equals(Date d) {
+  return day == d.day && 
+         month == d.month && 
+         year == d.year;
+}
                     
+int daysBetween(Date d1, Date d2) {
+  // Assuming that d1 is not later than d2
+  int count = 1;
+  while (!d1.equals(d2)) {
+    d1.advanceByOneDay();
+    count++;
+  }
+  return count;
+}
+
+Date strToDate(string s) {
+  // Convers a string of the form dd/mm/yyyy to Date
+  // Assumes the date format is correct
+  istringstream ss(s);
+  int d, m, y;
+  char sep;
+
+  ss >> d >> sep >> m >> sep >> y;
+
+  return Date(d, m, y);
+}
+
 int main() {
-  Date bd(31, 6, 1352);
-  bd.incOneDay();
-  bd.printDate();
+  Date(1, 1, 1404).printDate();
+  
+  string s = "18/01/1404";
+  Date d = strToDate(s);
+  cout << d.equals(Date(18, 1, 1404)) << endl;
+
+  strToDate("10/01/1300").printDate();
 }

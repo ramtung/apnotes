@@ -8,7 +8,6 @@ public:
   void setDate(int d, int m, int y);
   void printDate();
 
-  // inline definition
   int getDay() { return day; }
   int getMonth() { return month; }
   int getYear() { return year; }

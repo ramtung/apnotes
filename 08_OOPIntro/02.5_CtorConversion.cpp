@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdexcept>
 using namespace std;
 
 class C {
@@ -15,5 +14,5 @@ void f(C c) {
 }
 
 int main() {	
-  f(8); // C's ctor called implicitly
+  f(8); // C's ctor is called implicitly
 }

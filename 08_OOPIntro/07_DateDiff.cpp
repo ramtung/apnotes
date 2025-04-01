@@ -1,6 +1,5 @@
 #include <iostream>
 #include <stdexcept>
-#include <cstdlib>
 using namespace std;
 
 class Date {
@@ -8,7 +7,7 @@ public:
   Date(int d, int m, int y);
   void setDate(int d, int m, int y);
   void printDate();
-  void incOneDay();
+  void advanceByOneDay();
   bool equals(Date d);
 
   int getDay() { return day; }
@@ -49,7 +48,7 @@ void Date::setDate(int d, int m, int y) {
   year = y;
 }
 
-void Date::incOneDay() {
+void Date::advanceByOneDay() {
   day++;
   if (day > daysOfMonth(month, year)) {
     day = 1;
@@ -72,25 +71,13 @@ bool Date::equals(Date d) {
 }
                     
 int daysBetween(Date d1, Date d2) {
-    // Assuming that d1 is not later than d2
-    int count = 1;
-    while (!d1.equals(d2)) {
-        d1.incOneDay();
-        count++;
-    }
-    return count;
-}
-
-Date strToDate(string s) {
-  //TODO: Handle formatting errors
-  int slash_pos = s.find('/');
-  int d = atoi(s.substr(0, slash_pos).c_str());
-  s = s.substr(slash_pos + 1);
-  slash_pos = s.find('/');
-  int m = atoi(s.substr(0, slash_pos).c_str());
-  int y = atoi(s.substr(slash_pos + 1).c_str());
-
-  return Date(d, m, y);
+  // Assuming that d1 is not later than d2
+  int count = 1;
+  while (!d1.equals(d2)) {
+    d1.advanceByOneDay();
+    count++;
+  }
+  return count;
 }
 
 int main() {

@@ -8,7 +8,7 @@ public:
   Date(int d, int m, int y);
   void setDate(int d, int m, int y);
   void printDate();
-  void incOneDay();
+  void advanceByOneDay();
 
   int getDay() { return day; }
   int getMonth() { return month; }
@@ -48,7 +48,7 @@ void Date::setDate(int d, int m, int y) {
   year = y;
 }
 
-void Date::incOneDay() {
+void Date::advanceByOneDay() {
   day++;
   if (day > daysOfMonth(month, year)) {
     day = 1;
@@ -67,11 +67,15 @@ void Date::printDate() {
 int main() {
   Date bd(30, 12, 1387);
 
-  vector<Date> dates;
-  dates.push_back(bd);
-  dates.push_back(Date(1, 1, 1));
-  dates[0].printDate();
+  vector<Date> v1;
+  v1.push_back(bd);
+  v1.push_back(Date(18, 1, 1404));
+  v1[0].printDate();
 
-  // needs a default constructor:
-  // vector<Date> dates2(100);
+  vector<Date> v2 = {Date(18, 1, 1404), Date(1, 1, 1403)};
+  
+  // Needs a default constructor:
+  // vector<Date> v3(100);
+
+  vector<Date> v4(100, Date(1, 1, 0));
 }

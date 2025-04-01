@@ -41,4 +41,7 @@ void Date::printDate() {
 int main() {	
   Date d;
   d.printDate();
+
+  Date bd(31, 6, 1352);
+  bd.printDate();
 }

@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 #include <stdexcept>
 using namespace std;
 
@@ -8,8 +7,7 @@ public:
   Date(int d, int m, int y);
   void setDate(int d, int m, int y);
   void printDate();
-  void incOneDay();
-  bool equals(Date d);
+  void advanceByOneDay();
 
   int getDay() { return day; }
   int getMonth() { return month; }
@@ -49,7 +47,7 @@ void Date::setDate(int d, int m, int y) {
   year = y;
 }
 
-void Date::incOneDay() {
+void Date::advanceByOneDay() {
   day++;
   if (day > daysOfMonth(month, year)) {
     day = 1;
@@ -64,39 +62,9 @@ void Date::incOneDay() {
 void Date::printDate() {
   cout << day << '/' << month << '/' << year << endl;
 }
-
-bool Date::equals(Date d) {
-  return day == d.day && 
-         month == d.month && 
-         year == d.year;
-}
                     
-int daysBetween(Date d1, Date d2) {
-    // Assuming that d1 is not later than d2
-    int count = 1;
-    while (!d1.equals(d2)) {
-        d1.incOneDay();
-        count++;
-    }
-    return count;
-}
-
-Date strToDate(string s) {
-  //TODO: Handle formatting errors
-  int slashPos = s.find('/');
-  int d = atoi(s.substr(0, slashPos).c_str());
-  s = s.substr(slashPos + 1);
-  slashPos = s.find('/');
-  int m = atoi(s.substr(0, slashPos).c_str());
-  int y = atoi(s.substr(slashPos + 1).c_str());
-
-  return Date(d, m, y);
-}
-
 int main() {
-  string s = "18/01/1404";
-  Date d = strToDate(s);
-  d.printDate();
-
-  strToDate("10/01/1300").printDate();
+  Date bd(31, 6, 1352);
+  bd.advanceByOneDay();
+  bd.printDate();
 }
