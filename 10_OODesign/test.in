@@ -1,7 +1,7 @@
-emporder  1001  Farsi     Kabab
-emporder  1002  Farsi     Kabab
-emporder  1003  Chelopaz  Maahi
-emporder  1002  Farsi     Joojeh
+emporder  1001  Farsi     Kabab   1
+emporder  1002  Farsi     Kabab   1
+emporder  1003  Chelopaz  Maahi   1
+emporder  1002  Farsi     Joojeh  2
 catorder	Farsi
 catorder	Chelopaz
 delivery	Farsi	40000
