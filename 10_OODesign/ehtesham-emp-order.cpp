@@ -3,37 +3,30 @@
 #include <sstream>
 #include <string>
 #include <vector>
-#include <set>
 #include <algorithm>
 #include <memory>
 #include <stdexcept>
 using namespace std;
 
 class Employee {
- public:
+public:
   Employee(string emp_id, string name) {
-    if (emp_id == "" || name == "")
+    if (emp_id.empty() || name.empty())
       throw invalid_argument("Employee ID and name cannot be empty");
     emp_id_ = emp_id;
     name_ = name;
-    bedehi_ = 0;
   }
   string get_id() const { return emp_id_; }
-  string get_name() const { return name_; }
-  int get_bedehi() const { return bedehi_; }
-
-  void Charge(int amount) { bedehi_ += amount; }
 
 private:
   string emp_id_;
   string name_;
-  int bedehi_;
 };
 
 class MenuItem {
- public:
+public:
   MenuItem(string title, int price) {
-    if (title == "") 
+    if (title.empty()) 
       throw invalid_argument("Menu item title cannot be empty");
     if (price <= 0) 
       throw invalid_argument("Menu item price must be positive");
@@ -41,7 +34,6 @@ class MenuItem {
     price_ = price;
   }
   string get_title() const { return title_; }
-  int get_price() const { return price_; }
 
 private:
   string title_;
@@ -63,53 +55,10 @@ public:
   shared_ptr<Employee> get_employee() const { return employee_; } 
   int get_quantity() const { return quantity_; }
 
-  int Total() const { return quantity_ * item_->get_price(); }
-
 private:
   shared_ptr<Employee> employee_;
   shared_ptr<MenuItem> item_;
   int quantity_;
-};
-
-class CateringOrderLine {
-public:
-  CateringOrderLine(shared_ptr<MenuItem> menu_item, int quantity) {
-    menu_item_ = menu_item;
-    quantity_ = quantity;
-  }
-  shared_ptr<MenuItem> get_menu_item() const { return menu_item_; }
-  int get_quantity() const { return quantity_; }
-
-  void IncreaseQuantity(int quantity) { quantity_ += quantity; }
-
-private:
-  shared_ptr<MenuItem> menu_item_;
-  int quantity_;
-};
-
-class CateringOrder {
-public:
-  string to_string() const {
-    ostringstream os;
-    for (auto line : orderLines_) {
-      os << line->get_menu_item()->get_title() << "\t" 
-         << line->get_menu_item()->get_price() << "\t" 
-         << line->get_quantity() << "\t" 
-         << line->get_menu_item()->get_price() * line->get_quantity() << endl;
-    }
-    return os.str();
-  }
-
-  void AddEmployeeOrder(shared_ptr<EmployeeOrder> emp_order) {
-    for (auto line : orderLines_)
-      if (line->get_menu_item() == emp_order->get_menu_item()) {
-        line->IncreaseQuantity(emp_order->get_quantity());
-        return;
-      }
-    orderLines_.push_back(make_shared<CateringOrderLine>(emp_order->get_menu_item(), emp_order->get_quantity()));
-  }
-private:
-  vector<shared_ptr<CateringOrderLine>> orderLines_;
 };
 
 class Catering {
@@ -119,28 +68,11 @@ public:
     menu_ = menu;
   }
   string get_name() const { return name_; }
-  
+
   void TakeEmployeeOrder(shared_ptr<Employee> emp, string item_title, int quantity) {
     employee_orders_.push_back(make_shared<EmployeeOrder>(emp, FindItemByTitle(item_title), quantity));
   }
-  CateringOrder GenCateringOrder() const {
-    CateringOrder order;
-    for (const auto& emp_order : employee_orders_) {
-      order.AddEmployeeOrder(emp_order);
-    }
-    return order;
-  }
-  void HandleDelivery(int delivery_cost) const {
-    set<shared_ptr<Employee>> employees;
-    for (const auto& emp_order : employee_orders_) {
-      shared_ptr<Employee> emp = emp_order->get_employee();
-      emp->Charge(emp_order->Total());
-      employees.insert(emp);
-    }
-    for (const auto& emp : employees) {
-      emp->Charge(delivery_cost / employees.size());
-    }
-  }
+
 private:
   shared_ptr<MenuItem> FindItemByTitle(string item_title) {
     auto it = find_if(menu_.begin(), menu_.end(), [=](auto item) { 
@@ -157,30 +89,16 @@ private:
 };
 
 class Ehtesham {
- public:
+public:
   Ehtesham(string emp_filename, string cat_filename) {
     ReadEmployees(emp_filename);
     ReadCaterings(cat_filename);
   }
+
   void TakeEmployeeOrder(string emp_id, string cat_name, string item_title, int quantity) {
     shared_ptr<Catering> cat = FindCateringByName(cat_name);
     shared_ptr<Employee> emp = FindEmployeeById(emp_id);
     cat->TakeEmployeeOrder(emp, item_title, quantity);
-  }
-  CateringOrder GenCateringOrder(string cat_name) {
-    shared_ptr<Catering> cat = FindCateringByName(cat_name);
-    return cat->GenCateringOrder();
-  }
-  void HandleDelivery(string cat_name, int delivery_cost) {
-    shared_ptr<Catering> cat = FindCateringByName(cat_name);
-    cat->HandleDelivery(delivery_cost);
-  }
-  string BedehiReport() {
-    ostringstream os;
-    for (const shared_ptr<Employee> emp : employees_) {
-      os << emp->get_name() << "\t" << emp->get_bedehi() << endl;
-    }
-    return os.str();
   }
 
 private:
@@ -211,7 +129,7 @@ private:
       caterings_.push_back(make_shared<Catering>(cat_name, menu));
     }
   }
-  
+
   shared_ptr<Employee> FindEmployeeById(string emp_id) {
     auto it = find_if(employees_.begin(), employees_.end(), [=](auto emp) { 
       return emp->get_id() == emp_id; 
@@ -251,25 +169,6 @@ int main() {
       ehtesham.TakeEmployeeOrder(empid, cat_name, item_title, quantity);
 
       cout << "Order from employee " << empid << " handled!" << endl << endl;
-    } else if (command == "catorder") {
-      string cat_name;
-      cmdin >> cat_name;
-
-      CateringOrder cat_order = ehtesham.GenCateringOrder(cat_name);
-
-      cout << "Order for catering " << cat_name << " placed:\n";
-      cout << cat_order.to_string() << endl;
-    } else if (command == "delivery") {
-      string cat_name;
-      int delivery_cost;
-      cmdin >> cat_name;
-      cmdin >> delivery_cost;
-
-      ehtesham.HandleDelivery(cat_name, delivery_cost);
-
-      cout << "Delivery from " << cat_name << " handled!" << endl << endl;
-    } else if (command == "bedehi") {
-      cout << "Bedehi Report: " << endl << ehtesham.BedehiReport() << endl;
     } else {
       cerr << "unknown command: " << command << endl;
     }
