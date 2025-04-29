@@ -40,6 +40,7 @@ class MadDonkey {
 public:
     MadDonkey(int _x, int _y) : x(_x), y(_y) {
         stepsSinceLastTurn = 0;
+        direction = (Direction)(rand() % 4);
 
         if (!font.loadFromFile("calibri.ttf")) {
             abort();

@@ -39,6 +39,7 @@ private:
 class MadDonkey {
 public:
     MadDonkey(int _x, int _y) : x(_x), y(_y), shape(10.f) {
+        direction = (Direction)(rand() % 4);
         shape.setPosition(x, y);
         shape.setFillColor(Color::White);
         stepsSinceLastTurn = 0;

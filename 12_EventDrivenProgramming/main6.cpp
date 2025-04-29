@@ -44,6 +44,7 @@ class MadDonkey {
 public:
     MadDonkey(int _x, int _y) : x(_x), y(_y) {
         stepsSinceLastTurn = 0;
+        direction = (Direction)(rand() % 4);
         if (!texture.loadFromFile("donkey.png"))
             abort();
         sprite.setTexture(texture);
@@ -102,6 +103,8 @@ public:
     }
 
     void draw(RenderWindow& window) {
+        if (!started)
+            return;
         window.clear();
         player.draw(window);
         donkey.draw(window);
