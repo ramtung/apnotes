@@ -41,8 +41,7 @@ Stack::~Stack() {
   delete[] elements_;
 }
 
-Stack& Stack::operator=(const Stack& s)
-{
+Stack& Stack::operator=(const Stack& s) {
   if (this == &s)
 		return *this;
 		

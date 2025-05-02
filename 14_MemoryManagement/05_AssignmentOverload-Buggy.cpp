@@ -80,6 +80,6 @@ int main() {
   u.Push(5);
   u.Push(12);
 
-  u = u;
-	cout << u.Top() << endl;
+  Stack v;
+  v = u;
 }

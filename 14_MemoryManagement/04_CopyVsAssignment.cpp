@@ -70,10 +70,9 @@ int main() {
   u.Push(12);
 
   // initialization:
-  Stack v = u;  // copy constructor called 
-  Stack v(u);
+  Stack v = u; // Same as: Stack v(u);
 
   Stack w;
   // assignment
- 	w = u;
+  w = u;
 }
