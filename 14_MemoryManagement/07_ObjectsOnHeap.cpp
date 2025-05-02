@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdexcept>
 using namespace std;
 
 #define DEFAULT_SIZE 10
