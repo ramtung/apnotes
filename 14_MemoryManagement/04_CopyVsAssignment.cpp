@@ -3,87 +3,76 @@ using namespace std;
 
 #define DEFAULT_SIZE 10
 
-class invalid_operation_ex {};
-
-class stack {
+class Stack {
 public:
-    stack(int size = DEFAULT_SIZE);
-	stack(const stack&);
-    ~stack();
-    void push(int x);
-    void pop();
-    int top() const;
-    int elem_count() const { return count; }
+  Stack(int size = DEFAULT_SIZE);
+	Stack(const Stack&);
+  ~Stack();
+  void Push(int x);
+  void Pop();
+  int Top() const;
+  bool IsEmpty() const { return count_ == 0; }
+  bool IsFull() const { return count_ == size_; }
 private:
-    int *elements;
-    int size;
-    int count;
+  int *elements_;
+  int size_;
+  int count_;
 };
 
-stack::stack(int s) {
-    cout << "--constructor called\n";
-    size = s;
-    elements = new int[size];
-    count = 0;
+Stack::Stack(int s) {
+  cout << "--constructor called\n";
+  size_ = s;
+  elements_ = new int[size_];
+  count_ = 0;
 }
 
-stack::stack(const stack& s) {
-    cout << "-- copy constructor called\n";
-    size = s.size;
-    count = s.count;
-    elements = new int[size];
-    for (int i = 0; i < count; i++)
-        elements[i] = s.elements[i];
+Stack::Stack(const Stack& s) {
+  cout << "-- copy constructor called\n";
+  size_ = s.size_;
+  count_ = s.count_;
+  elements_ = new int[size_];
+  for (int i = 0; i < count_; i++)
+    elements_[i] = s.elements_[i];
 }
 
-stack::~stack() {
-    cout << "--destructor called\n";
-    delete[] elements;
+Stack::~Stack() {
+  cout << "--destructor called\n";
+  delete[] elements_;
 }
 
-void stack::push(int x) {
-    if (count >= size)
-        throw invalid_operation_ex();
+void Stack::Push(int x) {
+  if (count_ >= size_)
+    throw overflow_error("Stack overflow");
 
-    elements[count] = x;
-    count++;
+  elements_[count_] = x;
+  count_++;
 }
 
-void stack::pop() {
-    if (count > 0)
-        count--;
-    else
-        throw invalid_operation_ex();
+void Stack::Pop() {
+  if (count_ > 0)
+    count_--;
+  else
+    throw underflow_error("Stack is empty");
 }
 
-int stack::top() const {
-    if (count > 0)
-        return elements[count-1];
-    else
-        throw invalid_operation_ex();
-}
-
-void print_stack(stack s) {
-    while (s.elem_count() > 0) {
-        cout << s.top() << ' ';
-        s.pop();
-    }
-    cout << endl;
+int Stack::Top() const {
+  if (count_ > 0)
+    return elements_[count_-1];
+  else
+    throw underflow_error("Stack is empty");
 }
 
 int main() {
-    stack u;
-    u.push(4);
-    u.push(5);
-    u.push(12);
+  Stack u;
+  u.Push(4);
+  u.Push(5);
+  u.Push(12);
 
-    // initialization:
-    stack v = u;    // copy constructor called 
-    stack v(u);
+  // initialization:
+  Stack v = u;  // copy constructor called 
+  Stack v(u);
 
-    stack w;
-    // assignment
+  Stack w;
+  // assignment
  	w = u;
-
-    // Explain the result of execution of this code
 }

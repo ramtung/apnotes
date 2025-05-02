@@ -19,12 +19,12 @@ CateringOrder Catering::GenCateringOrder() const {
 
 void Catering::HandleDelivery(int delivery_cost) const {
   set<shared_ptr<Employee>> employees;
-  for (const auto& emp_order : employee_orders_) {
+  for (auto emp_order : employee_orders_) {
     shared_ptr<Employee> emp = emp_order->get_employee();
     emp->Charge(emp_order->Total());
     employees.insert(emp);
   }
-  for (const auto& emp : employees) {
+  for (auto emp : employees) {
     emp->Charge(delivery_cost / employees.size());
   }
 }

@@ -6,9 +6,7 @@ using namespace std;
 class Stack {
 public:
   Stack(int size = DEFAULT_SIZE);
-  Stack(const Stack&);
   ~Stack();
-  Stack& operator=(const Stack&);
   void Push(int x);
   void Pop();
   int Top() const;
@@ -20,40 +18,16 @@ private:
   int count_;
 };
 
-Stack::Stack(int s) {
+Stack::Stack(int size) {
   cout << "--constructor called\n";
-  size_ = s;
+  size_ = size;
   elements_ = new int[size_];
   count_ = 0;
-}
-
-Stack::Stack(const Stack& s) {
-  cout << "-- copy constructor called\n";
-  size_ = s.size_;
-  count_ = s.count_;
-  elements_ = new int[size_];
-  for (int i = 0; i < count_; i++)
-    elements_[i] = s.elements_[i];
 }
 
 Stack::~Stack() {
   cout << "--destructor called\n";
   delete[] elements_;
-}
-
-Stack& Stack::operator=(const Stack& s)
-{
-  if (this == &s)
-		return *this;
-		
-  count_ = s.count_;
-  size_ = s.size_;
-  delete[] elements_;
-  elements_ = new int[size_];
-  for (int i = 0; i < count_; i++)
-    elements_[i] = s.elements_[i];
-    
-  return *this;
 }
 
 void Stack::Push(int x) {
@@ -79,11 +53,9 @@ int Stack::Top() const {
 }
 
 int main() {
-  Stack u;
-  u.Push(4);
-  u.Push(5);
-  u.Push(12);
-
-  u = u;
-	cout << u.Top() << endl;
+	cout << "Hello" << endl;
+  Stack s(100);
+  s.Push(4);
+  cout << s.Top() << endl;
+	cout << "Bye" << endl;
 }
