@@ -1,77 +1,76 @@
-#include <iostream>
 #include <stdexcept>
 using namespace std;
 
 class Table {
 public:
-  Table(double w, double h);
-  double getWidth() { return width; }
-  double getHeight() { return height; }
+  Table(double width, double height);
+  double width() { return width_; }
+  double height() { return height_; }
 private:
-  double width;
-  double height;
+  double width_;
+  double height_;
 };
 
-Table::Table(double w, double h) {
-  if (w <= 0 || h <= 0)
+Table::Table(double width, double height) {
+  if (width <= 0 || height <= 0)
     throw invalid_argument("Table dimensions must be positive");
-  width = w;
-  height = h;
+  width_ = width;
+  height_ = height;
 }
 
 class Ball {
 public:
-  Ball(double _x, double _y, double _vx, double _vy, Table* t);
-  void move(double dt);
-  double getX() { return x; }
-  double getY() { return y; }
-  double getVx() { return vx; }
-  double getVy() { return vy; }
+  Ball(double x, double y, double vx, double vy, Table* table);
+  void Move(double dt);
+  double x() { return x_; }
+  double y() { return y_; }
+  double vx() { return vx_; }
+  double vy() { return vy_; }
 private:
-  double x;
-  double y;
-  double vx;
-  double vy;
-  Table* table;
+  double x_;
+  double y_;
+  double vx_;
+  double vy_;
+  Table* table_;
 };
 
-Ball::Ball(double _x, double _y, double _vx, double _vy, Table* t) {
-  table = t;
-  if (x < 0 || x >= table->getWidth() || y < 0 || y >= table->getHeight())
+Ball::Ball(double x, double y, double vx, double vy, Table* table) {
+  table_ = table;
+  if (x_ < 0 || x_ >= table_->width() || y_ < 0 || y_ >= table_->height())
     throw invalid_argument("Ball position out of bounds");
-  x = _x;
-  y = _y;
-  vx = _vx;
-  vy = _vy;
+  x_ = x;
+  y_ = y;
+  vx_ = vx;
+  vy_ = vy;
 }
 
-void Ball::move(double dt) {
-  x += vx * dt;
-  y += vy * dt;
+void Ball::Move(double dt) {
+  x_ += vx_ * dt;
+  y_ += vy_ * dt;
   
-  while (x < 0 || x >= table->getWidth() || y < 0 || y >= table->getHeight()) {
-    if (x < 0) {
-      x = -x;
-      vx = -vx;
+  while (x_ < 0 || x_ >= table_->width() || 
+         y_ < 0 || y_ >= table_->height()) {
+    if (x_ < 0) {
+      x_ = -x_;
+      vx_ = -vx_;
     }
-    if (x >= table->getWidth()) {
-      x = 2 * table->getWidth() - x;
-      vx = -vx;
+    if (x_ >= table_->width()) {
+      x_ = 2 * table_->width() - x_;
+      vx_ = -vx_;
     }
-    if (y < 0) {
-      y = -y;
-      vy = -vy;
+    if (y_ < 0) {
+      y_ = -y_;
+      vy_ = -vy_;
     }
-    if (y >= table->getHeight()) {
-      y = 2 * table->getHeight() - y;
-      vy = -vy;
+    if (y_ >= table_->height()) {
+      y_ = 2 * table_->height() - y_;
+      vy_ = -vy_;
     }
   }
 }
 
-int main()
-{
+int main() {
   Table t(100, 50);
   Ball b(10, 20, 25, 5, &t);
-  b.move(10); 
+  b.Move(10); 
 }

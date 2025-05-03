@@ -1,70 +1,69 @@
-#include <iostream>
-#include <cstdlib>
+#include <stdexcept>
 using namespace std;
 
 class Ball;
 
 class Table {
 public:
-  Table(double w, double h);
-  bool containsPoint(double x, double y);
-  void reflect(Ball* b);
+  Table(double width, double height);
+  bool IsWithinBounds(double x, double y);
+  void Reflect(Ball* b);
 private:
-  double width;
-  double height;
+  double width_;
+  double height_;
 };
 
 class Ball {
 public:
-  Ball(double _x, double _y, double _vx, double _vy, Table* t);
-  void move(double dt);
-  double getX() { return x; }
-  double getY() { return y; }
-  double getVx() { return vx; }
-  double getVy() { return vy; }
+  Ball(double x, double y, double vx, double vy, Table* table);
+  void Move(double dt);
+  double x() { return x_; }
+  double y() { return y_; }
+  double vx() { return vx_; }
+  double vy() { return vy_; }
   void set_location(double _x, double _y);
   void set_speed(double _vx, double _vy);
 private:
-  double x;
-  double y;
-  double vx;
-  double vy;
-  Table* table;
+  double x_;
+  double y_;
+  double vx_;
+  double vy_;
+  Table* table_;
 };
 
-Table::Table(double w, double h) 
+Table::Table(double width, double height) 
 {
-  if (w <= 0 || h <= 0)
+  if (width <= 0 || height <= 0)
     abort();
-  width = w;
-  height = h;
+  width_ = width;
+  height_ = height;
 }
 
-bool Table::containsPoint(double x, double y) {
-  return x >= 0 && x < width && y >= 0 && y < height;
+bool Table::IsWithinBounds(double x, double y) {
+  return x >= 0 && x < width_ && y >= 0 && y < height_;
 }
 
-void Table::reflect(Ball* b) {
-  double x = b->getX();
-  double y = b->getY();
-  double vx = b->getVx();
-  double vy = b->getVy();
+void Table::Reflect(Ball* b) {
+  double x = b->x();
+  double y = b->y();
+  double vx = b->vx();
+  double vy = b->vy();
   
-  while (!containsPoint(x, y)) {
+  while (!IsWithinBounds(x, y)) {
     if (x < 0) {
       x = -x;
       vx = -vx;
     }
-    if (x >= width) {
-      x = 2 * width - x;
+    if (x >= width_) {
+      x = 2 * width_ - x;
       vx = -vx;
     }
     if (y < 0) {
       y = -y;
       vy = -vy;
     }
-    if (y >= height) {
-      y = 2 * height - y;
+    if (y >= height_) {
+      y = 2 * height_ - y;
       vy = -vy;
     }
   }
@@ -73,39 +72,34 @@ void Table::reflect(Ball* b) {
 }
 
 
-Ball::Ball(double _x, double _y, double _vx, double _vy, Table* t)
-{
-  table = t;
-  set_location(_x, _y);
-  set_speed(_vx, _vy);
+Ball::Ball(double x, double y, double vx, double vy, Table* table) {
+  table_ = table;
+  set_location(x, y);
+  set_speed(vx, vy);
 }
 
-void Ball::set_location(double _x, double _y) {
-  if (!table->containsPoint(_x, _y))
-    abort();
-  x = _x;
-  y = _y;
+void Ball::set_location(double x, double y) {
+  if (!table_->IsWithinBounds(x, y))
+    throw invalid_argument("Ball position out of bounds");
+  x_ = x;
+  y_ = y;
 }
 
-void Ball::set_speed(double _vx, double _vy) {
-  vx = _vx;
-  vy = _vy;
+void Ball::set_speed(double vx, double vy) {
+  vx_ = vx;
+  vy_ = vy;
 }
 
-void Ball::move(double dt)
-{
-  x += vx * dt;
-  y += vy * dt;
+void Ball::Move(double dt) {
+  x_ += vx_ * dt;
+  y_ += vy_ * dt;
   
-  if (!table->containsPoint(x, y))
-    table->reflect(this);
+  if (!table_->IsWithinBounds(x_, y_))
+    table_->Reflect(this);
 }
 
-// b.move(1);
-
-int main()
-{
+int main() {
   Table t(100, 50);
   Ball b(10, 20, 25, 5, &t);
-  b.move(10); 
+  b.Move(10); 
 }
