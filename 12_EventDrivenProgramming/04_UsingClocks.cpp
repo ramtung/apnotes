@@ -153,8 +153,8 @@ int main()
       break;
     }
     if (clock.getElapsedTime() >= milliseconds(50)) {
-      game.Tick();
       clock.restart();
+      game.Tick();
     }
     game.Draw(window);
     window.display();

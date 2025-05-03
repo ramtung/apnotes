@@ -14,7 +14,9 @@ const int STEP_SIZE = 5;
 
 class Player {
 public:
-  Player(int x = 0, int y = 0) : shape_(10.f) {
+  Player(RenderWindow& window, int x = 0, int y = 0) : 
+      window_(window),
+      shape_(10.f) {
     shape_.setFillColor(Color::Green);
     GoTo(x, y);
   }
@@ -25,14 +27,14 @@ public:
     shape_.setPosition(x, y);
   }
 
-  void Draw(RenderWindow& window) {
-    window.draw(shape_);
+  void Draw() {
+    window_.draw(shape_);
   }
 
   void Move(Direction direction) {
     int new_x = x_ + DELTA_X[direction] * STEP_SIZE;
     int new_y = y_ + DELTA_Y[direction] * STEP_SIZE;
-    if (new_x >= 0 && new_x < 600 && new_y >= 0 && new_y < 600) {
+    if (new_x >= 0 && new_x < window_.getSize().x && new_y >= 0 && new_y < window_.getSize().y) {
       x_ = new_x;
       y_ = new_y;
       shape_.setPosition(x_, y_);
@@ -43,6 +45,7 @@ public:
     return shape_.getGlobalBounds();
   }
 private:
+  RenderWindow& window_;
   CircleShape shape_;
   int x_;
   int y_;
@@ -50,7 +53,9 @@ private:
 
 class MadDonkey {
 public:
-  MadDonkey(int x = 0, int y = 0) {
+  MadDonkey(RenderWindow& window, int x = 0, int y = 0) : 
+      window_(window) 
+  {
     stepsSinceLastTurn_ = 0;
     direction_ = (Direction)(rand() % 4);
     if (!texture_.loadFromFile("donkey.png"))
@@ -65,8 +70,8 @@ public:
     sprite_.setPosition(x, y);
   }
 
-  void Draw(RenderWindow& window) {
-    window.draw(sprite_);
+  void Draw() {
+    window_.draw(sprite_);
   }
 
   void Move() {
@@ -82,17 +87,17 @@ public:
       direction_ = RIGHT;
       x_ = -x_;
     }
-    if (x_ >= 600) {
+    if (x_ >= window_.getSize().x) {
       direction_ = LEFT;
-      x_ = 2 * 600 - x_;
+      x_ = 2 * window_.getSize().x - x_;
     }
     if (y_ < 0) {
       direction_ = DOWN;
       y_ = -y_;
     }
-    if (y_ >= 600) {
+    if (y_ >= window_.getSize().y) {
       direction_ = UP;
-      y_ = 2 * 600 - y_;
+      y_ = 2 * window_.getSize().y - y_;
     }
 
     sprite_.setPosition(x_, y_);
@@ -105,14 +110,15 @@ private:
   int y_;
   int stepsSinceLastTurn_;
   Direction direction_;
-
+  
+  RenderWindow& window_;
   Texture texture_;
   Sprite sprite_;
 };
 
 class Game {
 public:
-  Game(int width, int height) : width_(width), height_(height) {
+  Game(RenderWindow& window) : window_(window), player_(window), donkey_(window) {
     started_ = false;
     game_over_ = false;
     PlaceRandomly();
@@ -121,8 +127,8 @@ public:
 
   void Draw(RenderWindow& window) {
     window.clear();
-    player_.Draw(window);
-    donkey_.Draw(window);
+    player_.Draw();
+    donkey_.Draw();
     if (game_over_)
       window.draw(game_over_text_);
     if (!started_)
@@ -158,25 +164,27 @@ public:
     PlaceRandomly();
   }
 private:
-  int width_;
-  int height_;
-
   Font font_;
   Text start_text_;
   Text reset_text_;
   Text game_over_text_;
+  RenderWindow& window_;
 
   bool started_;
   bool game_over_;
   Player player_;
   MadDonkey donkey_;
 
+  int width() { return window_.getSize().x; };
+  int height() { return window_.getSize().y; };
+  
   void PlaceRandomly() {
     while (IsOver()) {
-      player_.GoTo(rand() % width_, rand() % height_);
-      donkey_.GoTo(rand() % width_, rand() % height_);        
+      player_.GoTo(rand() % width(), rand() % height());
+      donkey_.GoTo(rand() % width(), rand() % height());        
     }
   }
+  
   void InitTexts() {
     if (!font_.loadFromFile("calibri.ttf")) {
       abort();
@@ -185,24 +193,24 @@ private:
     start_text_.setString("Press space to start!");
     start_text_.setCharacterSize(30);
     start_text_.setPosition(
-      (width_ - start_text_.getGlobalBounds().width) / 2, 
-      height_ - start_text_.getGlobalBounds().height - 25);
+      (width() - start_text_.getGlobalBounds().width) / 2, 
+      height() - start_text_.getGlobalBounds().height - 25);
     start_text_.setFillColor(Color::White);
 
     reset_text_.setFont(font_);
     reset_text_.setString("Press space to play again!");
     reset_text_.setCharacterSize(30);
     reset_text_.setPosition(
-      (width_ - reset_text_.getGlobalBounds().width) / 2, 
-      height_ - reset_text_.getGlobalBounds().height - 25);
+      (width() - reset_text_.getGlobalBounds().width) / 2, 
+      height() - reset_text_.getGlobalBounds().height - 25);
     reset_text_.setFillColor(Color::White);
 
     game_over_text_.setFont(font_);
     game_over_text_.setString("GAME OVER!");
     game_over_text_.setCharacterSize(50); 
     game_over_text_.setPosition(
-      (width_ - game_over_text_.getGlobalBounds().width) / 2, 
-      (height_ - game_over_text_.getGlobalBounds().height) / 2);
+      (width() - game_over_text_.getGlobalBounds().width) / 2, 
+      (height() - game_over_text_.getGlobalBounds().height) / 2);
     game_over_text_.setFillColor(Color::Red);
   }
 };
@@ -212,7 +220,7 @@ int main() {
   int height = 600;
   srand(time(0));
   RenderWindow window(VideoMode(width, height), "SFML works!");
-  Game game(width, height);
+  Game game(window);
 
   Clock clock;
   while (window.isOpen()) {
@@ -241,8 +249,8 @@ int main() {
       game.GameOver();
     }
     if (clock.getElapsedTime() >= milliseconds(50)) {
-      game.Tick();
       clock.restart();
+      game.Tick();
     }
     game.Draw(window);
     window.display();
