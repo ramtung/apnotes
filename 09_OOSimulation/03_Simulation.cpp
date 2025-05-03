@@ -31,10 +31,9 @@ private:
   Table* table_;
 };
 
-Table::Table(double width, double height) 
-{
+Table::Table(double width, double height) {
   if (width <= 0 || height <= 0)
-    abort();
+    throw invalid_argument("Table dimensions must be positive");
   width_ = width;
   height_ = height;
 }
