@@ -13,114 +13,114 @@ const int STEP_SIZE = 5;
 
 class Player {
 public:
-  Player(int _x, int _y) : x(_x), y(_y), shape(10.f) {
-    shape.setPosition(x, y);
-    shape.setFillColor(Color::Green);
+  Player(int _x, int _y) : x_(_x), y_(_y), shape_(10.f) {
+    shape_.setPosition(x_, y_);
+    shape_.setFillColor(Color::Green);
   }
 
   void Draw(RenderWindow& window) {
-    window.draw(shape);
+    window.draw(shape_);
   }
 
   void Move(Direction direction) {
-    int new_x = x + DELTA_X[direction] * STEP_SIZE;
-    int new_y = y + DELTA_Y[direction] * STEP_SIZE;
+    int new_x = x_ + DELTA_X[direction] * STEP_SIZE;
+    int new_y = y_ + DELTA_Y[direction] * STEP_SIZE;
     if (new_x >= 0 && new_x < 600 && new_y >= 0 && new_y < 600) {
-      x = new_x;
-      y = new_y;
-      shape.setPosition(x, y);
+      x_ = new_x;
+      y_ = new_y;
+      shape_.setPosition(x_, y_);
     }
   }
 
   FloatRect get_bounds() {
-    return shape.getGlobalBounds();
+    return shape_.getGlobalBounds();
   }
 private:
-  CircleShape shape;
-  int x;
-  int y;
+  CircleShape shape_;
+  int x_;
+  int y_;
 };
 
 class MadDonkey {
 public:
-  MadDonkey(int _x, int _y) : x(_x), y(_y) {
-    stepsSinceLastTurn = 0;
-    if (!texture.loadFromFile("donkey.png"))
+  MadDonkey(int _x, int _y) : x_(_x), y_(_y) {
+    stepsSinceLastTurn_ = 0;
+    if (!texture_.loadFromFile("donkey.png"))
       abort();
-    sprite.setTexture(texture);
-    sprite.setPosition(x, y);
+    sprite_.setTexture(texture_);
+    sprite_.setPosition(x_, y_);
   }
 
   void Draw(RenderWindow& window) {
-    window.draw(sprite);
+    window.draw(sprite_);
   }
 
   void Move() {
-    if (stepsSinceLastTurn == MADNESS) {
-      direction = (Direction)(rand() % 4);
-      stepsSinceLastTurn = 1;
+    if (stepsSinceLastTurn_ == MADNESS) {
+      direction_ = (Direction)(rand() % 4);
+      stepsSinceLastTurn_ = 1;
     }
-    stepsSinceLastTurn++;
+    stepsSinceLastTurn_++;
 
-    x += DELTA_X[direction] * STEP_SIZE;
-    y += DELTA_Y[direction] * STEP_SIZE;
-    if (x < 0) {
-      direction = RIGHT;
-      x = -x;
+    x_ += DELTA_X[direction_] * STEP_SIZE;
+    y_ += DELTA_Y[direction_] * STEP_SIZE;
+    if (x_ < 0) {
+      direction_ = RIGHT;
+      x_ = -x_;
     }
-    if (x >= 600) {
-      direction = LEFT;
-      x = 2 * 600 - x;
+    if (x_ >= 600) {
+      direction_ = LEFT;
+      x_ = 2 * 600 - x_;
     }
-    if (y < 0) {
-      direction = DOWN;
-      y = -y;
+    if (y_ < 0) {
+      direction_ = DOWN;
+      y_ = -y_;
     }
-    if (y >= 600) {
-      direction = UP;
-      y = 2 * 600 - y;
+    if (y_ >= 600) {
+      direction_ = UP;
+      y_ = 2 * 600 - y_;
     }
 
-    sprite.setPosition(x, y);
+    sprite_.setPosition(x_, y_);
   }
 
   FloatRect get_bounds() {
-    return sprite.getGlobalBounds();
+    return sprite_.getGlobalBounds();
   }
 private:
-  int x;
-  int y;
-  int stepsSinceLastTurn;
-  Direction direction;
+  int x_;
+  int y_;
+  int stepsSinceLastTurn_;
+  Direction direction_;
 
-  Texture texture;
-  Sprite sprite;
+  Texture texture_;
+  Sprite sprite_;
 };
 
 class Game {
 public:
-  Game() : player(50, 50), donkey(300, 300) {}
+  Game() : player_(50, 50), donkey_(300, 300) {}
 
   void Draw(RenderWindow& window) {
     window.clear();
-    player.Draw(window);
-    donkey.Draw(window);
+    player_.Draw(window);
+    donkey_.Draw(window);
   }
   void MovePlayer(Direction direction) {
-    player.Move(direction);
+    player_.Move(direction);
   }
   void MoveDonkey() {
-    donkey.Move();
+    donkey_.Move();
   }
   void Tick() {
-    donkey.Move();
+    donkey_.Move();
   }
   bool IsOver() {
-    return donkey.get_bounds().intersects(player.get_bounds());
+    return donkey_.get_bounds().intersects(player_.get_bounds());
   }
 private:
-  Player player;
-  MadDonkey donkey;
+  Player player_;
+  MadDonkey donkey_;
 };
 
 int main()

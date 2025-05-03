@@ -5,57 +5,57 @@ using namespace std;
 
 class Player {
 public:
-  Player(int _x, int _y) : x(_x), y(_y), shape(10.f) {
-    shape.setPosition(x, y);
-    shape.setFillColor(Color::Green);
+  Player(int _x, int _y) : x_(_x), y_(_y), shape_(10.f) {
+    shape_.setPosition(x_, y_);
+    shape_.setFillColor(Color::Green);
   }
 
   void Draw(RenderWindow& window) {
-    window.draw(shape);
+    window.draw(shape_);
   }
 
   void MoveDown() {
-    y += 10;
-    shape.setPosition(x, y);
+    y_ += 10;
+    shape_.setPosition(x_, y_);
   }
 private:
-  CircleShape shape;
-  int x;
-  int y;
+  CircleShape shape_;
+  int x_;
+  int y_;
 };
 
 class MadDonkey {
 public:
-  MadDonkey(int _x, int _y) : x(_x), y(_y), shape(10.f) {
-    shape.setPosition(x, y);
-    shape.setFillColor(Color::White);
+  MadDonkey(int _x, int _y) : x_(_x), y_(_y), shape_(10.f) {
+    shape_.setPosition(x_, y_);
+    shape_.setFillColor(Color::White);
   }
 
   void Draw(RenderWindow& window) {
-    window.draw(shape);
+    window.draw(shape_);
   }
 private:
-  CircleShape shape;
-  int x;
-  int y;
+  CircleShape shape_;
+  int x_;
+  int y_;
 };
 
 class Game {
 public:
-  Game() : player(50, 50), donkey(100, 100) {}
+  Game() : player_(50, 50), donkey_(100, 100) {}
 
   void Draw(RenderWindow& window) {
     window.clear();
-    player.Draw(window);
-    donkey.Draw(window);
+    player_.Draw(window);
+    donkey_.Draw(window);
   }
 
   void MoveDown() {
-    player.MoveDown();
+    player_.MoveDown();
   }
 private:
-  Player player;
-  MadDonkey donkey;
+  Player player_;
+  MadDonkey donkey_;
 };
 
 int main() {
