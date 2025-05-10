@@ -35,7 +35,7 @@ void Date::print() {
   cout << year << '/' << month << '/' << day;
 }
 
-Date read_date(ifstream& input, int& result) {
+Date read_date(istream& input, int& result) {
   int d, m, y;
   char ch;
   int constructor_result;

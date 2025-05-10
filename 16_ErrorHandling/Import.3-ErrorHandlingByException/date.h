@@ -1,7 +1,7 @@
 #ifndef DATE_H
 #define DATE_H
 
-#include <fstream>
+#include <iostream>
 using namespace std;
 
 class Date {
@@ -14,6 +14,6 @@ private:
   int year;
 };
 
-Date read_date(ifstream& input);
+Date read_date(istream& input);
 
 #endif //DATE_H

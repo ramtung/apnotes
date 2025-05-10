@@ -1,7 +1,7 @@
 #ifndef DATE_H
 #define DATE_H
 
-#include <fstream>
+#include <iostream>
 using namespace std;
 
 const int DATE_OK = 0;
@@ -18,6 +18,6 @@ private:
   int year;
 };
 
-Date read_date(ifstream& input, int& error);
+Date read_date(istream& input, int& error);
 
 #endif //DATE_H

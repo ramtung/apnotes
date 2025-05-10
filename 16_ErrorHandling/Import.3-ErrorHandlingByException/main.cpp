@@ -5,11 +5,7 @@
 #include "date.h"
 using namespace std;
 
-const int STUDENT_OK = 0;
-const int STUDENT_ERROR = -1;
-
-class Student 
-{
+class Student {
 public:
   Student(string n, Date bd);
   void print();
