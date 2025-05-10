@@ -10,12 +10,12 @@ const int DATE_INVALID_ARGS = -2;
 
 class Date {
 public:
-    Date(int d, int m, int y, int& result);
-    void print();
+  Date(int d, int m, int y, int& result);
+  void print();
 private:
-    int day;
-    int month;
-    int year;
+  int day;
+  int month;
+  int year;
 };
 
 Date read_date(ifstream& input, int& error);
