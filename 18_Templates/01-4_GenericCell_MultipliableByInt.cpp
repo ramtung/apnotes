@@ -4,16 +4,9 @@
 using namespace std;
 
 template<typename T>
-concept MultipliableByInt = requires(const T& x, int a) {
-  { x * a } -> same_as<T>;
+concept MultipliableByInt = requires(const T& x, int n) {
+  { x * n } -> same_as<T>;
 };
-
-string operator*(const string& s, int a) {
-  string result = "";
-  for (int i = 0; i < a; i++)
-    result += s;
-  return result;
-}
 
 template<MultipliableByInt T>
 class Cell {
@@ -41,13 +34,20 @@ void Cell<T>::make_double() {
   value_ = value_ * 2;
 }
 
+string operator*(const string& s, int n) {
+  string result = "";
+  for (int i = 0; i < n; i++)
+    result += s;
+  return result;
+}
+
 int main() {
   Cell<int> a(10);
   a.set_value(12);
   a.make_double();
   cout << a.get_value() << endl;
 
-  // Has compile error, even if operator* is overloaded
+  // Has compile error, even though operator* is overloaded
   // string s = "JJ";
   // Cell<string> b(s);
 }

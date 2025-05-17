@@ -2,14 +2,14 @@
 #include <string>
 using namespace std;
 
-string operator*(const string& s, int a) {
+string operator*(const string& s, int n) {
   string result = "";
-  for (int i = 0; i < a; i++)
+  for (int i = 0; i < n; i++)
     result += s;
   return result;
 }
 
-  template<typename T>
+template<typename T>
 class Cell {
 public:
   Cell(const T& value) : value_(value) {}
@@ -37,13 +37,11 @@ void Cell<T>::make_double() {
 
 int main() {
   Cell<int> a(10);
-  a.set_value(12);
+  a.make_double();
   cout << a.get_value() << endl;
 
   string s = "JJ";
-  string t = "UU";
   Cell<string> b(s);
-  b.set_value(t);
   b.make_double();
   cout << b.get_value() << endl;
 }
