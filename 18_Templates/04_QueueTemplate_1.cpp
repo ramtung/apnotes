@@ -1,55 +1,48 @@
 #include <iostream>
 #include <vector>
-#include <cstdlib>
+#include <stdexcept>
 using namespace std;
-
-class queue_operation_exception {};
 
 const int SIZE = 10;
 
 template<typename T>
-class queue {
+class Queue {
 public:
-    queue() { count = 0; }
-    void enqueue(T x);
-    T dequeue();
-    int size() const { return elements.size(); }
+  Queue() { count_ = 0; }
+  void enqueue(T x);
+  T dequeue();
+  int size() const { return count_; }
 private:
-    T elements[SIZE];
-    int count;
+  T elements_[SIZE];
+  int count_;
 };
 
-template<class T>
-void queue<T>::enqueue(T x)
-{
-    if (count >= sizeof(elements))
-        throw queue_operation_exception();
-    elements[count++] = x;
+template<typename T>
+void Queue<T>::enqueue(T x) {
+  if (count_ >= SIZE)
+    throw overflow_error("Queue is full");
+  elements_[count_++] = x;
 }
 
-template<class T>
-T queue<T>::dequeue() 
-{
-    if (count == 0)
-        throw queue_operation_exception();
-    T result = elements[0];
-    for (int i = 1; i < count; i++)
-        elements[i-1] = elements[i];
-    count--;
-    return result;
+template<typename T>
+T Queue<T>::dequeue() {
+  if (count_ == 0)
+    throw underflow_error("Queue is empty");
+  T result = elements_[0];
+  for (int i = 1; i < count_; i++)
+    elements_[i-1] = elements_[i];
+  count_--;
+  return result;
 }
 
 int main() {
-    queue<int> q;
-    q.enqueue(10);
-    q.enqueue(20);
-    cout << q.dequeue() << endl;
+  Queue<int> q;
+  q.enqueue(10);
+  q.enqueue(20);
+  cout << q.dequeue() << endl;
 
-    queue<string> p;
-    p.enqueue("salaam");
-    p.enqueue("chetori?");
-    cout << p.dequeue() << endl;    
+  Queue<string> p;
+  p.enqueue("salaam");
+  p.enqueue("chetori?");
+  cout << p.dequeue() << endl;  
 }
-
-
-

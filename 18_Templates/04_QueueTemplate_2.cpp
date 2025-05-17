@@ -1,53 +1,51 @@
 #include <iostream>
 #include <vector>
-#include <cstdlib>
+#include <stdexcept>
 using namespace std;
 
-class queue_operation_exception {};
-
-template<typename T, int S> 
-class queue {
+template<typename T, int SIZE>
+class Queue {
 public:
-    queue() { count = 0; }
-    void enqueue(T x);
-    T dequeue();
-    int size() const { return elements.size(); }
+  Queue() { count_ = 0; }
+  void enqueue(T x);
+  T dequeue();
+  int size() const { return count_; }
 private:
-    T elements[S];
-    int count;
+  T elements_[SIZE];
+  int count_;
 };
 
-template<class T, int S>
-void queue<T, S>::enqueue(T x)
-{
-    if (count >= sizeof(elements))
-        throw queue_operation_exception();
-    elements[count++] = x;
+template<typename T, int SIZE>
+void Queue<T, SIZE>::enqueue(T x) {
+  if (count_ >= SIZE)
+    throw overflow_error("Queue is full");
+  elements_[count_++] = x;
 }
 
-template<class T, int S>
-T queue<T, S>::dequeue() 
-{
-    if (count == 0)
-        throw queue_operation_exception();
-    T result = elements[0];
-    for (int i = 1; i < count; i++)
-        elements[i-1] = elements[i];
-    count--;
-    return result;
+template<typename T, int SIZE>
+T Queue<T, SIZE>::dequeue() {
+  if (count_ == 0)
+    throw underflow_error("Queue is empty");
+  T result = elements_[0];
+  for (int i = 1; i < count_; i++)
+    elements_[i-1] = elements_[i];
+  count_--;
+  return result;
 }
 
 int main() {
-    queue<int, 10> q;
-    q.enqueue(10);
-    q.enqueue(20);
-    cout << q.dequeue() << endl;
+  Queue<int, 10> q;
+  q.enqueue(10);
+  q.enqueue(20);
+  cout << q.dequeue() << endl;
 
-    queue<string, 8> p;
-    p.enqueue("salaam");
-    p.enqueue("chetori?");
-    cout << p.dequeue() << endl;    
+  Queue<string, 8> p;
+  p.enqueue("salaam");
+  p.enqueue("chetori?");
+  cout << p.dequeue() << endl;
+
+  int n = 10;
+  // compile-error: 
+  //   n is not a constant expression
+  // Queue<int, n> r;
 }
-
-
-

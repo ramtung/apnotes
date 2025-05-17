@@ -5,16 +5,16 @@ using namespace std;
 template<typename U, typename V> 
 class Pair {
 public:
-    Pair(U f, V s) : first(f), second(s) {}
-    U get_first() { return first; }
-    V get_second() { return second; }
+  Pair(U first, V second) : first_(first), second_(second) {}
+  U first() { return first_; }
+  V second() { return second_; }
 private:
-    U first;
-    V second;
+  U first_;
+  V second_;
 };
 
 int main()
 {
-    Pair<string, double> record("gholam", 11.4);
-    cout << record.get_first();
+  Pair<string, double> record("gholam", 11.4);
+  cout << record.first();
 }
