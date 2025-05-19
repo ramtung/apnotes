@@ -4,9 +4,10 @@
 using namespace std;
 
 template<typename T>
-concept MultipliableByInt = requires(const T& x, int n) {
-  { x * n } -> same_as<T>;
-};
+concept MultipliableByInt = 
+  requires(const T& x, int n) {
+    { x * n } -> same_as<T>;
+  };
 
 template<MultipliableByInt T>
 class Cell {

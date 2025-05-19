@@ -4,9 +4,10 @@
 using namespace std;
 
 template<typename T>
-concept Addable = requires(const T& x, const T& y) {
-  { x + y } -> same_as<T>;
-};
+concept Addable = 
+  requires(const T& x, const T& y) {
+    { x + y } -> same_as<T>;
+  };
 
 template<Addable T>
 class Cell {
