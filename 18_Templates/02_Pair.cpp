@@ -13,8 +13,7 @@ private:
   V second_;
 };
 
-int main()
-{
+int main() {
   Pair<string, double> record("gholam", 11.4);
   cout << record.first();
 }

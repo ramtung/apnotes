@@ -20,7 +20,7 @@ int main() {
     ops['*'] = mult;
     ops['/'] = divide;
 
-    int result = s[0] - '0';
+    int result = s[0]-'0';
     for (int i = 1; i < s.length(); i += 2)
         result = ops[s[i]](result, s[i+1]-'0');
 
