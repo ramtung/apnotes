@@ -2,3 +2,4 @@
 *.out
 **/notes
 **/recitation
+.vscode/settings.json
