@@ -2,8 +2,8 @@
 #include <vector>
 using namespace std;
 
-template<typename I, typename T>
-I FindIf(I first, I last, bool (*pred)(T)) {
+template<typename I, typename P>
+I FindIf(I first, I last, P pred) {
   while (first != last && !pred(*first)) 
     ++first;
   return first; 
