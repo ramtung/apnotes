@@ -6,13 +6,13 @@ using namespace std;
 int x = 7;
 
 void incr() {
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 1000; i++) {
 		x++;
 	}
 }
 
 void decr() {
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 1000; i++) {
 		x--;
 	}
 }
