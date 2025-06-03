@@ -6,20 +6,16 @@ Storage::Storage(string filename) {
 }
 
 int Storage::read() {
-	mtx.lock();
 	file.seekg(ios::beg);
 	file.read((char*)&buffer, sizeof(buffer));
-	mtx.unlock();
 	return buffer;
 }
 
 void Storage::write(int data) {
-	mtx.lock();
 	file.seekp(ios::beg);
 	buffer = data;
 	file.write((char*)&buffer, sizeof(buffer));
 	file.flush();
-	mtx.unlock();
 }
 
 Storage::~Storage() {

@@ -7,7 +7,6 @@ using namespace std;
 void incr(Storage* storage) {
 	for (int i = 0; i < 10; i++) {
 		int x = storage->read();
-		// this_thread::sleep_for(chrono::milliseconds(100));
 		x++;
 		storage->write(x);
 	}
@@ -16,13 +15,12 @@ void incr(Storage* storage) {
 void decr(Storage* storage) {
 	for (int i = 0; i < 10; i++) {
 		int x = storage->read();
-		// this_thread::sleep_for(chrono::milliseconds(100));
 		x--;
 		storage->write(x);
 	}
 }
 
-void f() {
+int main() {
 	Storage storage("data");
 	storage.write(7);
 
@@ -33,11 +31,4 @@ void f() {
 	d.join();
 
 	cout << storage.read() << ' ';
-
-}
-
-int main() {
-	for (int i = 0; i < 1000; i++) {
-		f();
-	}
 }
