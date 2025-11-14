@@ -150,10 +150,17 @@ public:
       else
         window.draw(start_text_);
   }
-  void MovePlayer(Direction direction) {
+  void MovePlayer() {
     if (!started_)
       return;
-    player_.Move(direction);
+    if (Keyboard::isKeyPressed(Keyboard::Down))
+      player_.Move(DOWN);
+    if (Keyboard::isKeyPressed(Keyboard::Up))
+      player_.Move(UP);
+    if (Keyboard::isKeyPressed(Keyboard::Left))
+      player_.Move(LEFT);
+    if (Keyboard::isKeyPressed(Keyboard::Right))
+      player_.Move(RIGHT);
   }
   void Tick() {
     if (started_ && IsOver()) {
@@ -162,6 +169,7 @@ public:
     if (!started_)
       return;
     donkey_.Move();
+    MovePlayer();
   }
   bool IsOver() {
     Rect donkey_bounds = donkey_.get_bounds();
@@ -306,21 +314,13 @@ int main() {
       if (event.type == Event::KeyPressed) {
         if (game.SplashMode()) {
           game.ResetSplashMode();
-        } else if (event.key.code == Keyboard::Down) {
-          game.MovePlayer(DOWN);
-        } else if (event.key.code == Keyboard::Up) {
-          game.MovePlayer(UP);
-        } else if (event.key.code == Keyboard::Left) {
-          game.MovePlayer(LEFT);
-        } else if (event.key.code == Keyboard::Right) {
-          game.MovePlayer(RIGHT);
         } else if (event.key.code == Keyboard::Space) {
           if (game.IsOver())
             game.Reset();
           else
             game.Start();
         }
-      }    
+      }
     }
     if (clock.getElapsedTime() >= milliseconds(50)) {
       clock.restart();
