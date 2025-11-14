@@ -1,24 +1,27 @@
 #include <iostream>
-#include <vector>
+#include <string>
 using namespace std;
 
-class University {
+class Resource {
 public:
-	void print() { cout << name << endl; }
-	static University* get_instance() {
-		return &the_uni;
+	void Print() { cout << name_ << endl; }
+
+  static Resource* instance() {
+		return &instance_;
 	}
 private:
-	string name;
-	University(string n) { name = n; }
-	static University the_uni;
+	string name_;
+	Resource(string name) { name_ = name; }
+  Resource(const Resource&) = delete;
+  Resource& operator=(const Resource&) = delete;
+
+  static Resource instance_;
 };
 
-University University::the_uni("U of Tehran");
+Resource Resource::instance_("The One");
 
 int main() {
-	University* u = University::get_instance();
-	u->print();
+	Resource* u = Resource::instance();
+	u->Print();
 }
-	
 

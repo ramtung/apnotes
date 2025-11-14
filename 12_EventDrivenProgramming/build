@@ -1,0 +1,2 @@
+g++ -c 06_CatchTheDonkey.cpp -o 06_CatchTheDonkey.o
+g++ 06_CatchTheDonkey.o -lsfml-audio -lsfml-graphics -lsfml-window -lsfml-system
